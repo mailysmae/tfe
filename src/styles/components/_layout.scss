@@ -1,0 +1,8 @@
+.carre{
+    background-color: var(--color-rec);
+    width: 100%;
+
+    &__jaune{
+        background-color: var(--color-rec--2);
+    }
+}

@@ -1,0 +1,23 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 84px;
+    list-style-type: none;
+}
+.open{
+  position: relative;
+}
+.sousrubrique{
+  display: flex; 
+  flex-direction: column;
+  list-style: none;
+  position: absolute;
+  top: 40px;
+  right: 950px; 
+  padding: 0 0 30px;
+}
+.close{
+  display: none;
+}

@@ -1,10 +1,17 @@
 body {
-    font-family: sans-serif;
-    font-size: $size-text;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
     line-height: 1.5;
-    color: $c-text;
-}
-
+    color: var(--color-text);
+    background-color: var(--color-bg);
+  }
+  
 .title {
-    color: $c-alt;
+    color: var(--color-text);
+    font-family: 'DM Serif Display', serif;
+}
+a{
+    color: var(--color-text);
+    list-style: none;
+    text-decoration: none;
 }
