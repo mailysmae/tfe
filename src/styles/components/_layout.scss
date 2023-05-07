@@ -1,8 +1,107 @@
+.contenair{
+    margin: auto;
+    max-width: 100%;
+}
+.logo{
+    position: relative;
+    right: 42px;
+}
 .carre{
     background-color: var(--color-rec);
-    width: 100%;
+    max-width: 100%;
+    position: relative;
+    height: 400px;
+    width: 460px;
 
     &__jaune{
         background-color: var(--color-rec--2);
     }
+    &__bleu{
+        height: 280px;
+    }
+}
+img{
+  max-width: 100%; 
+}
+.text{
+    position: relative;
+    left: 36px;
+    width: 394px;
+}
+.bouton{
+    position: relative;
+    background-color: var(--color-bg);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+    color: var(--color-text);
+    padding: 14px 24px;
+    border-radius: 8px;
+    z-index: 2;
+
+    &__mauve{
+        background-color: var(--color-btn);
+    
+    }
+    &__blanc{
+        left: 142px;
+        top: 20px;
+    }
+}
+.dwm{
+    width: 30px;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__preca{
+        
+     
+        
+
+    }
+}
+.deco{
+    position: absolute;
+    max-width: 100px;
+    &__droite{
+        right: 375px;
+        bottom: 190px;
+    }
+
+    &__gauche{
+        left: 374px;
+        top: 165px;
+    }
+    &__rond{
+        left: 384px;
+        top: 337px;
+    }
+    &__feuille{
+        right: 366px;
+        bottom: 325px;
+    }
+}
+.footer{
+    position: relative;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-rec);
+    gap: 15px;
+}
+@media (min-width: 768px){
+
+}
+@media (min-width: 1024px){
+
+}
+@media (min-width: 1500px){
+
 }

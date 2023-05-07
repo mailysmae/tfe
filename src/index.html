@@ -28,7 +28,6 @@
   <link rel="stylesheet" href="styles/app.css">
   <script src="scripts/main.js" defer></script>
 
-
   <!--font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,7 +41,7 @@
       <button class="menu__button">Menu</button>
       <nav class="menu">
       <ul class="menu__list">
-        <li><a class="menu__link nav__inactif" href=".html">Protections périodiques</a><button class="open">o</button></li>
+        <li><a class="menu__link nav__inactif" href=".html">Protections périodiques</a><button class="open"><img src="assets/bouton/v.svg" srcset="assets/bouton/v.svg 2x" alt="bouton"></button></li>
           <ul class="close sousrubrique">
             <li><a href=".html">Serviette</a></li>
             <li><a href=".html">Tampon</a></li>
@@ -64,65 +63,66 @@
 
   <div class="contenair">
     <main>
-      <section>
+      <section class="section">
         <h1><img class="logo" src="assets/images/logo/logo2.svg" srcset="assets/images/logo/logo2.svg 2x" alt="logo de mon projet"></h1>
         <p>Ici on parle de menstruations, de protections périodiques, de règles douloureuses, de précarités menstruelles, bref on parle de règles !</p>
       </section>
 
-      <section>
-        <div class="carre">
-        <h2 class="title">Précarité menstruelle</h2>
+      <section class="section section__preca">
+        <div class="carre carre__bleu">
+        <h2 class="title title__carre">Précarité menstruelle</h2>
         <p class="text">Est-ce que tu savais que 350 000 femmes ne savent pas s'acheter des protections périodiques par manque de moyen financier ?</p>
-        <button>Informe-toi</button>
-        <img class="logo" src="assets/images/deco/decodroite.svg" srcset="assets/images/deco/decodroite.svg 2x" alt="picto decoratif de plante et de protection">
-        <img class="logo" src="assets/images/deco/decogauche.svg" srcset="assets/images/deco/decogauche.svg 2x" alt="picto decoratif de plante et de protection">
+        <button class="bouton bouton__blanc">Informe-toi</button>
+        <img class="deco deco__droite" src="assets/images/deco/decodroite.svg" srcset="assets/images/deco/decodroite.svg 2x" alt="picto decoratif de plante et de protection">
+        <img class="deco deco__gauche" src="assets/images/deco/decogauche.svg" srcset="assets/images/deco/decogauche.svg 2x" alt="picto decoratif de plante et de protection">
         </div>
       </section>
 
-      <section>
+      <section class="section">
         <h2 class="title">Protections périodiques</h2>
         <p>Tu souhaiterais changer de protections mais tu ne sais pas laquelle choisir ?</p>
         <p>Tu aimerais savoir comment s’utilise une culotte de règles ou une serviette réutilisable ?</p> 
         <p>Tu voudrais en apprendre plus sur le budget à accorder à celles-ci.</p>
-        <button>Retrouves les ici</button>
+        <button class="bouton bouton__mauve">Retrouves les ici</button>
         <video></video>
       </section>
 
-      <section>
+      <section class="section">
         <div class="carre carre__jaune">
-        <h2 class="title">Règles douloureuses</h2>
-        <p>Viens découvrir des manières naturelles pour calmer tes douleurs de règles.</p>
-        <ul>
+        <h2 class="title title__carre">Règles douloureuses</h2>
+        <p class="text">Viens découvrir des manières naturelles pour calmer tes douleurs de règles.</p>
+        <ul class="text">
           <li>Gummies</li>
           <li>Infusion</li>
           <li>Huiles essentielles</li>
           <li>Bouillotte</li>
         </ul>
-        <button>Découvre tout ça</button>
-        <img class="logo" src="assets/images/deco/decodroite.svg" srcset="assets/images/deco/decodroite.svg 2x" alt="picto decoratif de plante et de protection">
+        <button class="bouton bouton__blanc">Découvre tout ça</button>
+        <img class="deco deco__droite" src="assets/images/deco/rond.svg" srcset="assets/images/deco/rond.svg 2x" alt="picto decoratif de plante et de protection">
+        <img class="deco deco__feuille" src="assets/images/deco/feuille.svg" srcset="assets/images/deco/feuille.svg 2x" alt="picto decoratif de plante et de protection">
         </div>
       </section>
 
-      <section>
+      <section class="section">
         <h2>Comment en parler ?</h2>
         <p>Vous ne savez pas comment aborder ce fameux sujet des menstruations avec votre fille ?</p>
         <p>Vous aimeriez pouvoir l’aider, ou parler avec elle sans tabou ?</p> 
         <p>Alors vous êtes au bon endroit.</p>
-        <button>Abordons ce sujet</button>
-        <img class="logo" src="assets/images/deco/decodroite.svg" srcset="assets/images/deco/decodroite.svg 2x" alt="picto decoratif de plante et de protection">
+        <button class="bouton bouton__mauve">Abordons ce sujet</button>
       </section>
     </main>
   </div>
 
   <div class="contenair">
-    <footer>
-      <small class="copy"><a  href="http://dwm.re/"><img class="dwm" src= "assets/images/logodwtd.svg" srcset="assets/images/logodwtd.svg 2x" alt="Logo DWT"/></a>
-        © Maïlys Colasse</small>
-
-      <ul class="">
+    <footer class="footer">
+      <ul class="menu__el">
           <li><a class="nav__inactif" href="ui-kit.html">Ui-Kit</a></li> 
           <li><a class="nav__inactif" href="credits.html">Crédits</a></li>
       </ul>
+      
+      <small class="copy"> © Maïlys Colasse
+        <a  href="http://dwm.re/"><img class="dwm" src= "assets/images/logo/logodwtd.svg" srcset="assets/images/logo/logodwtd.svg 2x" alt="Logo DWT"/></a>
+        </small>
 
       <ul class="reseau">
           <li class="reseau__el reseau__el--insta"><a href="https://www.instagram.com/mailys_dwt/">Instagram</a></li>
