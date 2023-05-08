@@ -8,11 +8,10 @@
 }
 .carre{
     background-color: var(--color-rec);
-    max-width: 100%;
     position: relative;
     height: 400px;
-    width: 460px;
-
+    width: 100%;
+    padding: 20px;
     &__jaune{
         background-color: var(--color-rec--2);
     }
@@ -45,7 +44,7 @@ img{
     
     }
     &__blanc{
-        left: 142px;
+        left: 145px;
         top: 20px;
     }
 }
@@ -55,14 +54,11 @@ img{
 .section{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
-    &__preca{
-        
-     
-        
-
+    &__intro{
+        padding: 20px;
     }
 }
 .deco{
@@ -70,31 +66,52 @@ img{
     max-width: 100px;
     &__droite{
         right: 375px;
-        bottom: 190px;
+        bottom: 221px;
     }
 
     &__gauche{
         left: 374px;
-        top: 165px;
+        top: 194px;
     }
     &__rond{
-        left: 384px;
-        top: 337px;
+        left: 376px;
+        top: 383px;
     }
     &__feuille{
-        right: 366px;
-        bottom: 325px;
+        right: 375px;
+        bottom: 372px;
     }
 }
-.footer{
+.illu{
+    padding: 60px;
+    z-index: 2;
+
+    &__rec{
+        z-index: 1;
+        top: 325px;
+        left: 37px;
+        position: absolute;
+    }
+}
+.fantaisie{
+    background-image: url(../assets/images/deco/deco.svg);
+    max-width: 100%;
     position: relative;
-    max-width: 480px;
+    left: 30px;
+}
+.video{
+    max-width: 70%;
+    padding: 50px;
+    border-radius: 55px;
+}
+.footer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+
     background-color: var(--color-rec);
-    gap: 15px;
+    padding: 50px;
 }
 @media (min-width: 768px){
 
