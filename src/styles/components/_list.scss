@@ -15,7 +15,6 @@
   transform: rotate(180deg);
   transition: transform 0.5s ease;
 }
-
 .menu__list{
   margin: 0;
   padding: 0;
@@ -112,7 +111,7 @@
 .reseau__el--behance a:focus{
   background-image: url(../assets/images/picto/behance.png);
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .close{
     display: none;
   }
@@ -169,6 +168,12 @@ body[burger-menu] .menu__button{
 }
 @media (min-width: 768px) {
   .menu__button{
+    display: none;
+  }
+  .sousrubrique__tab{
+    left: 7px;
+  }
+  .close{
     display: none;
   }
 }
