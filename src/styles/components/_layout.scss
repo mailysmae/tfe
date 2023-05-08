@@ -51,6 +51,18 @@ img{
 .dwm{
     width: 30px;
 }
+.fantaisie{
+    background-image: url(../assets/images/deco/deco.svg);
+    position: absolute;
+    top: 1296px;
+    left: 127px;
+    z-index: 0;
+
+    &__bis{
+        top: 3100px;
+        left: 208px;
+    }
+}
 .section{
     display: flex;
     flex-direction: column;
@@ -93,16 +105,11 @@ img{
         position: absolute;
     }
 }
-.fantaisie{
-    background-image: url(../assets/images/deco/deco.svg);
-    max-width: 100%;
-    position: relative;
-    left: 30px;
-}
 .video{
     max-width: 70%;
     padding: 50px;
     border-radius: 55px;
+    z-index: 1;
 }
 .footer{
     display: flex;
@@ -112,6 +119,8 @@ img{
 
     background-color: var(--color-rec);
     padding: 50px;
+    z-index: 1;
+    position: relative;
 }
 @media (min-width: 768px){
 
