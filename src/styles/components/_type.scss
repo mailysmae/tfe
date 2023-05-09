@@ -15,6 +15,10 @@ body {
         left: 99px;
     }
 }
+.text{
+    width: 394px;
+    position: relative;
+}
 a{
     color: var(--color-text);
     list-style: none;
@@ -22,4 +26,35 @@ a{
 }
 p{
     width: 350px;
+}
+@media (min-width: 768px){
+    .intro{
+        position: relative;
+        top: 30px;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .title:nth-child(2){
+        margin-bottom: 482px;
+    }
+    .texte{
+        position: relative;
+    }
+    .texte:nth-child(3){
+        bottom: 146px;
+    }
+    .texte:nth-child(4){
+        bottom: 23px;
+    }
+    .texte:nth-child(5){
+        bottom: -99px;
+    }
+    .text__tab{
+       top: -85px;
+    }
+    .text:nth-child(3){
+        top: 25px;
+    }
+
 }
