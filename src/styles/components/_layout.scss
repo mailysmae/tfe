@@ -46,7 +46,7 @@ img{
 }
 .dwm{
     width: 30px;
-}
+}/*
 .fantaisie{
     background-image: url(../assets/images/deco/deco.svg);
     position: absolute;
@@ -58,7 +58,7 @@ img{
         top: 3470px;
         left: 208px;
     }
-}
+}*/
 .section{
     display: flex;
     flex-direction: column;
@@ -132,7 +132,7 @@ img{
 
         &__droite{
             left: 743px;
-            bottom: -15px;
+            bottom: -27px;
         }
 
         &__gauche {
@@ -141,15 +141,15 @@ img{
         }
 
         &__feuille{
-            right: 763px;
-            bottom: 248px;
+            right: 849px;
+            bottom: 389px;
             width: 237px;
         }
 
         &__rond{
             width: 237px;
             left: 820px;
-            top: 278px;
+            top: 418px;
         }
     }
     .video{
@@ -158,16 +158,20 @@ img{
     }
     .bouton__mauve{
         width: 182px;
-        top: -131px;
+        top: -134px;
     }
-    .fantaisie{
+    /*.fantaisie{
         top: 199px;
+        width: 639px;
+        height: 643px;
 
         &__bis{
-            top: 1544px;
-            
+            top: 2395px;
+            left: -181px;
+            width: 675px;
+            height: 350px;
         }
-    }
+    }*/
     .illu__bulle{
         padding: 0;
         max-width: 300px;
@@ -180,13 +184,98 @@ img{
         width: 204px;
         right: 0;
     }
+    .fantaisie_jaune{
+       top: 900px;
+    }
     .carre__jaune{
-        height: 516px;
+        height: 566px;
     }
 }
 @media (min-width: 1024px){
+    .deco{
+        width: 344px;
 
+        &__droite{
+            left: 1220px;
+        }
+
+        &__gauche{
+            top: -68px;
+        }
+
+        &__feuille{
+            right: 1299px;
+            bottom: 319px;
+        }
+        &__rond{
+            left: 1314px;
+            top: 340px;
+        }
+    }
+    .text{
+        width: 585px;
+    }
+    .section{
+        gap: 20px;
+
+        &__intro{
+            padding: 50px;
+        }
+    }
+    .carre__bleu{
+        height: 344px;
+    }
+    .illu{
+        max-width: 450px;
+        width: 500px;
+        
+        &__rec{
+            top: 115px;
+            left: 773px;
+        }
+    }
+    .logo{
+        width: 528px;
+    }
+    .bouton__mauve{
+        top: -179px;
+    }
+    .bouton__blanc--bis{
+        top: 156px;
+    }
+    .bouton__mauve--bis{
+        top: 210px;
+    }
+   
 }
 @media (min-width: 1500px){
 
 }
+@media (min-width: 1500px) {
+   .deco{
+        width: 447px;
+
+        &__droite{
+            left: 1506px;
+        }
+
+        &__gauche{
+            top: -84px;
+        }
+
+        &__feuille{
+            bottom: 233px;
+            right: 1460px;
+        }
+        &__rond{
+            left: 1430px;
+            top: 297px;
+        }
+   }
+   .illu__rec{
+        left: 978px;
+   }
+   .carre__bleu{
+    height: 431px;
+   }
+  }

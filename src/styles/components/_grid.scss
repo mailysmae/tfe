@@ -38,3 +38,22 @@
     }
 
 }
+@media (min-width: 1024px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 2fr 3fr 1fr;
+        column-gap: 150px;
+        row-gap: 80px;    
+    } 
+    .dgrid-start1{
+        grid-column-start: 2;
+        grid-column-end: 3;  
+        grid-row-start: 1; 
+    }
+    .dgrid-start2{
+        grid-column-start: 3;
+        grid-column-end: 4;  
+        grid-row-start: 1; 
+    }
+}
+

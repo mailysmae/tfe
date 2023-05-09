@@ -167,6 +167,7 @@ body[burger-menu] .menu__button{
   }
   .sousrubrique__tab{
     left: 7px;
+    z-index: 2;
   }
   .close{
     display: none;
@@ -185,9 +186,20 @@ body[burger-menu] .menu__button{
   .menu__button{
     display: none;
   }
+  .reseau__el a{
+    width: 30px;
+    height: 30px;
+  }
+  .menu__list{
+    width: 1020px;
+    left: 460px;
+  }
 }
 @media (min-width: 1500px) {
   .menu__button{
     display: none;
+  }
+  .menu__list{
+    width: 1428px;
   }
 }
