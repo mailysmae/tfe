@@ -1,29 +1,131 @@
+/*images & vidéos*/
+img{
+    max-width: 100%; 
+}
+.deco{
+    position: absolute;
+    width: 177px;
+
+    &__droite{
+        right: 378px;
+        bottom: 420px;
+    }
+
+    &__gauche{
+        left: 375px;
+        top: 809px;
+    }
+    &__rond{
+        left: 362px;
+        top: 2788px;
+    }
+    &__feuille{
+        right: 357px;
+        top: 2038px;
+    }
+}
+.fantaisie{
+    background-image: url(../assets/images/deco/deco.svg);
+    background-size: contain;
+    background-position: -298px 141px;
+    background-repeat: no-repeat;
+}
+.illu{
+    z-index: 2;
+    position: relative;
+    top: 0;
+
+    &__rec{
+        z-index: 1;
+        top: 397px;
+        left: 129px;
+        position: absolute;
+    }
+    &__bulle{
+        top: 61px;
+    }
+}
+.tips{
+    position: relative;
+    display: inline-flex;
+    background-image: url(../assets/images/picto/gummies.svg);
+    background-repeat: no-repeat;
+    background-position: 7px;
+    width: 81px;
+    height: 206px;
+    left: -20px;
+
+    &__infusion{
+        background-image: url(../assets/images/picto/infusion.svg);
+    }
+    &__huile{
+        background-image: url(../assets/images/picto/huile.svg);
+    }
+    &__bouillotte{
+        background-image: url(../assets/images/picto/bouillotte.svg);
+    }
+}
+.logo{
+    position: relative;
+    left: 12px;
+    width: 400px;
+}
+.dwm{
+    width: 30px;
+}
+.video{
+    max-width: 70%;
+    padding: 50px;
+    border-radius: 55px;
+    z-index: 1;
+}
+
+/*section*/
 .contenair{
     margin: auto;
     max-width: 100%;
 }
-.logo{
-    position: relative;
-    right: 42px;
-}
-.carre{
-    background-color: var(--color-rec);
-    position: relative;
-    width: 100%;
-    z-index: 2;
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
 
-    &__jaune{
+    &__protec{
+        background-image: url(../assets/images/deco/deco.svg);
+         background-size: contain;
+         background-position: 144px 614px;
+         background-repeat: no-repeat;
+         margin-top: 30px;
+    }
+
+    &__talk{
+        margin-top: 76px;
+    }
+    &__preca{
+        background-color: var(--color-rec);
+    }
+    &__douleur{
         background-color: var(--color-rec--2);
-        height: 744px;
     }
-    &__bleu{
-        height: 308px;
-    }
+    
 }
-img{
-  max-width: 100%; 
-}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 
+    background-color: var(--color-rec);
+    padding: 50px;
+    z-index: 1;
+    position: relative;
+    gap: 20px;
+    top: 100px;
+}
+/*bouton*/
 .bouton{
     position: relative;
     background-color: var(--color-bg);
@@ -38,118 +140,53 @@ img{
 
     &__mauve{
         background-color: var(--color-btn);
+        top: 16px;
     
     }
-    &__blanc{
-        right: 15px;
-    }
-}
-.dwm{
-    width: 30px;
-}/*
-.fantaisie{
-    background-image: url(../assets/images/deco/deco.svg);
-    position: absolute;
-    top: 1443px;
-    left: 127px;
-    z-index: 0;
-   
-    &__bis{
-        top: 3470px;
-        left: 208px;
-    }
-}*/
-.section{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
 
+    &__blanc--bis{
+        bottom: 23px;
+    }
 }
-.deco{
-    position: absolute;
-    width: 177px;
 
-    &__droite{
-        right: 369px;
-        bottom: 185px;
-    }
-
-    &__gauche{
-        left: 384px;
-        top: 176px;
-    }
-    &__rond{
-        left: 378px;
-        top: 629px;
-    }
-    &__feuille{
-        right: 341px;
-        bottom: 610px;
-    }
-}
-.illu{
-    padding: 60px;
-    z-index: 2;
-
-    &__rec{
-        z-index: 1;
-        top: 325px;
-        left: 37px;
-        position: absolute;
-    }
-}
-.video{
-    max-width: 70%;
-    padding: 50px;
-    border-radius: 55px;
-    z-index: 1;
-}
-.footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    background-color: var(--color-rec);
-    padding: 50px;
-    z-index: 1;
-    position: relative;
-    gap: 20px;
-}
 @media (min-width: 768px){
     .illu__rec {
-        top: 59px;
-        left: 534px;
+        top: 160px;
+        left: 476px;
     }
     .logo {
       right: 3px;
       bottom: 95px;
     }
+    .section__intro{
+        margin-top: 130px;
+    }
+    .section__douleur{
+        padding: 30px;
+    }
     .deco{
         width: 293px;
 
         &__droite{
-            left: 743px;
-            bottom: -27px;
+            left: 756px;
+            bottom: 479px;
         }
 
         &__gauche {
-            left: -45px;
-            top: -36px;
+            left: -53px;
+            top: 331px;
         }
 
         &__feuille{
-            right: 849px;
-            bottom: 389px;
+            right: 784px;
+            top: 1418px;
             width: 237px;
         }
 
         &__rond{
             width: 237px;
-            left: 820px;
-            top: 418px;
+            left: 777px;
+            top: 1938px;
         }
     }
     .video{
@@ -160,36 +197,29 @@ img{
         width: 182px;
         top: -134px;
     }
-    /*.fantaisie{
-        top: 199px;
-        width: 639px;
-        height: 643px;
-
-        &__bis{
-            top: 2395px;
-            left: -181px;
-            width: 675px;
-            height: 350px;
-        }
-    }*/
     .illu__bulle{
         padding: 0;
-        max-width: 300px;
+        max-width: 354px;
+        width: 366px;
     }
     .bouton__mauve--bis{
-        top: 166px;
+        top: 222px;
         width: 204px;
     }
     .bouton__blanc--bis{
         width: 204px;
         right: 0;
+        top: -1px;
     }
-    .fantaisie_jaune{
-       top: 900px;
+    .tips{
+        width: 166px;
+        height: 147px;
+        left: -40px;
     }
-    .carre__jaune{
-        height: 566px;
+    .fantaisie{
+        background-position: 721px 23px;
     }
+   
 }
 @media (min-width: 1024px){
     .deco{
@@ -197,23 +227,21 @@ img{
 
         &__droite{
             left: 1220px;
+            bottom: -178px;
         }
 
         &__gauche{
-            top: -68px;
+            top: 575px;
         }
 
         &__feuille{
-            right: 1299px;
-            bottom: 319px;
+            right: 1148px;
+            top: 1678px;
         }
         &__rond{
-            left: 1314px;
-            top: 340px;
+            left: 1155px;
+            top: 2366px;
         }
-    }
-    .text{
-        width: 585px;
     }
     .section{
         gap: 20px;
@@ -221,9 +249,10 @@ img{
         &__intro{
             padding: 50px;
         }
-    }
-    .carre__bleu{
-        height: 344px;
+        &__douleur{
+            padding: 50px;
+            height: 652px;
+        }
     }
     .illu{
         max-width: 450px;
@@ -241,41 +270,45 @@ img{
         top: -179px;
     }
     .bouton__blanc--bis{
-        top: 156px;
+        top: 287px;
     }
     .bouton__mauve--bis{
         top: 210px;
     }
-   
+   .tips{
+        width: 227px;
+        height: 137px;
+        margin-bottom: -70px;
+        margin-top: 79px;
+   }
+   .fantaisie{
+    background-position: 1113px -93px;
+    }
 }
-@media (min-width: 1500px){
-
-}
-@media (min-width: 1500px) {
+@media (min-width: 1700px) {
    .deco{
         width: 447px;
 
         &__droite{
-            left: 1506px;
+            left: 1867px;
+            bottom: 140px;
         }
 
         &__gauche{
-            top: -84px;
+            top: 468px;
         }
 
         &__feuille{
-            bottom: 233px;
-            right: 1460px;
+            top: 2376px;
+            right: 1852px;
         }
         &__rond{
-            left: 1430px;
-            top: 297px;
+            left: 1820px;
+            top: 3044px;
         }
    }
    .illu__rec{
-        left: 978px;
-   }
-   .carre__bleu{
-    height: 431px;
+        top: 236px;
+        left: 1100px;
    }
   }

@@ -9,14 +9,15 @@ body {
 .title {
     color: var(--color-text);
     font-family: 'DM Serif Display', serif;
+    z-index: 1;
+    position: relative;
 
     &__carre{
-        position: relative;
         left: 99px;
     }
 }
 .text{
-    width: 394px;
+    width: 351px;
     position: relative;
 }
 a{
@@ -25,7 +26,7 @@ a{
     text-decoration: none;
 }
 p{
-    width: 350px;
+    width: 308px;
 }
 @media (min-width: 768px){
     .intro{
@@ -35,28 +36,37 @@ p{
     .title{
         font-size: 32px;
         z-index: 2;
+        margin: 5px;
     }
-    .title:nth-child(2){
-        margin-bottom: 535px;
+    .title__protec{
+        bottom: 246px;
+        margin: -25px;
+    }
+    .title__bis{
+        margin-bottom: 468px;
     }
     .texte{
         position: relative;
     }
     .texte:nth-child(3){
-        bottom: 146px;
+        bottom: 141px;
     }
     .texte:nth-child(4){
-        bottom: 23px;
+        bottom: -121px;
     }
     .texte:nth-child(5){
         bottom: -99px;
     }
     .text__tab{
-       top: -85px;
+       top: -166px;
+    }
+    .text__bis{
+        width: 520px;
     }
     .text:nth-child(3){
         top: 25px;
     }
+
 
 }
 @media (min-width: 1024px){
@@ -71,6 +81,7 @@ p{
     }
     .title{
         font-size: 32px;
+        margin: 0;
     }
     .title:nth-child(2){
         margin-bottom: 705px;
@@ -78,17 +89,25 @@ p{
     .title__tab{
         margin-top: -365px;
     }
-    .text__tab{
-        width: 375px;
+    .title__bis{
+        margin-bottom: 550px;
+    }
+    .text{
+        width: 585px;
+        &__tab{
+            width: 375px;
+            top: -100px;
+        }
     }
 }
-@media (min-width: 1500px) {
+@media (min-width: 1700px) {
     body{
         font-size: 24px;
     }
     .title {
         font-size: 40px;
     }
+    
     p{
         width: 549px;
     }
@@ -97,5 +116,8 @@ p{
     }
     .title:nth-child(2){
         margin-bottom: 857px;
+    }
+    .text__tab{
+        width: 565px;
     }
   }

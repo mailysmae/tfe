@@ -1,3 +1,4 @@
+/*menu*/
 .open{
   position: relative;
   background: transparent;
@@ -46,6 +47,7 @@
   padding: 30px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+/*reseau*/
 .reseau{
   list-style: none;
   display: flex; 
@@ -191,15 +193,21 @@ body[burger-menu] .menu__button{
     height: 30px;
   }
   .menu__list{
-    width: 1020px;
-    left: 460px;
+    width: 908px;
+    left: 547px;
   }
 }
-@media (min-width: 1500px) {
+@media (min-width: 1700px) {
   .menu__button{
     display: none;
   }
   .menu__list{
-    width: 1428px;
+    left: 928px;
+    width: 1200px;
+  }
+  .tips{
+    width: 276px;
+    height: 173px;
+    margin-bottom: -101px;
   }
 }
