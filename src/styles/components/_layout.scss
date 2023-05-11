@@ -4,30 +4,30 @@ img{
 }
 .deco{
     position: absolute;
-    width: 177px;
+    width: 137px;
 
     &__droite{
-        right: 378px;
-        bottom: 420px;
+        right: 300px;
+        top: 550px;
     }
 
     &__gauche{
-        left: 375px;
+        left: 355px;
         top: 809px;
     }
     &__rond{
-        left: 362px;
-        top: 2788px;
+        left: 322px;
+        top: 2678px;
     }
     &__feuille{
-        right: 357px;
-        top: 2038px;
+        right: 257px;
+        top: 1938px;
     }
 }
 .fantaisie{
     background-image: url(../assets/images/deco/deco.svg);
     background-size: contain;
-    background-position: -298px 141px;
+    background-position: -264px 33px;
     background-repeat: no-repeat;
 }
 .illu{
@@ -37,8 +37,8 @@ img{
 
     &__rec{
         z-index: 1;
-        top: 397px;
-        left: 129px;
+        top: 362px;
+        left: 59px;
         position: absolute;
     }
     &__bulle{
@@ -83,7 +83,7 @@ img{
 /*section*/
 .contenair{
     margin: auto;
-    max-width: 100%;
+    max-width: 500px;
 }
 .section{
     display: flex;
@@ -92,13 +92,12 @@ img{
     align-items: center;
     padding: 20px;
     gap: 10px;
-
+    
     &__protec{
         background-image: url(../assets/images/deco/deco.svg);
          background-size: contain;
          background-position: 144px 614px;
          background-repeat: no-repeat;
-         margin-top: 30px;
     }
 
     &__talk{
@@ -150,165 +149,201 @@ img{
 }
 
 @media (min-width: 768px){
-    .illu__rec {
-        top: 160px;
-        left: 476px;
-    }
-    .logo {
-      right: 3px;
-      bottom: 95px;
+    .contenair{
+        max-width: 900px;
     }
     .section__intro{
         margin-top: 130px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-around;
+
     }
     .section__douleur{
         padding: 30px;
+        height: 465px;
+    }
+    .section__protec{
+        background-position: 499px -10px;
     }
     .deco{
         width: 293px;
 
         &__droite{
-            left: 756px;
-            bottom: 479px;
+            left: 691px;
+            top: 477px;
         }
 
         &__gauche {
-            left: -53px;
-            top: 331px;
+            left: -79px;
+            top: 477px;
         }
 
         &__feuille{
-            right: 784px;
-            top: 1418px;
+            right: 714px;
+            top: 1292px;
             width: 237px;
         }
 
         &__rond{
             width: 237px;
-            left: 777px;
-            top: 1938px;
+            left: 662px;
+            top: 1810px;
         }
     }
     .video{
         max-width: 100%;
         padding: 46px;
     }
-    .bouton__mauve{
-        width: 182px;
-        top: -134px;
-    }
-    .illu__bulle{
-        padding: 0;
+    .illu{
         max-width: 354px;
         width: 366px;
+        top: -68px;
+
+        &__bulle{
+            padding: 0;
+            margin: 0;
+            top: 0;
+        }
+        &__rec {
+            top: 104px;
+            left: 377px;
+        }
+    }
+    .bouton__mauve{
+        top: 186px;
+        width: 196px;
     }
     .bouton__mauve--bis{
-        top: 222px;
-        width: 204px;
+        top: 154px;
     }
     .bouton__blanc--bis{
         width: 204px;
-        right: 0;
-        top: -1px;
+        top: 209px;
     }
     .tips{
-        width: 166px;
-        height: 147px;
-        left: -40px;
+        width: 151px;
+        height: 135px;
+        left: -15px;
+        top: 117px;
     }
     .fantaisie{
-        background-position: 721px 23px;
+        background-position: -360px 19px;
+    }
+    .logo{
+        left: 0;
+        top: -121px;
     }
    
 }
 @media (min-width: 1024px){
-    .deco{
-        width: 344px;
-
-        &__droite{
-            left: 1220px;
-            bottom: -178px;
-        }
-
-        &__gauche{
-            top: 575px;
-        }
-
-        &__feuille{
-            right: 1148px;
-            top: 1678px;
-        }
-        &__rond{
-            left: 1155px;
-            top: 2366px;
-        }
+    .contenair{
+        max-width: 1500px;
     }
-    .section{
-        gap: 20px;
-
-        &__intro{
-            padding: 50px;
-        }
-        &__douleur{
-            padding: 50px;
-            height: 652px;
-        }
+    .illu__rec{
+        top: 201px;
+        left: 910px;
     }
-    .illu{
-        max-width: 450px;
-        width: 500px;
-        
-        &__rec{
-            top: 115px;
-            left: 773px;
-        }
+    .deco__gauche{
+        left: -27px;
+        top: 650px;
+    }
+    .deco__droite{
+        left: 1260px;
+        top: 650px;
+    }
+    .deco__feuille{
+        right: 1302px;
+        top: 1659px;
+    }
+    .deco__rond{
+        left: 1290px;
+        top: 2288px;
+    }
+    .video{
+        max-width: 70%;
+    }
+    .section__protec{
+        background-position: 1082px;
+    }
+    .fantaisie{
+        background-position: -210px;
     }
     .logo{
-        width: 528px;
+        max-width: 555px;
     }
-    .bouton__mauve{
-        top: -179px;
-    }
-    .bouton__blanc--bis{
-        top: 287px;
+    .bouton{
+        margin: 20px;
     }
     .bouton__mauve--bis{
-        top: 210px;
+        left: -30px;
     }
-   .tips{
-        width: 227px;
-        height: 137px;
-        margin-bottom: -70px;
-        margin-top: 79px;
-   }
-   .fantaisie{
-    background-position: 1113px -93px;
-    }
+
 }
-@media (min-width: 1700px) {
-   .deco{
-        width: 447px;
-
-        &__droite{
-            left: 1867px;
-            bottom: 140px;
+@media (min-width:2000px) {
+        .contenair{
+            max-width: 2650px;
         }
-
-        &__gauche{
-            top: 468px;
+        .deco{
+            width: 442px;
+            &__droite{
+                left: 1860px;
+                top: 820px;
+            }
+            &__gauche{
+                top: 820px;
+            }
+            &__feuille{
+                right: 1807px;
+                top: 2257px;
+            }
+            &__rond{
+                left: 1820px;
+                top: 3000px;
+            }
         }
-
-        &__feuille{
-            top: 2376px;
-            right: 1852px;
+        .illu{
+            min-width: 559px;
+            
+            &__rec{
+                left: 1320px;
+                top: 205px;
+            }
         }
-        &__rond{
-            left: 1820px;
-            top: 3044px;
+        .logo{
+            top: -184px;
         }
-   }
-   .illu__rec{
-        top: 236px;
-        left: 1100px;
-   }
+        .bouton{
+            font-size: 20px;
+            padding: 19px 30px;
+            margin: 30px;
+        }
+        .bouton__mauve{
+            width: 268px;
+            left: -29px;
+            top: 294px;
+        }
+        .bouton__blanc--bis{
+            width: 296px;
+            top: 332px;
+            left: -27px;
+        }
+        .bouton__mauve--bis{
+            top: 294px;
+            width: 294px;
+        }
+        .tips{
+            width: 245px;
+            height: 176px;
+            top: 179px;
+        }
+        .section__douleur{
+            height: 627px;
+        }
+        .section__protec{
+            background-position: 1438px;
+        }
+        .fantaisie{
+            background-position: -381px;
+        }
   }

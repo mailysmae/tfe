@@ -36,88 +36,72 @@ p{
     .title{
         font-size: 32px;
         z-index: 2;
-        margin: 5px;
     }
     .title__protec{
-        bottom: 246px;
-        margin: -25px;
+        top: -196px;
+    }
+    .title__tab{
+        top: -211px;
     }
     .title__bis{
-        margin-bottom: 468px;
+        bottom: 143px;
     }
     .texte{
         position: relative;
     }
-    .texte:nth-child(3){
-        bottom: 141px;
-    }
-    .texte:nth-child(4){
-        bottom: -121px;
-    }
-    .texte:nth-child(5){
-        bottom: -99px;
+    .text{
+        top: -68px;
     }
     .text__tab{
-       top: -166px;
+       top: -137px;
     }
     .text__bis{
         width: 520px;
     }
-    .text:nth-child(3){
-        top: 25px;
-    }
-
 
 }
 @media (min-width: 1024px){
-    body{
-        font-size: 18px;
+    .title__protec{
+        width: max-content;
     }
-    p{
-        width: 419px;
-    }
-    .intro{
-        top: 81px;
-    }
-    .title{
-        font-size: 32px;
-        margin: 0;
-    }
-    .title:nth-child(2){
-        margin-bottom: 705px;
-    }
-    .title__tab{
-        margin-top: -365px;
+    .text__bis{
+        width: 620px;
     }
     .title__bis{
-        margin-bottom: 550px;
-    }
-    .text{
-        width: 585px;
-        &__tab{
-            width: 375px;
-            top: -100px;
-        }
+        width: 400Px;
     }
 }
-@media (min-width: 1700px) {
+@media (min-width: 2000px) {
     body{
         font-size: 24px;
     }
     .title {
-        font-size: 40px;
+        font-size: 48px;
     }
-    
-    p{
-        width: 549px;
+    .title__protec{
+        top: -294px;
+    }
+    .title__tab{
+        width: 494px;
+        top: -269px;
+    }
+    .title__bis{
+        bottom: 233px;
+        width: 454px;
     }
     .text{
-        width: 788px;
+        width: 563px;
+
+        &__tab{
+            top: -156px;
+        }
+        
     }
-    .title:nth-child(2){
-        margin-bottom: 857px;
+    .tips{
+        top: 154px;
     }
-    .text__tab{
-        width: 565px;
+    p{
+        width: 470px;
     }
+
   }
