@@ -7,27 +7,27 @@ img{
     width: 137px;
 
     &__droite{
-        right: 300px;
-        top: 550px;
+        right: 301px;
+        top: 551px;
     }
 
     &__gauche{
-        left: 355px;
+        left: 267px;
         top: 809px;
     }
     &__rond{
-        left: 322px;
-        top: 2678px;
+        left: 249px;
+        top: 2635px;
     }
     &__feuille{
         right: 257px;
-        top: 1938px;
+        top: 1814px;
     }
 }
 .fantaisie{
     background-image: url(../assets/images/deco/deco.svg);
     background-size: contain;
-    background-position: -264px 33px;
+    background-position: -225px 199px;
     background-repeat: no-repeat;
 }
 .illu{
@@ -41,8 +41,8 @@ img{
         left: 59px;
         position: absolute;
     }
-    &__bulle{
-        top: 61px;
+    &__bulle--bis{
+        top: 81px;
     }
 }
 .tips{
@@ -83,7 +83,7 @@ img{
 /*section*/
 .contenair{
     margin: auto;
-    max-width: 500px;
+    max-width: 600px;
 }
 .section{
     display: flex;
@@ -238,45 +238,66 @@ img{
 }
 @media (min-width: 1024px){
     .contenair{
-        max-width: 1500px;
+        max-width: 1800px;
     }
-    .illu__rec{
-        top: 201px;
-        left: 910px;
+    .illu{
+        max-width: 488px;
+        width: 531px;
+        top: -122px;
+
+        &__rec{
+            top: 151px;
+            left: 852px;
+        }
+        &__bulle{
+            top:5px
+        }
     }
-    .deco__gauche{
-        left: -27px;
-        top: 650px;
-    }
-    .deco__droite{
-        left: 1260px;
-        top: 650px;
-    }
-    .deco__feuille{
-        right: 1302px;
-        top: 1659px;
-    }
-    .deco__rond{
-        left: 1290px;
-        top: 2288px;
+    .deco{
+        width: 342px;
+
+        &__gauche{
+            left: -27px;
+            top: 745px;
+        }
+        &__droite{
+            left: 1200px;
+            top: 745px;
+        }
+        &__feuille{
+            right: 1228px;
+            top: 2001px;
+        }
+        &__rond{
+            left: 1170px;
+            top: 2593px;
+        }
     }
     .video{
-        max-width: 70%;
+        max-width: 396px;
     }
     .section__protec{
         background-position: 1082px;
     }
     .fantaisie{
-        background-position: -210px;
+        background-position: -448px;
     }
     .logo{
         max-width: 555px;
+        width: 700px;
+        top: -179px;
     }
     .bouton{
         margin: 20px;
-    }
-    .bouton__mauve--bis{
-        left: -30px;
+
+        &__blanc--bis{
+            left: -18px;
+            top: 220px;
+        }
+        &__mauve{
+            left: -20px;
+        }
+
     }
 
 }
@@ -287,7 +308,7 @@ img{
         .deco{
             width: 442px;
             &__droite{
-                left: 1860px;
+                left: 1840px;
                 top: 820px;
             }
             &__gauche{
@@ -295,11 +316,11 @@ img{
             }
             &__feuille{
                 right: 1807px;
-                top: 2257px;
+                top: 2157px;
             }
             &__rond{
-                left: 1820px;
-                top: 3000px;
+                left: 1800px;
+                top: 2900px;
             }
         }
         .illu{
@@ -307,7 +328,7 @@ img{
             
             &__rec{
                 left: 1320px;
-                top: 205px;
+                top: 185px;
             }
         }
         .logo{

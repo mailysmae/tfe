@@ -65,10 +65,13 @@ p{
         width: max-content;
     }
     .text__bis{
-        width: 620px;
+        width: 509px;
     }
     .title__bis{
-        width: 400Px;
+        width: 400px;
+    }
+    p{
+        width: 377px;
     }
 }
 @media (min-width: 2000px) {
@@ -94,6 +97,9 @@ p{
 
         &__tab{
             top: -156px;
+        }
+        &__bis{
+            width: 780px;
         }
         
     }
