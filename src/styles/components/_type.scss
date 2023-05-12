@@ -28,6 +28,16 @@ a{
 p{
     width: 308px;
 }
+.categorie{
+    font-size: 10px;
+    width: 20px;
+    margin: 19px;
+
+    &__reu{
+        margin-top: 27px;
+        margin-left: 9px;
+    }
+}
 @media (min-width: 768px){
     .intro{
         position: relative;
@@ -72,6 +82,14 @@ p{
     }
     p{
         width: 377px;
+    }
+    .categorie{
+        font-size: 12px;
+        margin: 16px;
+        &__reu{
+            margin-top: 27px;
+            margin-left: 3px;
+        }
     }
 }
 @media (min-width: 2000px) {

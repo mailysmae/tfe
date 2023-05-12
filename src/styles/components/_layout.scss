@@ -17,11 +17,11 @@ img{
     }
     &__rond{
         left: 249px;
-        top: 2635px;
+        top: 2534px;
     }
     &__feuille{
-        right: 257px;
-        top: 1814px;
+        right: 279px;
+        top: 1788px;
     }
 }
 .fantaisie{
@@ -45,6 +45,20 @@ img{
         top: 81px;
     }
 }
+.rond{
+    position: absolute;
+    width: 71px;
+    height: 71px;
+    left: 11px;
+    top: 10px;
+    border-radius: 40px;
+
+    background: var(--color-rec);
+
+    &__reu{
+        background: var(--color-rond);
+    }
+}
 .tips{
     position: relative;
     display: inline-flex;
@@ -65,10 +79,57 @@ img{
         background-image: url(../assets/images/picto/bouillotte.svg);
     }
 }
+.protection{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+
+    background-image: url(../assets/images/protections/serviette.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 209px;
+    height: 281px;
+    padding: 20px;
+    margin: inherit;
+
+    &__tampon{
+        background-image: url(../assets/images/protections/tampon.svg);
+    }
+    &__cup{
+        background-image: url(../assets/images/protections/cup.svg);
+    }
+    &__eponge{
+        background-image: url(../assets/images/protections/eponge.svg);
+    }
+    &__culotte{
+        background-image: url(../assets/images/protections/culotte.svg);
+    } 
+    &__slip{
+        background-image: url(../assets/images/protections/slip.svg);
+    } 
+    &__reu{
+        background-image: url(../assets/images/protections/reu.svg);
+    } 
+    &__maillot{
+        background-image: url(../assets/images/protections/maillot.svg);
+    } 
+}
 .logo{
     position: relative;
     left: 12px;
     width: 400px;
+
+    &__menu{
+        top: 11px;
+        left: 17px;
+        width: 122px;
+    }
 }
 .dwm{
     width: 30px;
@@ -84,6 +145,10 @@ img{
 .contenair{
     margin: auto;
     max-width: 600px;
+}
+.header{
+    padding: 10px;
+    margin: 0;
 }
 .section{
     display: flex;
@@ -109,6 +174,9 @@ img{
     &__douleur{
         background-color: var(--color-rec--2);
     }
+    &__top{
+        background-color: var(--color-rec--2);
+    }
     
 }
 .footer{
@@ -123,6 +191,10 @@ img{
     position: relative;
     gap: 20px;
     top: 100px;
+
+    &__protec{
+        top: 0;
+    }
 }
 /*bouton*/
 .bouton{
@@ -132,15 +204,23 @@ img{
     text-transform: uppercase;
     font-weight: bold;
     outline: none;
+    cursor: pointer;
+
     color: var(--color-text);
     padding: 14px 24px;
     border-radius: 8px;
     z-index: 2;
 
+    &:hover{
+        background-color: transparent;
+        border: 2px solid var(--color-btn);
+    }
+    &__blanc:hover{
+        border: 2px solid var(--color-bg);
+    }
     &__mauve{
         background-color: var(--color-btn);
         top: 16px;
-    
     }
 
     &__blanc--bis{
@@ -171,24 +251,24 @@ img{
 
         &__droite{
             left: 691px;
-            top: 477px;
+            top: 485px;
         }
 
         &__gauche {
             left: -79px;
-            top: 477px;
+            top: 485px;
         }
 
         &__feuille{
-            right: 714px;
-            top: 1292px;
+            right: 753px;
+            top: 1362px;
             width: 237px;
         }
 
         &__rond{
             width: 237px;
-            left: 662px;
-            top: 1810px;
+            left: 696px;
+            top: 1837px;
         }
     }
     .video{
@@ -208,6 +288,9 @@ img{
         &__rec {
             top: 104px;
             left: 377px;
+        }
+        &__protect{
+            top: 3px;
         }
     }
     .bouton__mauve{
@@ -233,6 +316,14 @@ img{
     .logo{
         left: 0;
         top: -121px;
+
+        &__menu{
+            top: 0;
+        }
+    }
+    .protection{
+        display: inline-flex;
+        width: 192px;
     }
    
 }
@@ -246,11 +337,14 @@ img{
         top: -122px;
 
         &__rec{
-            top: 151px;
+            top: 121px;
             left: 852px;
         }
         &__bulle{
             top:5px
+        }
+        &__protect{
+            top: 0;
         }
     }
     .deco{
@@ -258,19 +352,19 @@ img{
 
         &__gauche{
             left: -27px;
-            top: 745px;
+            top: 650px;
         }
         &__droite{
             left: 1200px;
-            top: 745px;
+            top: 650px;
         }
         &__feuille{
             right: 1228px;
-            top: 2001px;
+            top: 1780px;
         }
         &__rond{
             left: 1170px;
-            top: 2593px;
+            top: 2263px;
         }
     }
     .video{
@@ -286,6 +380,12 @@ img{
         max-width: 555px;
         width: 700px;
         top: -179px;
+
+        &__menu{
+            width: 10%;
+            top: 0;
+            left: 10px;
+        }
     }
     .bouton{
         margin: 20px;
@@ -299,6 +399,12 @@ img{
         }
 
     }
+    .protection{
+        height: 334px;
+        width: 254px;
+        margin: 25px;
+    }
+
 
 }
 @media (min-width:2000px) {
@@ -307,20 +413,21 @@ img{
         }
         .deco{
             width: 442px;
+
             &__droite{
                 left: 1840px;
-                top: 820px;
+                top: 710px;
             }
             &__gauche{
-                top: 820px;
+                top: 710px;
             }
             &__feuille{
                 right: 1807px;
-                top: 2157px;
+                top: 1927px;
             }
             &__rond{
                 left: 1800px;
-                top: 2900px;
+                top: 2780px;
             }
         }
         .illu{
@@ -359,12 +466,21 @@ img{
             top: 179px;
         }
         .section__douleur{
-            height: 627px;
+            height: 827px;
         }
         .section__protec{
             background-position: 1438px;
         }
         .fantaisie{
             background-position: -381px;
+        }
+        .logo__menu{
+            top: 40px;
+        }
+        .protection{
+            height: 334px;
+            width: 254px;
+            margin: 70px;
+            left: 150px;
         }
   }

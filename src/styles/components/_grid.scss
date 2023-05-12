@@ -22,15 +22,20 @@
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 50px;   
         max-width: 1500px;    
-        padding: 100px;
+        padding: 40px;
     } 
     .dgrid-start1{
         grid-column: 2 / 3;
         grid-row: 1;
     }
     .dgrid-start2{
-        grid-column: 3 / 4 ; 
+        grid-column: 3 / 3 ; 
         grid-row: 1;
+    }
+    .dgrid-start3{
+        grid-column: 2 / 2;
+        grid-row: 1;
+        width: 362px;
     }
 }
 @media (min-width: 2000px){
@@ -47,6 +52,11 @@
     .dgrid-start2{
         grid-column: 8 / 12 ; 
         grid-row: 1;
+    }
+    .dgrid-start3{
+        grid-column: 2 / 2;
+        grid-row: 1;
+        width: 520px;
     }
 }
 
