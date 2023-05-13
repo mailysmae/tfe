@@ -23,13 +23,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  gap: 11px;
+
 }
 .menu__list:hover{
   color: var(--color-rec);
 }
-.menu__link{
-  line-height: 30px;
-}
+
 .menu__el{
   margin: 0;
   padding: 0;
@@ -177,19 +177,18 @@ body[burger-menu] .menu__button{
   .footer{
     flex-direction: row;
   }
-  .menu__list{
-    left: 312px;
+  .menu{
+
+    &__list{
+      left: 140px;
+    }
+    &__el {
+      display: flex;
+      gap: 30px;
+      padding: revert;
+    }
   }
-  .menu__list--2{
-    left: 165px;
-    top: -60px;
-    width: 721px;
-  }
-  .menu__el {
-    display: flex;
-    gap: 30px;
-    padding: revert;
-  }
+
 
 }
 @media (min-width: 1024px) {

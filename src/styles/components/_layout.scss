@@ -1,6 +1,13 @@
 /*images & vidéos*/
 img{
     max-width: 100%; 
+    border-radius: 8px;
+}
+.figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
 }
 .deco{
     position: absolute;
@@ -8,20 +15,45 @@ img{
 
     &__droite{
         right: 301px;
-        top: 551px;
+        top: 639px;
     }
-
+    &__droite--gummies{
+        right: 276px;
+        top: 570px;
+    }
     &__gauche{
-        left: 267px;
-        top: 809px;
+        left: 293px;
+        top: 990px;
+    }
+    &__gauche--gummies{
+        left: 269px;
+        top: 980px;
     }
     &__rond{
-        left: 249px;
-        top: 2534px;
+        left: 286px;
+        top: 3000px;
     }
     &__feuille{
         right: 279px;
-        top: 1788px;
+        top: 2229px;
+    }
+    &__sachet{
+        top: 3580px;
+        left: 282px;
+        rotate: 18deg;
+    }
+    &__tasse{
+        top: 3415px;
+        left: -4px;
+    }
+    &__patch{
+        top: 6852px;
+        left: 281px;
+        rotate: 44deg;
+    }
+    &__eclaire{
+        left: -11px;
+        top: 6483px;
     }
 }
 .fantaisie{
@@ -37,12 +69,18 @@ img{
 
     &__rec{
         z-index: 1;
-        top: 362px;
+        top: 455px;
         left: 59px;
         position: absolute;
     }
     &__bulle--bis{
         top: 81px;
+    }
+    &__intro{
+        top: 333px;
+        left: 95px;
+        position: absolute;
+        z-index: 1;
     }
 }
 .rond{
@@ -147,8 +185,19 @@ img{
     max-width: 600px;
 }
 .header{
-    padding: 10px;
+    padding: 20px;
     margin: 0;
+    position: fixed;
+    background-color: var(--color-bg);
+    z-index: 4;
+    width: 100%;
+
+    &__width{
+        left: -12px;
+        top: 0;
+    }
+
+    
 }
 .section{
     display: flex;
@@ -157,6 +206,7 @@ img{
     align-items: center;
     padding: 20px;
     gap: 10px;
+    margin-top: 70px;
     
     &__protec{
         background-image: url(../assets/images/deco/deco.svg);
@@ -192,7 +242,7 @@ img{
     gap: 20px;
     top: 100px;
 
-    &__protec{
+    &__margin{
         top: 0;
     }
 }
@@ -232,48 +282,77 @@ img{
     .contenair{
         max-width: 900px;
     }
-    .section__intro{
-        margin-top: 130px;
-        display: flex; 
-        flex-direction: column;
-        justify-content: space-around;
+    .section{
+        position: relative;
 
+        &__intro{
+            top: 70px;
+            margin: 50px;
+    
+        }
+        &__douleur{
+            padding: 30px;
+            height: 465px;
+        }
+        &__douleur--bis{
+            height: 247px;
+        }
+        &__protec{
+            background-position: 499px -10px;
+        }
+        &__height{
+            top: 113px;
+        }
     }
-    .section__douleur{
-        padding: 30px;
-        height: 465px;
-    }
-    .section__protec{
-        background-position: 499px -10px;
-    }
+    
     .deco{
         width: 293px;
 
         &__droite{
             left: 691px;
-            top: 485px;
+            top: -47px;
         }
 
         &__gauche {
             left: -79px;
-            top: 485px;
+            top: -47px;
         }
 
         &__feuille{
-            right: 753px;
-            top: 1362px;
+            right: 633px;
+            top: -103px;
             width: 237px;
         }
 
         &__rond{
             width: 237px;
-            left: 696px;
-            top: 1837px;
+            left: 626px;
+            top: 399px;
+        }
+        &__tasse{
+            top: -127px;
+        }
+        &__sachet{
+            top: -127px;
+            left: 625px;
+        }
+        &__eclaire{
+            top: -68px;
+            left: -77px;
+        }
+        &__patch{
+            top: -68px;
+            rotate: -8deg;
+            left: 662px;
         }
     }
     .video{
         max-width: 100%;
         padding: 46px;
+    }
+    .figure{
+        width: 400px;
+        position: absolute;
     }
     .illu{
         max-width: 354px;
@@ -286,7 +365,7 @@ img{
             top: 0;
         }
         &__rec {
-            top: 104px;
+
             left: 377px;
         }
         &__protect{
@@ -318,12 +397,23 @@ img{
         top: -121px;
 
         &__menu{
-            top: 0;
+            top: 49px;
+            left: 27px;
         }
     }
     .protection{
         display: inline-flex;
         width: 192px;
+    }
+    .header{
+        padding: 20px;
+        top: -4px;
+
+        &__width{
+            margin: -57px;
+            left: 30px;
+        }
+
     }
    
 }
@@ -337,13 +427,17 @@ img{
         top: -122px;
 
         &__rec{
-            top: 121px;
-            left: 852px;
+            top: -64px;
+            left: 786px;
         }
         &__bulle{
             top:5px
         }
         &__protect{
+            top: 0;
+        }
+        &__intro{
+            left: 704px;
             top: 0;
         }
     }
@@ -352,27 +446,40 @@ img{
 
         &__gauche{
             left: -27px;
-            top: 650px;
+            top: -82px;
         }
         &__droite{
             left: 1200px;
-            top: 650px;
+            top: -82px;
         }
         &__feuille{
             right: 1228px;
-            top: 1780px;
+            top: -135px;
         }
         &__rond{
             left: 1170px;
-            top: 2263px;
+            top: 367px;
+        }
+        &__sachet{
+            left: 1176px;
+        }
+        &__patch{
+            left: 1199px;
         }
     }
     .video{
         max-width: 396px;
     }
-    .section__protec{
-        background-position: 1082px;
+    .section{
+
+        &__intro{
+            top: 140px;
+        }
+        &__protec{
+            background-position: 1082px;
+        }
     }
+    
     .fantaisie{
         background-position: -448px;
     }
@@ -383,8 +490,7 @@ img{
 
         &__menu{
             width: 10%;
-            top: 0;
-            left: 10px;
+            top: 54px;
         }
     }
     .bouton{
@@ -404,7 +510,9 @@ img{
         width: 254px;
         margin: 25px;
     }
-
+    img{
+        max-width: 70%;
+    }
 
 }
 @media (min-width:2000px) {
@@ -416,18 +524,24 @@ img{
 
             &__droite{
                 left: 1840px;
-                top: 710px;
+                top: -90px;
             }
             &__gauche{
-                top: 710px;
+                top: -90px;
             }
             &__feuille{
                 right: 1807px;
-                top: 1927px;
+                top: -180px;
             }
             &__rond{
                 left: 1800px;
-                top: 2780px;
+                top: 680px;
+            }
+            &__sachet{
+                left: 1800px;
+            }
+            &__patch{
+                left: 1800px;
             }
         }
         .illu{
@@ -435,7 +549,7 @@ img{
             
             &__rec{
                 left: 1320px;
-                top: 185px;
+                top: -85px;
             }
         }
         .logo{
@@ -471,11 +585,15 @@ img{
         .section__protec{
             background-position: 1438px;
         }
+        .section__height{
+            top: 166px;
+        }
         .fantaisie{
             background-position: -381px;
         }
         .logo__menu{
-            top: 40px;
+            top: 60px;
+            left: 120px;
         }
         .protection{
             height: 334px;
