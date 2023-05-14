@@ -30,6 +30,10 @@ body {
     &__sous--width{
         width: 317px;
     }
+    &__color{
+        color: #C95353;
+        font-size: 80px;
+    }
 }
 .text{
     width: 351px;
@@ -41,6 +45,11 @@ body {
 }
 .texte{
     margin: 20px;
+
+    &__intro{
+        margin-top: -76px;
+        margin-left: 66px;
+    }
 }
 a{
     color: var(--color-text);
@@ -99,13 +108,16 @@ p{
 
             &--bis{
                 top: -1px;
-                width: 461px;
+                width: 440px;
             }
         }
         &__sous--width{
             font-size: x-large;
             top: -131px;
             width: 420px;
+        }
+        &__color{
+            font-size: 90px;
         }
     }
   
@@ -183,6 +195,9 @@ p{
 
         &--bis{
             top: -20px;
+        }
+        &__color{
+            font-size: 110px;
         }
     }
     p{

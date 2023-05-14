@@ -16,22 +16,37 @@ img{
     &__droite{
         right: 301px;
         top: 639px;
-    }
-    &__droite--gummies{
-        right: 276px;
-        top: 570px;
+
+        &--gummies{
+            right: 276px;
+            top: 570px;
+        }
     }
     &__gauche{
         left: 293px;
         top: 990px;
+
+        &--gummies{
+            left: 269px;
+            top: 980px;
+        }
+        &--euro{
+            left: 283px;
+            top: 1193px;
+        }
     }
-    &__gauche--gummies{
-        left: 269px;
-        top: 980px;
-    }
+    
     &__rond{
         left: 286px;
         top: 3000px;
+        &--top{
+            left: -18px;
+            top: 2268px;
+        }
+        &--bis{
+            left: 270px;
+            top: 2811px;
+        }
     }
     &__feuille{
         right: 279px;
@@ -54,6 +69,16 @@ img{
     &__eclaire{
         left: -11px;
         top: 6433px;
+    }
+    &__terre{
+        left: -17px;
+        top: 5416px;
+        rotate: 29deg;
+    }
+    &__serviette{
+        top: 5648px;
+        left: 281px;
+        rotate: 41deg;
     }
 }
 .fantaisie{
@@ -311,11 +336,18 @@ img{
         &__droite{
             left: 691px;
             top: -47px;
+            &--eu{
+                left: -64px;
+            }
         }
 
         &__gauche {
             left: -79px;
             top: -47px;
+            &--euro{
+                left: 658px;
+                top: -47px;
+            }
         }
 
         &__feuille{
@@ -328,6 +360,13 @@ img{
             width: 237px;
             left: 626px;
             top: 399px;
+            &--top{
+                left: -58px;
+                top: -132px;
+            }
+            &--bis{
+                top: 241px;
+            }
         }
         &__tasse{
             top: -127px;
@@ -344,6 +383,16 @@ img{
             top: -68px;
             rotate: -8deg;
             left: 662px;
+        }
+        &__terre{
+            width: 210px;
+            top: -79px;
+        }
+        &__serviette{
+            width: 224px;
+            top: -58px;
+            left: 692px;
+            rotate: 20deg;
         }
     }
     .video{
@@ -365,12 +414,21 @@ img{
             top: 0;
         }
         &__rec {
-
             left: 377px;
+
+            &--bis{
+                left: 449px;
+                top: 11px;
+            }
         }
         &__protect{
             top: 3px;
         }
+        &__girls{
+            width: 289px;
+            top: -107px;
+        }
+
     }
     .bouton__mauve{
         top: 186px;
@@ -440,6 +498,9 @@ img{
             left: 704px;
             top: 0;
         }
+        &__girls{
+            width: 317px;
+        }
     }
     .deco{
         width: 342px;
@@ -447,10 +508,20 @@ img{
         &__gauche{
             left: -27px;
             top: -82px;
+            &--euro{
+                left: 1185px;
+                top: -82px;
+            }
         }
         &__droite{
             left: 1200px;
             top: -82px;
+
+            &--eu{
+                left: -26px;
+                top: -106px;
+                width: 275px;
+            }
         }
         &__feuille{
             right: 1228px;
@@ -459,6 +530,13 @@ img{
         &__rond{
             left: 1170px;
             top: 367px;
+            &--top{
+                left: -62px;
+                top: -189px;
+            }
+            &--bis{
+                top: 117px;
+            }
         }
         &__sachet{
             left: 1176px;
@@ -466,6 +544,14 @@ img{
         &__patch{
             left: 1199px;
         }
+        &__terre{
+            width: 275px;
+        }
+        &__serviette{
+            width: 275px;
+            left: 1230px;
+        }
+
     }
     .video{
         max-width: 396px;
