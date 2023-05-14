@@ -18,6 +18,8 @@ body {
     }
     &__sous{
         font-size: larger;
+        width: 276px;
+      
         &--width{
              width: 317px;
         }
@@ -173,7 +175,15 @@ p{
         width: 400px;
     }
     .title__sous--grid{
-        width: 487px;
+        width: 497px;
+        height: 16px;
+    }
+    .title__width{
+        top: -350px;
+
+        &--bis{
+            top: -20px;
+        }
     }
     p{
         width: 377px;
@@ -192,6 +202,21 @@ p{
 
         &__bis{
             width: 417px;
+        }
+    }
+    .texte__grid{
+        width: 541px;
+        height: 76px;
+
+        &--height{
+            height: 635px;
+        }
+    }
+    .texte__infusion{
+        top: -10px;
+
+        &--bis{
+            top: 28px;
         }
     }
 }
@@ -217,9 +242,10 @@ p{
         }
         &__sous--grid{
             width: 740px;
+          
         }
         &__width{
-            top: -520px;
+            top: -480px;
             width: 650px;
 
             &--bis{
@@ -258,7 +284,11 @@ p{
         width: 450px;
     }
     .texte__grid{
-        width: 500px;
+        width: 680px;
+
+        &--height{
+            height: 900px;
+        }
     }
     .texte__grid--bis{
         top: 122px;

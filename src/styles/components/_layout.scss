@@ -38,22 +38,22 @@ img{
         top: 2229px;
     }
     &__sachet{
-        top: 3580px;
-        left: 282px;
+        top: 3620px;
+        left: 322px;
         rotate: 18deg;
     }
     &__tasse{
-        top: 3415px;
+        top: 3385px;
         left: -4px;
     }
     &__patch{
-        top: 6852px;
-        left: 281px;
+        top: 6822px;
+        left: 321px;
         rotate: 44deg;
     }
     &__eclaire{
         left: -11px;
-        top: 6483px;
+        top: 6433px;
     }
 }
 .fantaisie{
@@ -513,6 +513,30 @@ img{
     img{
         max-width: 70%;
     }
+    .images{
+        min-width: 100%;
+        width: 163px;
+        
+        &__bis{
+            width: 357px;
+        }
+    }
+    .figure{
+        &__images{
+            position: absolute;
+            left: 187px;
+            width: 182px;
+    
+            &--bis{
+                top: 321px;
+            }
+    
+            &--top{
+                top: 30px;
+            }
+        }
+    }
+   
 
 }
 @media (min-width:2000px) {
@@ -600,5 +624,22 @@ img{
             width: 254px;
             margin: 70px;
             left: 150px;
+        }
+        .images__bis{
+            height: 900px;
+        }
+        .figure{
+            &__images{
+                left: 387px;
+                width: 240px;
+        
+                &--bis{
+                    top: 381px;
+                }
+        
+                &--top{
+                    top: 70px;
+                }
+            }
         }
   }
