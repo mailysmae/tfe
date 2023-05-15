@@ -34,6 +34,7 @@ img{
             left: 283px;
             top: 1193px;
         }
+        
     }
     
     &__rond{
@@ -72,7 +73,7 @@ img{
     }
     &__terre{
         left: -17px;
-        top: 5416px;
+        top: 5392px;
         rotate: 29deg;
     }
     &__serviette{
@@ -106,6 +107,9 @@ img{
         left: 95px;
         position: absolute;
         z-index: 1;
+    }
+    &__girls{
+        top: 30px;
     }
 }
 .rond{
@@ -337,7 +341,8 @@ img{
             left: 691px;
             top: -47px;
             &--eu{
-                left: -64px;
+                left: -27px;
+                width: 240px;
             }
         }
 
@@ -471,7 +476,10 @@ img{
             margin: -57px;
             left: 30px;
         }
-
+    }
+    .images{
+        margin-left: 30px;
+        width: 300px;
     }
    
 }
@@ -546,6 +554,7 @@ img{
         }
         &__terre{
             width: 275px;
+            top: -124px;
         }
         &__serviette{
             width: 275px;
@@ -635,9 +644,16 @@ img{
             &__droite{
                 left: 1840px;
                 top: -90px;
+                &--eu{
+                    left: 0;
+                    width: 360px;
+                }
             }
             &__gauche{
                 top: -90px;
+                &--euro{
+                    left: 1800px;
+                }
             }
             &__feuille{
                 right: 1807px;
@@ -646,12 +662,27 @@ img{
             &__rond{
                 left: 1800px;
                 top: 680px;
+
+                &--top{
+                    left: -62px;
+                    top: -249px;
+                }
+                &--bis{
+                    top: 260px;
+                }
             }
             &__sachet{
                 left: 1800px;
             }
             &__patch{
                 left: 1800px;
+            }
+            &__terre{
+                width: 285px;
+            }
+            &__serviette{
+                width: 285px;
+                left: 1930px;
             }
         }
         .illu{
@@ -661,6 +692,7 @@ img{
                 left: 1320px;
                 top: -85px;
             }
+        
         }
         .logo{
             top: -184px;

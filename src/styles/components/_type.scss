@@ -18,7 +18,7 @@ body {
     }
     &__sous{
         font-size: larger;
-        width: 276px;
+        width: 312px;
       
         &--width{
              width: 317px;
@@ -272,6 +272,9 @@ p{
             width: 800px;
             top: -180px;
         }
+        &__color{
+            font-size: 150px;
+        }
     }
 
     .text{
@@ -318,7 +321,7 @@ p{
         }
     }
     .largeur{
-        width: 700px;
+        width: 850px;
     }
     .section__douleur--bis{
         max-height: 400px;
