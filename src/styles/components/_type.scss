@@ -34,6 +34,10 @@ body {
         color: #C95353;
         font-size: 80px;
     }
+    &__intro{
+        width: 265px;
+        top: -61px;
+    }
 }
 .text{
     width: 351px;
@@ -45,11 +49,6 @@ body {
 }
 .texte{
     margin: 20px;
-
-    &__intro{
-        margin-top: -76px;
-        margin-left: 66px;
-    }
 }
 a{
     color: var(--color-text);
@@ -118,6 +117,10 @@ p{
         }
         &__color{
             font-size: 90px;
+            width: 400px;
+        }
+        &__intro{
+            width: 452px;
         }
     }
   
@@ -177,29 +180,53 @@ p{
 
 }
 @media (min-width: 1024px){
-    .title__protec{
-        width: max-content;
-    }
-    .text__bis{
-        width: 509px;
-    }
-    .title__bis{
-        width: 400px;
-    }
-    .title__sous--grid{
-        width: 497px;
-        height: 16px;
-    }
-    .title__width{
-        top: -350px;
+    .title{
+        font-size: 48px;
+        &__protec{
+            width: max-content;
+        }
+        &__bis,
+        &__tab{
+            width: 460px;
+        }
+        &__sous{
+            font-size: 24px;
 
-        &--bis{
-            top: -20px;
+            &--grid{
+                width: 497px;
+                height: 16px;
+            }
         }
+        
         &__color{
-            font-size: 110px;
+            font-size: 150px;
+            width: 600px;
+            top: -200px;
+        }
+        &__intro{
+            top: -10px;
+            width: 544px;
+        }
+        &__width{
+            top: 73px;
+            width: 612px;
+
+            &--bis{
+                top: -20px;
+            }
         }
     }
+    .text{
+        top: -34px;
+
+        &__bis{
+            width: 509px;
+        }
+        &__width{
+            width: 559px;
+        }
+    }
+  
     p{
         width: 377px;
     }
@@ -273,7 +300,8 @@ p{
             top: -180px;
         }
         &__color{
-            font-size: 150px;
+            font-size: 200px;
+            width: 660px;
         }
     }
 

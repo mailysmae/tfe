@@ -21,6 +21,9 @@ img{
             right: 276px;
             top: 570px;
         }
+        &--eu{
+            top: 884px;
+        }
     }
     &__gauche{
         left: 293px;
@@ -31,8 +34,8 @@ img{
             top: 980px;
         }
         &--euro{
-            left: 283px;
-            top: 1193px;
+            left: 295px;
+            top: 1459px;
         }
         
     }
@@ -42,11 +45,11 @@ img{
         top: 3000px;
         &--top{
             left: -18px;
-            top: 2268px;
+            top: 2523px;
         }
         &--bis{
             left: 270px;
-            top: 2811px;
+            top: 3066px;
         }
     }
     &__feuille{
@@ -73,13 +76,13 @@ img{
     }
     &__terre{
         left: -17px;
-        top: 5392px;
+        top: 5647px;
         rotate: 29deg;
     }
     &__serviette{
-        top: 5648px;
-        left: 281px;
-        rotate: 41deg;
+        top: 5px;
+        left: 291px;
+        rotate: 38deg;
     }
 }
 .fantaisie{
@@ -98,6 +101,12 @@ img{
         top: 455px;
         left: 59px;
         position: absolute;
+
+        &--intro{
+            top: 665px;
+            width: 296px;
+        }
+
     }
     &__bulle--bis{
         top: 81px;
@@ -107,9 +116,7 @@ img{
         left: 95px;
         position: absolute;
         z-index: 1;
-    }
-    &__girls{
-        top: 30px;
+        
     }
 }
 .rond{
@@ -495,6 +502,10 @@ img{
         &__rec{
             top: -64px;
             left: 786px;
+            &--intro{
+                left: 820px;
+                top: 20px;
+            }
         }
         &__bulle{
             top:5px
@@ -507,7 +518,7 @@ img{
             top: 0;
         }
         &__girls{
-            width: 317px;
+            width: 390px;
         }
     }
     .deco{
@@ -515,7 +526,8 @@ img{
 
         &__gauche{
             left: -27px;
-            top: -82px;
+            top: -55px;
+
             &--euro{
                 left: 1185px;
                 top: -82px;
@@ -523,7 +535,7 @@ img{
         }
         &__droite{
             left: 1200px;
-            top: -82px;
+            top: -55px;
 
             &--eu{
                 left: -26px;
@@ -537,7 +549,8 @@ img{
         }
         &__rond{
             left: 1170px;
-            top: 367px;
+            top: 445px;
+
             &--top{
                 left: -62px;
                 top: -189px;
@@ -572,6 +585,9 @@ img{
         }
         &__protec{
             background-position: 1082px;
+        }
+        &__douleur{
+            height: 568px;
         }
     }
     
@@ -619,8 +635,8 @@ img{
     .figure{
         &__images{
             position: absolute;
-            left: 187px;
             width: 182px;
+            left: 244px;
     
             &--bis{
                 top: 321px;
