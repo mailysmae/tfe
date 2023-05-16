@@ -45,11 +45,15 @@ img{
         top: 3000px;
         &--top{
             left: -18px;
-            top: 2523px;
+            top: 2255px;
         }
         &--bis{
             left: 270px;
             top: 3066px;
+        }
+        &--position{
+            left: 315px;
+            top: 2504px;
         }
     }
     &__feuille{
@@ -84,6 +88,14 @@ img{
         left: 291px;
         rotate: 404deg;
     }
+    &__position{
+        left: -3px;
+        top: 3981px;
+        &--bis{
+            left: 293px;
+            top: 4453px;
+        }
+    }
 }
 .fantaisie{
     background-image: url(../assets/images/deco/deco.svg);
@@ -91,23 +103,22 @@ img{
     background-position: -225px 199px;
     background-repeat: no-repeat;
 }
+.rectangle{
+    position: absolute;
+    bottom: 147px;
+
+    &__top{
+        bottom: -57px;
+    }
+    &__position{
+        bottom: 284px;
+    }
+}
 .illu{
     z-index: 2;
     position: relative;
     top: 0;
 
-    &__rec{
-        z-index: 1;
-        top: 455px;
-        left: 59px;
-        position: absolute;
-
-        &--intro{
-            top: 665px;
-            width: 296px;
-        }
-
-    }
     &__bulle--bis{
         top: 81px;
     }
@@ -340,7 +351,25 @@ img{
             top: 113px;
         }
     }
-    
+    .rectangle{
+        left: 364px;
+        width: 352px;
+        top: -45px;
+
+        &__position{
+            left: 409px;
+
+            &--bis{
+                top: 94px;
+                left: 450px;
+            }
+        }
+
+        &__top{
+            top: -12px;
+            left: 517px;
+        }
+    }
     .deco{
         width: 293px;
 
@@ -379,6 +408,10 @@ img{
             &--bis{
                 top: 241px;
             }
+            &--position{
+                top: -71px;
+                left: 703px;
+            }
         }
         &__tasse{
             top: -127px;
@@ -406,6 +439,13 @@ img{
             left: 692px;
             rotate: 20deg;
         }
+        &__position{
+            top: -63px;
+
+            &--bis{
+                left: 606px;
+            }
+        }
     }
     .video{
         max-width: 100%;
@@ -425,20 +465,16 @@ img{
             margin: 0;
             top: 0;
         }
-        &__rec {
-            left: 377px;
-
-            &--bis{
-                left: 449px;
-                top: 11px;
-            }
-        }
         &__protect{
             top: 3px;
         }
         &__girls{
             width: 289px;
             top: -107px;
+        }
+        &__inclu{
+            width: 264px;
+            top: 11px;
         }
 
     }
@@ -487,8 +523,13 @@ img{
     .images{
         margin-left: 30px;
         width: 300px;
+
+        &__book{
+            width: 100px;
+            margin-top: -110px;
+        }
     }
-   
+
 }
 @media (min-width: 1024px){
     .contenair{
@@ -498,15 +539,6 @@ img{
         max-width: 488px;
         width: 531px;
         top: -122px;
-
-        &__rec{
-            top: -64px;
-            left: 786px;
-            &--intro{
-                left: 820px;
-                top: 20px;
-            }
-        }
         &__bulle{
             top:5px
         }
@@ -519,6 +551,24 @@ img{
         }
         &__girls{
             width: 390px;
+        }
+        &__inclu{
+            width: 380px;
+            top: 11px;
+        }
+    }
+    .rectangle{
+        left: 780px;
+        width: 500px;
+        top: -70px;
+
+        &__position{
+            left: 725px;
+            top: 50px;
+        }
+        &__top{
+            top: 9px;
+            left: 850px;
         }
     }
     .deco{
@@ -558,6 +608,9 @@ img{
             &--bis{
                 top: 117px;
             }
+            &--position{
+                top: -68px;
+            }
         }
         &__sachet{
             left: 1176px;
@@ -572,6 +625,9 @@ img{
         &__serviette{
             width: 275px;
             left: 1230px;
+        }
+        &__position--bis{
+            left: 1100px;
         }
 
     }
@@ -625,12 +681,16 @@ img{
         max-width: 70%;
     }
     .images{
-        min-width: 100%;
         width: 163px;
         
         &__bis{
             width: 357px;
         }
+        &__book{
+            width: 226px;
+        max-width: 100%;
+        }
+        
     }
     .figure{
         &__images{
@@ -701,15 +761,7 @@ img{
                 left: 1930px;
             }
         }
-        .illu{
-            min-width: 559px;
-            
-            &__rec{
-                left: 1320px;
-                top: -85px;
-            }
-        
-        }
+
         .logo{
             top: -184px;
         }

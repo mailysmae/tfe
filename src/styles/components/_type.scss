@@ -121,6 +121,9 @@ p{
         }
         &__intro{
             width: 452px;
+            &--bis{
+                top: -91px;
+            }
         }
     }
   
@@ -206,6 +209,9 @@ p{
         &__intro{
             top: -10px;
             width: 544px;
+            &--bis{
+                top: -116px;
+            }
         }
         &__width{
             top: 73px;
@@ -217,13 +223,16 @@ p{
         }
     }
     .text{
-        top: -34px;
+        top: -57px;
 
         &__bis{
             width: 509px;
         }
         &__width{
             width: 559px;
+        }
+        &__tab{
+            top: -127px;
         }
     }
   
