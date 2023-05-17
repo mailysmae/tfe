@@ -24,6 +24,9 @@ img{
                 top: 2066px;
     
             }
+            &--top{
+                top: 2474px;
+            }
         }
 
         &--tasse{
@@ -35,6 +38,10 @@ img{
         }
         &--eclaire{
             top: 6312px;
+
+            &--position{
+                top: 4175px;
+            }
         }
         
         /*&--gummies{
@@ -55,6 +62,7 @@ img{
             &--position{
                 top: 2584px;
             }
+            
         }
 
         &--the{
@@ -66,6 +74,11 @@ img{
         }
         &--patch{
             top: 6715px;
+
+            &--position{
+                left: 293px;
+                top: 4614px;
+            }
         }
         &--position{
             top: 1161px;
@@ -657,6 +670,10 @@ img{
         &__position{
             left: 825px;
             top: 150px;
+
+            &--bis{
+                top: 322px;
+            }
         }/*
         &__top{
             top: 9px;
@@ -674,12 +691,29 @@ img{
             &--bis{
                 top: 2700px;
                 width: 300px;
+
+                &--position{
+                    top: 2648px;
+                    width: 369px;
+                }
             }
             &--the{
                 top: 3133px;
+
+                &--position{
+                    width: 259px;
+                    top: 5474px;
+                    left: 1250px;
+                }
             }
             &--patch{
                 top: 5958px;
+            }
+            &--position{
+                width: 435px;
+                top: 773px;
+                left: 1122px;
+                rotate: -10deg;
             }
             /*&--euro{
                 left: 1185px;
@@ -691,16 +725,32 @@ img{
             &--bis{
                 top: 1920px;
                 width: 300px;
+
+                &--position{
+                    top: 2180px;
+                    width: 369px;
+                }
             }
 
             &--tasse{
                 top: 3133px;
+
+                &--position{
+                    width: 259px;
+                    top: 5474px;
+                    left: 20px;
+                }
             }
 
             &--eclaire{
                 top: 5958px;
             }
 
+           &--position{
+            width: 344px;
+            top: 779px;
+            rotate: 10deg;
+           }
             /*&--eu{
                 left: -26px;
                 top: -106px;
@@ -815,9 +865,10 @@ img{
             height: 1026px;
         }
         
-        /*&__bis{
-            width: 357px;
-        }
+        &__bis{
+            max-width: 443px;
+            width: 561px;
+        }/*
         &__book{
             width: 226px;
         max-width: 100%;

@@ -183,7 +183,9 @@ p{
     .texte__width{
         width: 800px;
     }
-    
+    .texte{
+        width: 798px;
+    }
     .title{
         font-size: 48px;
         /*&__protec{
@@ -206,27 +208,26 @@ p{
                 width: 542px;
                 top: -133px;
             }
-        }/*
+        }
         
         &__color{
             font-size: 150px;
             width: 600px;
-            top: -200px;
-        }
+          
+        }/*
         &__intro{
             top: -10px;
             width: 544px;
             &--bis{
                 top: -116px;
             }
-        }
-        &__width{
-            top: 73px;
-            width: 612px;
-            &--bis{
-                top: -20px;
-            }
         }*/
+        &__width{
+            width: 531px;
+            /*&--bis{
+                top: -20px;
+            }*/
+        }
     }
     /*.text{
         top: -57px;
