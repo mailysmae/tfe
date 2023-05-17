@@ -11,36 +11,79 @@ img{
 }
 .deco{
     position: absolute;
-    width: 137px;
+    max-width: 30%;
+    left: 0;
 
     &__droite{
-        right: 301px;
-        top: 639px;
+        top: 532px;
 
-        &--gummies{
+        &--bis{
+            top: 1960px;
+
+            &--position{
+                top: 2066px;
+    
+            }
+        }
+
+        &--tasse{
+            top: 3400px;
+
+            &--position{
+                top: 5148px;
+            }
+        }
+        &--eclaire{
+            top: 6312px;
+        }
+        
+        /*&--gummies{
             right: 276px;
             top: 570px;
         }
         &--eu{
             top: 884px;
-        }
+        }*/
     }
     &__gauche{
         left: 293px;
-        top: 990px;
+        top: 915px;
 
-        &--gummies{
+        &--bis{
+            top: 2780px;
+
+            &--position{
+                top: 2584px;
+            }
+        }
+
+        &--the{
+            top: 3615px;
+
+            &--position{
+                top: 5402px;
+            }
+        }
+        &--patch{
+            top: 6715px;
+        }
+        &--position{
+            top: 1161px;
+            left: 293px;
+        }
+
+        /*&--gummies{
             left: 269px;
             top: 980px;
         }
         &--euro{
             left: 295px;
             top: 1459px;
-        }
+        }*/
         
     }
     
-    &__rond{
+    /*&__rond{
         left: 286px;
         top: 3000px;
         &--top{
@@ -95,7 +138,7 @@ img{
             left: 293px;
             top: 4453px;
         }
-    }
+    }*/
 }
 .fantaisie{
     background-image: url(../assets/images/deco/deco.svg);
@@ -105,13 +148,17 @@ img{
 }
 .rectangle{
     position: absolute;
-    bottom: 147px;
+    bottom: 332px;
 
-    &__top{
+   /* &__top{
         bottom: -57px;
-    }
+    }*/
     &__position{
-        bottom: 284px;
+        bottom: 402px;
+
+        &--bis{
+            bottom: 241px;
+        }
     }
 }
 .illu{
@@ -119,7 +166,7 @@ img{
     position: relative;
     top: 0;
 
-    &__bulle--bis{
+   /* &__bulle--bis{
         top: 81px;
     }
     &__intro{
@@ -128,7 +175,7 @@ img{
         position: absolute;
         z-index: 1;
         
-    }
+    }*/
 }
 .rond{
     position: absolute;
@@ -150,8 +197,8 @@ img{
     background-image: url(../assets/images/picto/gummies.svg);
     background-repeat: no-repeat;
     background-position: 7px;
-    width: 81px;
-    height: 206px;
+    width: 75px;
+    height: 215px;
     left: -20px;
 
     &__infusion{
@@ -207,7 +254,6 @@ img{
 }
 .logo{
     position: relative;
-    left: 12px;
     width: 400px;
 
     &__menu{
@@ -229,7 +275,7 @@ img{
 /*section*/
 .contenair{
     margin: auto;
-    max-width: 600px;
+    max-width: 450px;
 }
 .header{
     padding: 20px;
@@ -251,28 +297,30 @@ img{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     gap: 10px;
-    margin-top: 70px;
     
-    &__protec{
+    &__deco{
         background-image: url(../assets/images/deco/deco.svg);
          background-size: contain;
          background-position: 144px 614px;
          background-repeat: no-repeat;
     }
-
-    &__talk{
-        margin-top: 76px;
-    }
-    &__preca{
+    &__bleu{
         background-color: var(--color-rec);
     }
-    &__douleur{
+    &__yellow{
         background-color: var(--color-rec--2);
+
+        &--bis{
+            margin-top: 70px;
+        }
     }
-    &__top{
-        background-color: var(--color-rec--2);
+    &__height{
+        margin-top: 70px;
+    }
+    &__size{
+        gap: 20px;
     }
     
 }
@@ -287,7 +335,7 @@ img{
     z-index: 1;
     position: relative;
     gap: 20px;
-    top: 100px;
+  
 
     &__margin{
         top: 0;
@@ -307,6 +355,7 @@ img{
     padding: 14px 24px;
     border-radius: 8px;
     z-index: 2;
+    margin: 10px;
 
     &:hover{
         background-color: transparent;
@@ -320,78 +369,114 @@ img{
         top: 16px;
     }
 
-    &__blanc--bis{
+    &__blanc{
         bottom: 23px;
     }
 }
 
-@media (min-width: 768px){
+@media (min-width: 600px){
     .contenair{
         max-width: 900px;
     }
     .section{
-        position: relative;
-
-        &__intro{
-            top: 70px;
-            margin: 50px;
     
-        }
-        &__douleur{
-            padding: 30px;
-            height: 465px;
-        }
-        &__douleur--bis{
-            height: 247px;
-        }
-        &__protec{
-            background-position: 499px -10px;
-        }
-        &__height{
-            top: 113px;
-        }
-    }
-    .rectangle{
-        left: 364px;
-        width: 352px;
-        top: -45px;
-
-        &__position{
-            left: 409px;
+        &__yellow{
+            
 
             &--bis{
-                top: 94px;
-                left: 450px;
+                height: 756px;
+            }
+        }
+        &__deco{
+            background-position: 499px -10px;
+        }
+
+    }
+    .rectangle{
+        left: 438px;
+        width: 352px;
+        top: 62px;
+
+        &__position{
+            top: 118px;
+
+            &--bis{
+                top: 212px;
+                left: 438px;
+                width: 432px;
             }
         }
 
-        &__top{
+       /* &__top{
             top: -12px;
             left: 517px;
-        }
+        }*/
     }
     .deco{
-        width: 293px;
+        width: 280px;
+        left: -60px;
+        top: 440px;
 
         &__droite{
-            left: 691px;
-            top: -47px;
-            &--eu{
+            &--bis{
+                top: 1350px;
+
+                &--position{
+                    top: 1427px;
+                }
+            }
+
+            &--tasse{
+                top: 2234px;
+
+                &--position{
+                    top: 3587px;
+                }
+            }
+
+            &--eclaire{
+                top: 4399px;
+            }
+            /*&--eu{
                 left: -27px;
                 width: 240px;
-            }
+            }*/
         }
 
         &__gauche {
-            left: -79px;
-            top: -47px;
-            &--euro{
+            left: 657px;
+
+            &--bis{
+                top: 2100px;
+
+                &--position{
+                    top: 1738px;
+                }
+            }
+
+            &--the{
+                top: 2234px;
+
+                &--position{
+                    top: 3587px;
+                }
+                
+            }
+
+            &--patch{
+                top: 4399px;
+            }
+            &--position{
+                top: 540px;
+            }
+           
+           /* &--euro{
                 left: 658px;
                 top: -47px;
-            }
+            }*/
         }
 
-        &__feuille{
+        /*&__feuille{
             right: 633px;
             top: -103px;
             width: 237px;
@@ -445,22 +530,31 @@ img{
             &--bis{
                 left: 606px;
             }
-        }
+        }*/
     }
     .video{
-        max-width: 100%;
         padding: 46px;
     }
     .figure{
-        width: 400px;
-        position: absolute;
+        width: 392px;
+
+        &__position{
+            position: absolute;
+            left: 646px;
+            top: 3668px;
+
+            &--bis{
+                top: 3779px;
+            }
+        }
+        
     }
     .illu{
         max-width: 354px;
         width: 366px;
-        top: -68px;
+     
 
-        &__bulle{
+        /*&__bulle{
             padding: 0;
             margin: 0;
             top: 0;
@@ -475,32 +569,31 @@ img{
         &__inclu{
             width: 264px;
             top: 11px;
-        }
+        }*/
 
     }
-    .bouton__mauve{
-        top: 186px;
-        width: 196px;
-    }
-    .bouton__mauve--bis{
-        top: 154px;
-    }
-    .bouton__blanc--bis{
-        width: 204px;
-        top: 209px;
+    .bouton{
+        &__blanc{
+            width: 198px;
+            bottom: 0;
+        }
+        &__mauve{
+            width: 196px;
+            top: 0;
+
+            &--bis{
+                top: 154px;
+            }
+        }
+        
     }
     .tips{
-        width: 151px;
-        height: 135px;
-        left: -15px;
-        top: 117px;
+        width: 134px;
     }
     .fantaisie{
         background-position: -360px 19px;
     }
     .logo{
-        left: 0;
-        top: -121px;
 
         &__menu{
             top: 49px;
@@ -520,7 +613,7 @@ img{
             left: 30px;
         }
     }
-    .images{
+    /*.images{
         margin-left: 30px;
         width: 300px;
 
@@ -528,7 +621,7 @@ img{
             width: 100px;
             margin-top: -110px;
         }
-    }
+    }*/
 
 }
 @media (min-width: 1024px){
@@ -538,8 +631,7 @@ img{
     .illu{
         max-width: 488px;
         width: 531px;
-        top: -122px;
-        &__bulle{
+        /*&__bulle{
             top:5px
         }
         &__protect{
@@ -555,45 +647,67 @@ img{
         &__inclu{
             width: 380px;
             top: 11px;
-        }
+        }*/
     }
     .rectangle{
-        left: 780px;
+        left: 830px;
         width: 500px;
-        top: -70px;
+        top: 90px;
 
         &__position{
-            left: 725px;
-            top: 50px;
-        }
+            left: 825px;
+            top: 150px;
+        }/*
         &__top{
             top: 9px;
             left: 850px;
-        }
+        }*/
     }
     .deco{
-        width: 342px;
+        max-width: inherit;
+        width: 450px;
+        top: 600px;
 
         &__gauche{
-            left: -27px;
-            top: -55px;
+         left: 1100px; 
 
-            &--euro{
+            &--bis{
+                top: 2700px;
+                width: 300px;
+            }
+            &--the{
+                top: 3133px;
+            }
+            &--patch{
+                top: 5958px;
+            }
+            /*&--euro{
                 left: 1185px;
                 top: -82px;
-            }
+            }*/
         }
         &__droite{
-            left: 1200px;
-            top: -55px;
+         
+            &--bis{
+                top: 1920px;
+                width: 300px;
+            }
 
-            &--eu{
+            &--tasse{
+                top: 3133px;
+            }
+
+            &--eclaire{
+                top: 5958px;
+            }
+
+            /*&--eu{
                 left: -26px;
                 top: -106px;
                 width: 275px;
-            }
+            }*/
         }
-        &__feuille{
+        /*&__feuille{
             right: 1228px;
             top: -135px;
         }
@@ -628,22 +742,32 @@ img{
         }
         &__position--bis{
             left: 1100px;
-        }
+        }*/
 
+    }
+    .tips{
+        left: -20px;
+        height: 89px;
+        background-position: 150px;
+        width: 280px;
+        font-size: 24px;
     }
     .video{
         max-width: 396px;
     }
     .section{
+        padding: 50px;
 
-        &__intro{
-            top: 140px;
-        }
-        &__protec{
+        &__deco{
             background-position: 1082px;
         }
-        &__douleur{
-            height: 568px;
+
+        &__yellow{
+      
+
+            &--bis{
+                height: 750px;
+            }
         }
     }
     
@@ -653,7 +777,6 @@ img{
     .logo{
         max-width: 555px;
         width: 700px;
-        top: -179px;
 
         &__menu{
             width: 10%;
@@ -662,38 +785,55 @@ img{
     }
     .bouton{
         margin: 20px;
+        font-size: 18px;
+        padding: 20px;
 
-        &__blanc--bis{
-            left: -18px;
-            top: 220px;
-        }
+    
         &__mauve{
             left: -20px;
+            width: 300px;
+        }
+        &__blanc--bis{
+            width: 300px;
         }
 
     }
     .protection{
         height: 334px;
-        width: 254px;
+        width: 238px;
         margin: 25px;
     }
     img{
         max-width: 70%;
     }
     .images{
-        width: 163px;
+        width: 336px;
+
+        &__size{
+            width: 598px;
+            max-width: 624px;
+            height: 1026px;
+        }
         
-        &__bis{
+        /*&__bis{
             width: 357px;
         }
         &__book{
             width: 226px;
         max-width: 100%;
-        }
+        }*/
         
     }
     .figure{
-        &__images{
+        &__position{
+            top: 5051px;
+            left: 1180px;
+
+            &--bis{
+                top: 5351px;
+            }
+        }
+        /*&__images{
             position: absolute;
             width: 182px;
             left: 244px;
@@ -705,127 +845,26 @@ img{
             &--top{
                 top: 30px;
             }
-        }
+        }*/
     }
    
 
 }
-@media (min-width:2000px) {
+@media (min-width:1750px) {
         .contenair{
             max-width: 2650px;
         }
+        .rectangle{
+            left: 900px;
+        }
         .deco{
-            width: 442px;
-
-            &__droite{
-                left: 1840px;
-                top: -90px;
-                &--eu{
-                    left: 0;
-                    width: 360px;
-                }
-            }
+            width: 550px;
+            top: 500px;
             &__gauche{
-                top: -90px;
-                &--euro{
-                    left: 1800px;
-                }
-            }
-            &__feuille{
-                right: 1807px;
-                top: -180px;
-            }
-            &__rond{
-                left: 1800px;
-                top: 680px;
-
-                &--top{
-                    left: -62px;
-                    top: -249px;
-                }
-                &--bis{
-                    top: 260px;
-                }
-            }
-            &__sachet{
-                left: 1800px;
-            }
-            &__patch{
-                left: 1800px;
-            }
-            &__terre{
-                width: 285px;
-            }
-            &__serviette{
-                width: 285px;
-                left: 1930px;
+                left: 1420px;
             }
         }
-
-        .logo{
-            top: -184px;
-        }
-        .bouton{
-            font-size: 20px;
-            padding: 19px 30px;
-            margin: 30px;
-        }
-        .bouton__mauve{
-            width: 268px;
-            left: -29px;
-            top: 294px;
-        }
-        .bouton__blanc--bis{
-            width: 296px;
-            top: 332px;
-            left: -27px;
-        }
-        .bouton__mauve--bis{
-            top: 294px;
-            width: 294px;
-        }
-        .tips{
-            width: 245px;
-            height: 176px;
-            top: 179px;
-        }
-        .section__douleur{
-            height: 827px;
-        }
-        .section__protec{
-            background-position: 1438px;
-        }
-        .section__height{
-            top: 166px;
-        }
-        .fantaisie{
-            background-position: -381px;
-        }
-        .logo__menu{
-            top: 60px;
-            left: 120px;
-        }
-        .protection{
-            height: 334px;
-            width: 254px;
-            margin: 70px;
-            left: 150px;
-        }
-        .images__bis{
-            height: 900px;
-        }
-        .figure{
-            &__images{
-                left: 387px;
-                width: 240px;
-        
-                &--bis{
-                    top: 381px;
-                }
-        
-                &--top{
-                    top: 70px;
-                }
-            }
-        }
+       .section{
+            padding: 100px;
+       }
   }

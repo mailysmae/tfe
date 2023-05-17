@@ -24,7 +24,7 @@
   flex-direction: row;
   justify-content: space-around;
   gap: 11px;
-
+  
 }
 .menu__list:hover{
   color: var(--color-rec);
@@ -108,7 +108,7 @@
 .reseau__el--behance a:focus{
   background-image: url(../assets/images/picto/behance.png);
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .close{
     display: none;
   }
@@ -138,8 +138,10 @@
   &__list{
     margin: auto;
     list-style: none;
-    display: inline-block;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
   }
 }
 
@@ -163,12 +165,12 @@ body[burger-menu] .menu__button{
   color: var(--color-bg);
 }
 }
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .menu__button{
     display: none;
   }
-  .sousrubrique__tab{
-    left: 7px;
+  .sousrubrique{
+    left: 12px;
     z-index: 2;
   }
   .close{
@@ -180,8 +182,14 @@ body[burger-menu] .menu__button{
   .menu{
 
     &__list{
-      left: 140px;
+      width: 900px;
+      
+      &--bis{
+        width: 730px;
+        left: 159px;
+      }
     }
+
     &__el {
       display: flex;
       gap: 30px;
@@ -203,17 +211,21 @@ body[burger-menu] .menu__button{
     left: 686px;
     width: 776px;
     top: -30px;
+
+    &--bis{
+      top: -2px;
+    }
   }
   .menu__list--bis{
     top: 0;
   }
 
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   .menu__button{
     display: none;
   }
   .menu__list{
-    width: 1300px;
+    width: 1100px;
   }
 }
