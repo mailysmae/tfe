@@ -47,9 +47,17 @@ img{
         }
         &--plants{
             top: 1358px;
+
+            &--bis{
+                top: 1577px;
+            }
         }
         &--top{
             top: 6175px;
+
+            &--bis{
+                top: 3597px;
+            }
         }
       
     }
@@ -87,9 +95,17 @@ img{
         }
         &--plants{
             top: 2637px;
+
+            &--bis{
+                top: 2942px;
+            }
         }
         &--top{
             top: 5885px;
+
+            &--bis{
+                top: 3840px;
+            }
         }
         
     }
@@ -107,6 +123,10 @@ img{
 
     &__top{
         bottom: -549px;
+
+        &--bis{
+            bottom: -781px;
+        }
     }
     &__position{
         bottom: 402px;
@@ -134,16 +154,7 @@ img{
         left: 14px;
     }
 
-   /* &__bulle--bis{
-        top: 81px;
-    }
-    &__intro{
-        top: 333px;
-        left: 95px;
-        position: absolute;
-        z-index: 1;
-        
-    }*/
+
 }
 .rond{
     position: absolute;
@@ -451,6 +462,10 @@ img{
             left: 43px;
             width: 504px;
             top: 291px;
+
+            &--bis{
+                top: 140px;
+            }
         }
     }
     .deco{
@@ -491,6 +506,10 @@ img{
             }
             &--top{
                 top: 3678px;
+
+                &--bis{
+                    top: 2294px;
+                }
             }
         }
 
@@ -534,6 +553,10 @@ img{
             }
             &--top{
                 top: 3678px;
+
+                &--bis{
+                    top: 2294px;
+                }
             }
         
         }
@@ -595,9 +618,14 @@ img{
     }
     .tips{
         width: 134px;
+
         &__position{
             width: 94px;
             height: 204px;
+
+            &--bis{
+                width: 130px;
+            }
         }
     }
     .fantaisie{
@@ -667,6 +695,10 @@ img{
         &__top{
             left: 90px;
             top: 275px;
+
+            &--bis{
+                top: 180px;
+            }
         }
        
     }
@@ -724,6 +756,10 @@ img{
                 top: 4930px;
                 width: 300px;
                 left: 1200px;
+
+                &--bis{
+                    top: 3057px;
+                }
             }
 
         }
@@ -773,6 +809,10 @@ img{
            &--top{
             top: 4930px;
             width: 300px;
+
+                &--bis{
+                    top: 3057px;
+                }
             }
         }
 
@@ -790,6 +830,8 @@ img{
             height: 110px;
             background-position: 205px 0;
             width: 270px;
+
+            
         }
     }
     .video{
