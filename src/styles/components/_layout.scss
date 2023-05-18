@@ -18,7 +18,7 @@ img{
         top: 532px;
 
         &--bis{
-            top: 1960px;
+            top: 2059px;
 
             &--position{
                 top: 2066px;
@@ -53,11 +53,11 @@ img{
         }*/
     }
     &__gauche{
-        left: 293px;
+        left: 326px;
         top: 915px;
 
         &--bis{
-            top: 2780px;
+            top: 2877px;
 
             &--position{
                 top: 2584px;
@@ -161,7 +161,7 @@ img{
 }
 .rectangle{
     position: absolute;
-    bottom: 332px;
+    bottom: 527px;
 
    /* &__top{
         bottom: -57px;
@@ -684,13 +684,15 @@ img{
         max-width: inherit;
         width: 450px;
         top: 600px;
+        left: -40px;
 
         &__gauche{
          left: 1100px; 
 
             &--bis{
-                top: 2700px;
+                top: 2750px;
                 width: 300px;
+                left: 1200px; 
 
                 &--position{
                     top: 2648px;
@@ -723,7 +725,7 @@ img{
         &__droite{
          
             &--bis{
-                top: 1920px;
+                top: 1947px;
                 width: 300px;
 
                 &--position{
@@ -906,16 +908,101 @@ img{
             max-width: 2650px;
         }
         .rectangle{
-            left: 900px;
+            left: 1138px;
+            top: 119px;
+
+            &__position{
+                top: 214px;
+                left: 1308px;
+                &--bis{
+                    left: 1418px;
+                    top: 291px;
+                    width: 573px;
+                }
+            }
         }
         .deco{
             width: 550px;
-            top: 500px;
+            top: 648px;
             &__gauche{
-                left: 1420px;
+                left: 1741px;
+
+                &--bis{
+                    top: 3014px;
+                    &--position{
+                        top: 2790px;
+                    }
+                }
+                &--the{
+                    top: 3542px;
+
+                    &--position{
+                        width: 421px;
+                        top: 5762px;
+                        left: 1820px;
+                    }
+                }
+                &--patch{
+                    top: 6759px;
+                }
+            }
+
+            &__droite{
+
+                &--bis{
+                    top: 2125px;
+                    &--position{
+                        top: 2230px;
+                    }
+                }
+                &--tasse{
+                    top: 3542px;
+
+                    &--position{
+                        width: 421px;
+                        top:5762px;
+                    }
+                }
+                &--eclaire{
+                    top: 6759px;
+                }
+                &--position{
+                    width: 444px;
+                }
             }
         }
        .section{
             padding: 100px;
+       }
+       .tips{
+            height: 127px;
+            width: 455px;
+       }
+       .protection{
+            width: 392px;
+            height: 424px;
+       }
+       .rond{
+            width: 115px;
+            height: 115px;
+            border-radius: 126px;
+       }
+       .categorie{
+            font-size: 18px;
+            width: 46px;
+            margin: 30px;
+
+            &__reu{
+                margin-top: 46px;
+                margin-left: 5px;
+            }
+       }
+       .figure__position{
+            top: 5860px;
+            left: 1726px;
+
+            &--bis{
+                top: 6124px;
+            }
        }
   }

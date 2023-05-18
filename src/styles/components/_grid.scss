@@ -237,7 +237,7 @@
 @media (min-width: 1750px){
     .container{
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, auto);
         grid-gap: 50px;   
         max-width: 2650px; 
         
@@ -289,6 +289,23 @@
     .dgrid-start11{
         grid-column: 2 / 3 ; 
         grid-row: 1 / span 3;
+    }
+    .dgrid-start12{
+        grid-column: 2 / 3 ; 
+        grid-row: 5;
+    }
+    .dgrid-start13{
+        grid-column: 3 / 4 ; 
+        grid-row: 4;
+    }
+    .dgrid-start14{
+        grid-column: 3 / 4 ; 
+        grid-row: 5;
+    }
+    .dgrid-start15{
+        grid-column: 1 / span 4 ; 
+        grid-row: 6;
+        margin-left: 262px;
     }
    
 }
