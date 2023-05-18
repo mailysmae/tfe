@@ -8,6 +8,8 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
+
+   
 }
 .deco{
     position: absolute;
@@ -25,7 +27,7 @@ img{
     
             }
             &--top{
-                top: 2474px;
+                top: 2394px;
             }
         }
 
@@ -560,6 +562,10 @@ img{
                 top: 3779px;
             }
         }
+        &__book{
+            display: grid;
+            width: 123px;
+        }
         
     }
     .illu{
@@ -644,6 +650,10 @@ img{
     .illu{
         max-width: 488px;
         width: 531px;
+
+        &__size{
+            max-width: 331px;
+        }
         /*&__bulle{
             top:5px
         }
@@ -870,11 +880,11 @@ img{
         &__bis{
             max-width: 443px;
             width: 561px;
-        }/*
+        }
         &__book{
-            width: 226px;
-        max-width: 100%;
-        }*/
+            width: 221px;
+            max-width: 240px;
+        }
         
     }
     .figure{
