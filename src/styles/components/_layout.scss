@@ -45,14 +45,13 @@ img{
                 top: 4175px;
             }
         }
-        
-        /*&--gummies{
-            right: 276px;
-            top: 570px;
+        &--plants{
+            top: 1358px;
         }
-        &--eu{
-            top: 884px;
-        }*/
+        &--top{
+            top: 6175px;
+        }
+      
     }
     &__gauche{
         left: 326px;
@@ -86,74 +85,15 @@ img{
             top: 1161px;
             left: 293px;
         }
-
-        /*&--gummies{
-            left: 269px;
-            top: 980px;
+        &--plants{
+            top: 2637px;
         }
-        &--euro{
-            left: 295px;
-            top: 1459px;
-        }*/
+        &--top{
+            top: 5885px;
+        }
         
     }
     
-    /*&__rond{
-        left: 286px;
-        top: 3000px;
-        &--top{
-            left: -18px;
-            top: 2255px;
-        }
-        &--bis{
-            left: 270px;
-            top: 3066px;
-        }
-        &--position{
-            left: 315px;
-            top: 2504px;
-        }
-    }
-    &__feuille{
-        right: 279px;
-        top: 2229px;
-    }
-    &__sachet{
-        top: 3620px;
-        left: 322px;
-        rotate: 18deg;
-    }
-    &__tasse{
-        top: 3385px;
-        left: -4px;
-    }
-    &__patch{
-        top: 6822px;
-        left: 321px;
-        rotate: 44deg;
-    }
-    &__eclaire{
-        left: -11px;
-        top: 6433px;
-    }
-    &__terre{
-        left: -17px;
-        top: 5647px;
-        rotate: 29deg;
-    }
-    &__serviette{
-        top: 5875px;
-        left: 291px;
-        rotate: 404deg;
-    }
-    &__position{
-        left: -3px;
-        top: 3981px;
-        &--bis{
-            left: 293px;
-            top: 4453px;
-        }
-    }*/
 }
 .fantaisie{
     background-image: url(../assets/images/deco/deco.svg);
@@ -165,9 +105,9 @@ img{
     position: absolute;
     bottom: 527px;
 
-   /* &__top{
-        bottom: -57px;
-    }*/
+    &__top{
+        bottom: -549px;
+    }
     &__position{
         bottom: 402px;
 
@@ -180,6 +120,19 @@ img{
     z-index: 2;
     position: relative;
     top: 0;
+
+    &__bulle{
+        top: 296px;
+
+        &--bis{
+            top: 295px;
+        }
+    }
+
+    &__size{
+        margin: 79px;
+        left: 14px;
+    }
 
    /* &__bulle--bis{
         top: 81px;
@@ -206,6 +159,15 @@ img{
         background: var(--color-rond);
     }
 }
+.bulle{
+    position: relative;
+    width: 350px;
+    height: 303px;
+    border-radius: 179px/157px;
+    border: 2px solid var(--color-border);
+    margin: 100px;
+}
+
 .tips{
     position: relative;
     display: inline-flex;
@@ -216,6 +178,11 @@ img{
     height: 215px;
     left: -20px;
 
+    &__position{
+        width: 98px;
+        height: 247px;
+    }
+
     &__infusion{
         background-image: url(../assets/images/picto/infusion.svg);
     }
@@ -224,6 +191,61 @@ img{
     }
     &__bouillotte{
         background-image: url(../assets/images/picto/bouillotte.svg);
+    }
+    &__time{
+        background-image: url(../assets/images/picto/horloge.svg);
+    }
+    &__eco{
+        background-image: url(../assets/images/picto/euro.svg);
+    }
+    &__fuite{
+        background-image: url(../assets/images/picto/goutte.svg);
+    }
+    &__odeur{
+        background-image: url(../assets/images/picto/odeur.svg);
+    }
+    &__ecolo{
+        background-image: url(../assets/images/picto/ecologique.svg);
+    }
+    &__easy{
+        background-image: url(../assets/images/picto/easy.svg);
+    }
+}
+.picto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 182px;
+    height: 677px;
+    &__tampon{
+        background-image: url(../assets/images/protections/tampon.svg);
+    }
+    &__cup{
+        background-image: url(../assets/images/protections/cup.svg);
+    }
+    &__eponge{
+        background-image: url(../assets/images/protections/eponge.svg);
+    }
+    &__culotte{
+        background-image: url(../assets/images/protections/culotte.svg);
+    } 
+    &__slip{
+        background-image: url(../assets/images/protections/slip.svg);
+    } 
+    &__reu{
+        background-image: url(../assets/images/protections/reu.svg);
+    } 
+    &__maillot{
+        background-image: url(../assets/images/protections/maillot.svg);
+    } 
+    &__serviette{
+        background-image: url(../assets/images/protections/serviette.svg);
     }
 }
 .protection{
@@ -406,6 +428,9 @@ img{
         &__deco{
             background-position: 499px -10px;
         }
+        &__height--bis{
+            margin-top: 165px;
+        }
 
     }
     .rectangle{
@@ -422,11 +447,11 @@ img{
                 width: 432px;
             }
         }
-
-       /* &__top{
-            top: -12px;
-            left: 517px;
-        }*/
+        &__top{
+            left: 43px;
+            width: 504px;
+            top: 291px;
+        }
     }
     .deco{
         width: 280px;
@@ -460,10 +485,13 @@ img{
                     top: 2500px;
                 }
             }
-            /*&--eu{
-                left: -27px;
-                width: 240px;
-            }*/
+            &--plants{
+                top: 1640px;
+                width: 158px;
+            }
+            &--top{
+                top: 3678px;
+            }
         }
 
         &__gauche {
@@ -481,7 +509,6 @@ img{
                 }
                 
             }
-
             &--the{
                 top: 2234px;
 
@@ -490,7 +517,6 @@ img{
                 }
                 
             }
-
             &--patch{
                 top: 4399px;
 
@@ -501,68 +527,16 @@ img{
             &--position{
                 top: 540px;
             }
-           
-           /* &--euro{
-                left: 658px;
-                top: -47px;
-            }*/
-        }
-
-        /*&__feuille{
-            right: 633px;
-            top: -103px;
-            width: 237px;
-        }
-
-        &__rond{
-            width: 237px;
-            left: 626px;
-            top: 399px;
+            &--plants{
+                top: 1024px;
+                width: 158px;
+                left: 742px;
+            }
             &--top{
-                left: -58px;
-                top: -132px;
+                top: 3678px;
             }
-            &--bis{
-                top: 241px;
-            }
-            &--position{
-                top: -71px;
-                left: 703px;
-            }
+        
         }
-        &__tasse{
-            top: -127px;
-        }
-        &__sachet{
-            top: -127px;
-            left: 625px;
-        }
-        &__eclaire{
-            top: -68px;
-            left: -77px;
-        }
-        &__patch{
-            top: -68px;
-            rotate: -8deg;
-            left: 662px;
-        }
-        &__terre{
-            width: 210px;
-            top: -79px;
-        }
-        &__serviette{
-            width: 224px;
-            top: -58px;
-            left: 692px;
-            rotate: 20deg;
-        }
-        &__position{
-            top: -63px;
-
-            &--bis{
-                left: 606px;
-            }
-        }*/
     }
     .video{
         padding: 46px;
@@ -594,23 +568,14 @@ img{
         max-width: 354px;
         width: 366px;
      
+       &__bulle{
+        width: 114px;
 
-        /*&__bulle{
-            padding: 0;
-            margin: 0;
-            top: 0;
+        &--bis{
+            top: 284px;
+            left: -25px;
         }
-        &__protect{
-            top: 3px;
-        }
-        &__girls{
-            width: 289px;
-            top: -107px;
-        }
-        &__inclu{
-            width: 264px;
-            top: 11px;
-        }*/
+       }
 
     }
     .bouton{
@@ -630,6 +595,10 @@ img{
     }
     .tips{
         width: 134px;
+        &__position{
+            width: 94px;
+            height: 204px;
+        }
     }
     .fantaisie{
         background-position: -360px 19px;
@@ -654,15 +623,14 @@ img{
             left: 30px;
         }
     }
-    /*.images{
-        margin-left: 30px;
-        width: 300px;
-
-        &__book{
-            width: 100px;
-            margin-top: -110px;
-        }
-    }*/
+   .bulle{
+    margin: 0;
+   }
+   .picto{
+    flex-direction: row;
+    width: 923px;
+    height: 196px;
+   }
 
 }
 @media (min-width: 1024px){
@@ -676,23 +644,12 @@ img{
         &__size{
             max-width: 331px;
         }
-        /*&__bulle{
-            top:5px
+
+        &__bulle{
+            top: 460px;
+            width: 210px;
         }
-        &__protect{
-            top: 0;
-        }
-        &__intro{
-            left: 704px;
-            top: 0;
-        }
-        &__girls{
-            width: 390px;
-        }
-        &__inclu{
-            width: 380px;
-            top: 11px;
-        }*/
+    
     }
     .rectangle{
         left: 830px;
@@ -706,11 +663,12 @@ img{
             &--bis{
                 top: 322px;
             }
-        }/*
+        }
         &__top{
-            top: 9px;
-            left: 850px;
-        }*/
+            left: 90px;
+            top: 275px;
+        }
+       
     }
     .deco{
         max-width: inherit;
@@ -757,10 +715,17 @@ img{
                 left: 1122px;
                 rotate: -10deg;
             }
-            /*&--euro{
-                left: 1185px;
-                top: -82px;
-            }*/
+            &--plants{
+                top: 1071px;
+                width: 240px;
+                left: 1280px;
+            }
+            &--top{
+                top: 4930px;
+                width: 300px;
+                left: 1200px;
+            }
+
         }
         &__droite{
          
@@ -800,48 +765,17 @@ img{
             top: 779px;
             rotate: 10deg;
            }
-            /*&--eu{
-                left: -26px;
-                top: -106px;
-                width: 275px;
-            }*/
+           
+           &--plants{
+            top: 1971px;
+            width: 240px;
+           }
+           &--top{
+            top: 4930px;
+            width: 300px;
+            }
         }
-        /*&__feuille{
-            right: 1228px;
-            top: -135px;
-        }
-        &__rond{
-            left: 1170px;
-            top: 445px;
 
-            &--top{
-                left: -62px;
-                top: -189px;
-            }
-            &--bis{
-                top: 117px;
-            }
-            &--position{
-                top: -68px;
-            }
-        }
-        &__sachet{
-            left: 1176px;
-        }
-        &__patch{
-            left: 1199px;
-        }
-        &__terre{
-            width: 275px;
-            top: -124px;
-        }
-        &__serviette{
-            width: 275px;
-            left: 1230px;
-        }
-        &__position--bis{
-            left: 1100px;
-        }*/
 
     }
     .tips{
@@ -850,6 +784,13 @@ img{
         background-position: 150px;
         width: 280px;
         font-size: 24px;
+
+        &__position{
+            left: -40px;
+            height: 110px;
+            background-position: 205px 0;
+            width: 270px;
+        }
     }
     .video{
         max-width: 396px;
@@ -872,6 +813,9 @@ img{
             &--bis{
                 height: 750px;
             }
+        }
+        &__height--bis{
+            margin-top: 378px
         }
     }
     
@@ -938,19 +882,12 @@ img{
                 top: 5351px;
             }
         }
-        /*&__images{
-            position: absolute;
-            width: 182px;
-            left: 244px;
-    
-            &--bis{
-                top: 321px;
-            }
-    
-            &--top{
-                top: 30px;
-            }
-        }*/
+      
+    }
+    .bulle{
+        width: 561px;
+        height: 450px;
+        border-radius: 281px / 221px;
     }
    
 

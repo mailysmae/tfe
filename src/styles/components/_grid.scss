@@ -4,14 +4,6 @@
         grid-template-columns: repeat(4, auto);
         grid-gap: 20px;   
         max-width: 900px;
-
-        /*&__gap{
-            grid-gap: 55px;
-
-            &--bis{
-                grid-row-gap: 124px;
-            }
-        }*/
     
     } 
     .tgrid-start1{
@@ -22,7 +14,7 @@
         grid-column: 2 / 3 ; 
         grid-row: 2;
         &--position{
-            align-self: self-end;
+            align-self: end;
             margin-top: 106px;
             &--bis{
                 align-self: start;
@@ -48,6 +40,9 @@
             align-self: flex-end;
             margin-top: 89px;
         }
+        &--top{
+            margin-top: 269px;
+        }
     }
     .tgrid-start5{
         grid-column: 3 / 4 ; 
@@ -68,6 +63,9 @@
         &--position{
             align-self: end;
         }
+        &--top{
+            align-self: start;
+        }
     
     }
     .tgrid-start9{
@@ -76,6 +74,21 @@
 
         &--position{
             align-self: end;
+
+            &--bis{
+                margin-top: 316px;
+            }
+        }
+        &--bis{
+            align-self: start;
+        }
+        &--top{
+            margin-top: 203px;
+
+            &--bis{
+                align-self: end;
+                margin-top: 419px;
+            }
         }
 
     }
@@ -86,14 +99,36 @@
     .tgrid-start11{
         grid-column: 3 / 4; 
         grid-row: 4;
+
+        &--bis{
+            align-self: start;
+        }
     }
     .tgrid-start12{
         grid-column: 2 / 3; 
         grid-row: 5;
+
+        &--position{
+            align-self: start;
+            
+        }
+        &--bis{
+            margin-top: 62px;
+        }
+        &--top{
+            margin-top: 359px;
+        }
     }
     .tgrid-start13{
         grid-column: 3 / 4; 
         grid-row: 5;
+
+        &--bis{
+            align-self: start;
+        }
+        &--position{
+            align-self: end;
+        }
     }
     .tgrid-start14{
         grid-column: 2 / span 3 ; 
@@ -103,30 +138,14 @@
         grid-column: 3 / 4; 
         grid-row: 1 / span 4;
     }
-    .tgrid-start14{
+    .tgrid-start16{
         grid-column: 4 / 5 ; 
         grid-row: 1;
     }
-    .tgrid-start15{
+    .tgrid-start17{
         grid-column: 4 / 5 ;
         grid-row: 2 ;
-    }/*
-    .tgrid-start16{
-        grid-column: 4 / 5;
-        grid-row: 1;
     }
-    .tgrid-start17{
-        grid-column: 4 / 5;
-        grid-row: 3;
-    }
-    .tgrid-start18{
-        grid-column: 5 / 6;
-        grid-row: 1;
-    }
-    .tgrid-start19{
-        grid-column: 5 / 6;
-        grid-row: 3;
-    }*/
 
 }
 @media (min-width: 1024px){
@@ -136,9 +155,6 @@
         grid-gap: 60px;   
         max-width: 1500px;    
 
-        /*&__gap--bis{
-            grid-gap: 67px;
-        }*/
     } 
     .dgrid-start1{
         grid-column: 2 / 3;
@@ -174,6 +190,9 @@
         &--position{
             margin-top: -86px;
         }
+        &--top{
+            margin-top: 347px;
+        }
     }
     .dgrid-start5{
         grid-column: 3 / 4;
@@ -205,6 +224,13 @@
 
         &--position{
             margin-top: 129px;
+
+            &--bis{
+               margin-top: 402px;
+            }
+        }
+        &--top{
+            margin-top: 509px;
         }
     }
     .dgrid-start11{
@@ -214,6 +240,13 @@
     .dgrid-start12{
         grid-column: 2 / 3 ; 
         grid-row: 5;
+        
+        &--top{
+            margin-top: 468px;
+        }
+        &--bis{
+            margin-top: 92px;
+        }
     }
     .dgrid-start13{
         grid-column: 3 / 4 ; 
@@ -227,16 +260,16 @@
         grid-column: 1 / span 4 ; 
         grid-row: 6;
         margin-left: 180px;
+        &--width{
+            max-width: 100%;
+            width: 1007px;
+        }
     }
     .dgrid-start16{
         grid-column: 2 / 4; 
         grid-row: 2;
         align-self: center;
-    }/*
-    .dgrid-start17{
-        grid-column: 4 / 5; 
-        grid-row: 4;
-    }*/
+    }
 }
 @media (min-width: 1750px){
     .container{
@@ -244,10 +277,6 @@
         grid-template-columns: repeat(4, auto);
         grid-gap: 50px;   
         max-width: 2650px; 
-        
-       /* &__gap--bis{
-            grid-row-gap: 200px;
-        }*/
    
     } 
     .dgrid-start1{

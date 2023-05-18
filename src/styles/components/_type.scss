@@ -44,7 +44,16 @@ body {
     width: 351px;
 
 }
+.text{
+    position: absolute;
+    top: 45px;
+    left: 38px;
+    width: 287px;
 
+    &__position{
+        top: 98px;
+    }
+}
 a{
     color: var(--color-text);
     list-style: none;
@@ -127,52 +136,8 @@ p{
     .texte{
         width: 544px;
         
-
-       /* &__position{
-            top: -52px;
-            width: 321px;
-
-            &--bis{
-                top: 4px;
-            }
-        }
-        &__grid{
-            width: 421px;
-
-            &--bis{
-                top: 69px;
-            }
-        }
-        &__huile{
-            top: -98px;
-
-            &--bis{
-                top: -16px;
-            }
-        }
-        &__infusion{
-            top: -32px;
-
-            &--bis{
-                top: 47px;
-            }
-        }*/
     
     }
-    /*.text{
-        top: -68px;
-
-        &__tab{
-            top: -137px;
-         }
-         &__width{
-             width: 526px;
-             &--bis{
-                top: -16px;
-             }
-         }
-    }
-   */
     .largeur{
         width: 456px;
     }
@@ -188,13 +153,7 @@ p{
     }
     .title{
         font-size: 48px;
-        /*&__protec{
-            width: max-content;
-        }
-        &__bis,
-        &__tab{
-            width: 460px;
-        }*/
+    
         &__sous{
             font-size: 32px;
             width: max-content;
@@ -214,70 +173,33 @@ p{
             font-size: 150px;
             width: 600px;
           
-        }/*
-        &__intro{
-            top: -10px;
-            width: 544px;
-            &--bis{
-                top: -116px;
-            }
-        }*/
+        }
         &__width{
             width: 573px;
-            /*&--bis{
-                top: -20px;
-            }*/
+           
         }
     }
-    /*.text{
-        top: -57px;
-
-        &__bis{
-            width: 509px;
-        }
-        &__width{
-            width: 559px;
-        }
-        &__tab{
-            top: -127px;
-        }
-    }
-  */
+    
     p{
         width: 549px;
         font-size: 24px;
-    }/*
-    .categorie{
-        font-size: 12px;
-        margin: 16px;
-
-        &__reu{
-            margin-top: 27px;
-            margin-left: 3px;
-        }
-    }*/
+    }
     .largeur{
         width: 666px;
 
         
     }
     
-    /*
-    .texte__grid{
-        width: 541px;
-        height: 76px;
+   .text{
+        top: 58px;
+        left: 75px;
+        width: 434px;
 
-        &--height{
-            height: 635px;
+        &__position{
+            top: 147px;
         }
-    }
-    .texte__infusion{
-        top: -10px;
-
-        &--bis{
-            top: 28px;
-        }
-    }*/
+   }
+    
 }
 @media (min-width: 1750px) {
     
