@@ -285,6 +285,7 @@ img{
     padding: 50px;
     border-radius: 55px;
     z-index: 1;
+    border: none;
 }
 
 /*section*/
@@ -439,6 +440,9 @@ img{
                 &--position{
                     top: 1427px;
                 }
+                &--top{
+                    top: 1638px;
+                }
             }
 
             &--tasse{
@@ -451,6 +455,10 @@ img{
 
             &--eclaire{
                 top: 4399px;
+
+                &--position{
+                    top: 2500px;
+                }
             }
             /*&--eu{
                 left: -27px;
@@ -466,7 +474,12 @@ img{
 
                 &--position{
                     top: 1738px;
+
+                    &__top{
+                        top: 1632px;
+                    }
                 }
+                
             }
 
             &--the{
@@ -480,6 +493,10 @@ img{
 
             &--patch{
                 top: 4399px;
+
+                &--position{
+                    top: 3100px;
+                }
             }
             &--position{
                 top: 540px;
@@ -549,6 +566,11 @@ img{
     }
     .video{
         padding: 46px;
+
+        &__youtube{
+            width: 476px;
+            height: 298px;
+        }
     }
     .figure{
         width: 392px;
@@ -707,7 +729,11 @@ img{
                 &--position{
                     top: 2648px;
                     width: 369px;
+                    &__top{
+                        top: 2093px;
+                    }
                 }
+                
             }
             &--the{
                 top: 3133px;
@@ -720,6 +746,10 @@ img{
             }
             &--patch{
                 top: 5958px;
+
+                &--position{
+                    top: 4177px;
+                }
             }
             &--position{
                 width: 435px;
@@ -742,6 +772,9 @@ img{
                     top: 2180px;
                     width: 369px;
                 }
+                &--top{
+                    top: 2053px;
+                }
             }
 
             &--tasse{
@@ -756,6 +789,10 @@ img{
 
             &--eclaire{
                 top: 5958px;
+
+                &--position{
+                    top: 4177px;
+                }
             }
 
            &--position{
@@ -816,6 +853,11 @@ img{
     }
     .video{
         max-width: 396px;
+
+        &__youtube{
+            max-width: 600px;
+            height: 280px;
+        }
     }
     .section{
         padding: 50px;
@@ -882,8 +924,8 @@ img{
             width: 561px;
         }
         &__book{
-            width: 221px;
-            max-width: 240px;
+            width: 308px;
+            max-width: 377px;
         }
         
     }

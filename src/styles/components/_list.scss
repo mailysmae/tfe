@@ -210,15 +210,13 @@ body[burger-menu] .menu__button{
   .menu__list {
     left: 686px;
     width: 776px;
-    top: -30px;
+    top: 0;
 
     &--bis{
-      top: -2px;
+      top: -20px;
     }
   }
-  .menu__list--bis{
-    top: 0;
-  }
+  
 
 }
 @media (min-width: 1750px) {
