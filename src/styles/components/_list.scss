@@ -26,14 +26,24 @@
   gap: 11px;
   
 }
-.menu__list:hover{
-  color: var(--color-rec);
+.menu__list a:hover{
+  color: var(--color-btn);
 }
-
+.menu__el a:hover{
+  color: var(--color-bg);
+}
+.menu__list a:focus{ 
+  color: var(--color-btn);
+}
+.menu__link--actif{
+  border-bottom: 2px solid var(--color-btn);
+  top: 20px;
+}
 .menu__el{
   margin: 0;
   padding: 0;
   list-style: none;
+
 }
 .sousrubrique{
   display: flex; 
@@ -114,6 +124,7 @@
   }
 .menu{
   display: none;
+  
 
   &__button{
     position: fixed;

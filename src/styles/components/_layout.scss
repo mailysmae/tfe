@@ -11,6 +11,9 @@ img{
 
    
 }
+.size{
+    max-width: 100%;
+}
 .deco{
     position: absolute;
     max-width: 30%;
@@ -224,40 +227,13 @@ img{
 }
 .picto{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
-    
-    background-repeat: no-repeat;
-    background-position: center;
-
-    width: 182px;
-    height: 677px;
-    &__tampon{
-        background-image: url(../assets/images/protections/tampon.svg);
-    }
-    &__cup{
-        background-image: url(../assets/images/protections/cup.svg);
-    }
-    &__eponge{
-        background-image: url(../assets/images/protections/eponge.svg);
-    }
-    &__culotte{
-        background-image: url(../assets/images/protections/culotte.svg);
-    } 
-    &__slip{
-        background-image: url(../assets/images/protections/slip.svg);
-    } 
-    &__reu{
-        background-image: url(../assets/images/protections/reu.svg);
-    } 
-    &__maillot{
-        background-image: url(../assets/images/protections/maillot.svg);
-    } 
-    &__serviette{
-        background-image: url(../assets/images/protections/serviette.svg);
-    }
+    width: 398px;
+    height: 101px;
+   
 }
 .protection{
     position: relative;
@@ -603,15 +579,20 @@ img{
     }
     .bouton{
         &__blanc{
-            width: 198px;
+            width: 108px;
             bottom: 0;
+
+            &--bis{
+                width: 168px;
+            }
         }
         &__mauve{
-            width: 196px;
+            width: 158px;
             top: 0;
 
             &--bis{
-                top: 154px;
+                width: 174px;
+               
             }
         }
         
@@ -652,14 +633,21 @@ img{
         }
     }
    .bulle{
-    margin: 0;
+        margin: 0;
    }
    .picto{
-    flex-direction: row;
-    width: 923px;
-    height: 196px;
+        width: 654px;
+        height: 127px;
+        gap: 71px;
    }
+   .size{
+        max-width: 100%;
+        width: 300px;
 
+        &__bis{
+            width: 78px;
+        }
+    }
 }
 @media (min-width: 1024px){
     .contenair{
@@ -878,14 +866,21 @@ img{
         font-size: 18px;
         padding: 20px;
 
-    
+        &__blanc{
+            width: 123px;
+            
+            &--bis{
+                width: 196px;
+            }
+        }
         &__mauve{
-            left: -20px;
-            width: 300px;
+            width: 185px;
+
+            &--bis{
+                width: 196px;
+            }
         }
-        &__blanc--bis{
-            width: 300px;
-        }
+        
 
     }
     .protection{
@@ -931,7 +926,11 @@ img{
         height: 450px;
         border-radius: 281px / 221px;
     }
-   
+    .picto{
+        width: 1166px;
+        height: 127px;
+        gap: 197px;
+    }
 
 }
 @media (min-width:1750px) {
