@@ -58,6 +58,9 @@ img{
             &--bis{
                 top: 1577px;
             }
+            &--position{
+                top: 1958px;
+            }
         }
         &--top{
             top: 5595px;
@@ -150,6 +153,9 @@ img{
             bottom: 126px;
         }
     }
+    &__bis{
+        top: 1721px;
+    }
 }
 .illu{
     z-index: 2;
@@ -207,6 +213,7 @@ img{
     &__position{
         width: 98px;
         height: 247px;
+        
     }
 
     &__infusion{
@@ -318,13 +325,13 @@ img{
     padding: 20px;
     margin: 0;
     position: fixed;
-    background-color: var(--color-bg);
     z-index: 4;
     width: 100%;
 
     &__width{
         left: -12px;
         top: 0;
+        background-color: var(--color-bg);
     }
 
     
@@ -454,6 +461,11 @@ img{
             &--bis{
                 top: 140px;
             }
+        }
+        &__bis{
+            left: 40px;
+            width: 392px;
+            top: 253px;
         }
     }
     .deco{
@@ -653,11 +665,12 @@ img{
     .header{
         padding: 20px;
         top: -4px;
-
+        background-color: var(--color-bg);
         &__width{
             margin: -57px;
             left: 30px;
         }
+        
     }
    .bulle{
         margin: 0;
@@ -714,6 +727,11 @@ img{
             &--bis{
                 top: 180px;
             }
+        }
+        &__bis{
+            left: 116px;
+            width: 528px;
+            top: 205px;
         }
        
     }
