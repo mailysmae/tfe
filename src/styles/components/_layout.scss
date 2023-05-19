@@ -155,6 +155,9 @@ img{
     }
     &__bis{
         top: 1721px;
+        &--top{
+            top: 1467px;
+        }
     }
 }
 .illu{
@@ -242,6 +245,39 @@ img{
     }
     &__easy{
         background-image: url(../assets/images/picto/easy.svg);
+    }
+    &__vagina{
+        background-image: url(../assets/images/picto/vagin.svg);
+    }
+    &__oeil{
+        background-image: url(../assets/images/picto/oeil.svg);
+    }
+    &__flux{
+        background-image: url(../assets/images/picto/abondant.svg);
+    }
+    &__pousse{
+        background-image: url(../assets/images/picto/poussepousse.svg);
+    }
+    &__noeasy{
+        background-image: url(../assets/images/picto/main.svg);
+    }
+    &__nosee{
+        background-image: url(../assets/images/picto/pasdiscret.svg);
+    }
+    &__chimique{
+        background-image: url(../assets/images/picto/atome.svg);
+    }
+    &__noworld{
+        background-image: url(../assets/images/picto/noworld.svg);
+    }
+    &__parfum{
+        background-image: url(../assets/images/picto/parfum.svg);
+    }
+    &__sport{
+        background-image: url(../assets/images/picto/sport.svg);
+    }
+    &__world{
+        background-image: url(../assets/images/picto/world.svg);
     }
 }
 .picto{
