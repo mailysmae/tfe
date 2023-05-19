@@ -27,6 +27,7 @@ body {
         font-size: 80px;
         margin: 0;
     }
+    
 }
 .texte{
     width: 351px;
@@ -84,7 +85,9 @@ p{
             &--top{
                 top: -111px;
             }
-            
+            &--ui{
+                top: 1px
+            }
         }
         &__width{
             width: 396px;
@@ -129,6 +132,10 @@ p{
             &--width{
                 width: 542px;
                 top: -133px;
+            }
+            
+            &--ui{
+                top: 3px;
             }
         }
         

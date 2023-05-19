@@ -279,6 +279,21 @@ img{
     &__world{
         background-image: url(../assets/images/picto/world.svg);
     }
+    &__pool{
+        background-image: url(../assets/images/picto/pool.svg);
+    }
+    &__love{
+        background-image: url(../assets/images/picto/love.svg);
+    }
+    &__eau{
+        background-image: url(../assets/images/picto/robinet.svg);
+    }
+    &__infection{
+        background-image: url(../assets/images/picto/infection.svg);
+    }
+    &__jacuzzi{
+        background-image: url(../assets/images/picto/jacuzzi.svg);
+    }
 }
 .picto{
     display: flex;
@@ -452,6 +467,10 @@ img{
     &__blanc{
         bottom: 23px;
     }
+    &__hover{
+        border: 2px solid var(--color-btn);
+    }
+
 }
 
 @media (min-width: 600px){
