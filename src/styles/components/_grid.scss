@@ -282,7 +282,7 @@
     .container{
         display: grid;
         grid-template-columns: repeat(4, auto);
-        grid-gap: 50px;   
+        grid-gap: 150px;   
         max-width: 2650px; 
    
     } 
@@ -346,6 +346,10 @@
         grid-column: 1 / span 4 ; 
         grid-row: 6;
         margin-left: 262px;
+        
+        &--width{
+            width: 1560px;
+        }
     }
    
 }

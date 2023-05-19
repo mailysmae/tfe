@@ -27,25 +27,29 @@ img{
 
             &--position{
                 top: 2066px;
+                &--top{
+                    top: 2394px;
+                }
     
             }
             &--top{
-                top: 2394px;
+                top: 2150px;
             }
+            
         }
 
         &--tasse{
-            top: 3400px;
-
+            top: 3518px;
+        
             &--position{
-                top: 5148px;
+                top: 5077px;
             }
         }
         &--eclaire{
-            top: 6312px;
+            top: 6507px;
 
             &--position{
-                top: 4175px;
+                top: 3865px;
             }
         }
         &--plants{
@@ -56,11 +60,14 @@ img{
             }
         }
         &--top{
-            top: 6175px;
+            top: 5595px;
 
             &--bis{
                 top: 3597px;
             }
+        }
+        &--music{
+            top: 671px;
         }
       
     }
@@ -69,27 +76,29 @@ img{
         top: 915px;
 
         &--bis{
-            top: 2877px;
+            top: 3088px;
 
             &--position{
-                top: 2584px;
+                top: 2483px;
+            }
+            &--top{
+                top: 2545px;
             }
             
         }
 
         &--the{
-            top: 3615px;
+            top: 3697px;
 
             &--position{
                 top: 5402px;
             }
         }
         &--patch{
-            top: 6715px;
+            top: 6914px;
 
             &--position{
-                left: 293px;
-                top: 4614px;
+                top: 4267px;
             }
         }
         &--position{
@@ -110,6 +119,9 @@ img{
                 top: 3840px;
             }
         }
+        &--music{
+            top: 1223px;
+        }
         
     }
     
@@ -122,7 +134,7 @@ img{
 }
 .rectangle{
     position: absolute;
-    bottom: 527px;
+    bottom: 215px;
 
     &__top{
         bottom: -549px;
@@ -132,10 +144,10 @@ img{
         }
     }
     &__position{
-        bottom: 402px;
+        bottom: 255px;
 
         &--bis{
-            bottom: 241px;
+            bottom: 126px;
         }
     }
 }
@@ -455,10 +467,12 @@ img{
 
                 &--position{
                     top: 1427px;
+
+                    &--top{
+                        top: 1638px;
+                    }
                 }
-                &--top{
-                    top: 1638px;
-                }
+               
             }
 
             &--tasse{
@@ -487,6 +501,9 @@ img{
                     top: 2294px;
                 }
             }
+            &--music{
+                top: 812px;
+            }
         }
 
         &__gauche {
@@ -502,7 +519,9 @@ img{
                         top: 1632px;
                     }
                 }
-                
+                &--top{
+                    top: 1872px;
+                }
             }
             &--the{
                 top: 2234px;
@@ -534,7 +553,9 @@ img{
                     top: 2294px;
                 }
             }
-        
+            &--music{
+                top: 812px;
+            }
         }
     }
     .video{
@@ -711,7 +732,9 @@ img{
                         top: 2093px;
                     }
                 }
-                
+                &--top{
+                    top: 2632px;
+                }
             }
             &--the{
                 top: 3133px;
@@ -726,7 +749,7 @@ img{
                 top: 5958px;
 
                 &--position{
-                    top: 4177px;
+                    top: 4359px;
                 }
             }
             &--position{
@@ -749,7 +772,9 @@ img{
                     top: 3057px;
                 }
             }
-
+            &--music{
+                top: 1026px;
+            }
         }
         &__droite{
          
@@ -780,7 +805,7 @@ img{
                 top: 5958px;
 
                 &--position{
-                    top: 4177px;
+                    top: 4359px;
                 }
             }
 
@@ -799,8 +824,12 @@ img{
             width: 300px;
 
                 &--bis{
-                    top: 3057px;
+                    top: 3005px;
+                    width: 300px;
                 }
+            }
+            &--music{
+                top: 661px;
             }
         }
 
@@ -809,15 +838,15 @@ img{
     .tips{
         left: -20px;
         height: 89px;
-        background-position: 150px;
-        width: 280px;
+        background-position: 207px;
+        width: 296px;
         font-size: 24px;
 
         &__position{
             left: -40px;
             height: 110px;
-            background-position: 205px 0;
-            width: 270px;
+            background-position: 240px 0;
+            width: 280px;
 
             
         }
@@ -938,7 +967,7 @@ img{
             max-width: 2650px;
         }
         .rectangle{
-            left: 1138px;
+            left: 1328px;
             top: 119px;
 
             &__position{
@@ -950,63 +979,142 @@ img{
                     width: 573px;
                 }
             }
+            &__top{
+                left: 233px;
+                top: 400px;
+
+                &--bis{
+                    top: 320px;
+                }
+            }
         }
         .deco{
             width: 550px;
             top: 648px;
             &__gauche{
                 left: 1741px;
+                top: 761px;
 
                 &--bis{
-                    top: 3014px;
+                    top: 3580px;
                     &--position{
                         top: 2790px;
+
+                        &--top{
+                            top: 2469px;
+                        }
                     }
+                   &--top{
+                    top: 2950px;
+                   }
                 }
                 &--the{
-                    top: 3542px;
+                    top: 4072px;
 
                     &--position{
                         width: 421px;
-                        top: 5762px;
+                        top: 6112px;
                         left: 1820px;
                     }
                 }
                 &--patch{
-                    top: 6759px;
+                    top: 7349px;
+
+                    &--position{
+                        top: 5005px;
+                    }
+                }
+                &--music{
+                    top: 825px;
+                }
+                &--plants{
+                    top: 1475px;
+                    width: 274px;
+                    left: 1900px;
+                }
+                &--top{
+                    top: 6310px;
+                    width: 420px;
+                    &--bis{
+                        width: 400px;
+                        top: 4000px;
+                    }
                 }
             }
 
             &__droite{
+                top: 761px;
 
                 &--bis{
-                    top: 2125px;
+                    top: 2263px;
+
                     &--position{
-                        top: 2230px;
+                        top: 2399px;
+
+                        &--top{
+                            top: 2380px;
+                        }
                     }
+                    &--top{
+                        top: 2517px;
+                    }
+                    
                 }
                 &--tasse{
-                    top: 3542px;
+                    top: 4072px;
 
                     &--position{
                         width: 421px;
-                        top:5762px;
+                        top: 6112px;
                     }
                 }
                 &--eclaire{
-                    top: 6759px;
+                    top: 7349px;
+
+                    &--position{
+                        top: 5005px;
+                    }
                 }
                 &--position{
                     width: 444px;
+                }
+                &--music{
+                    top: 825px;
+                }
+                &--plants{
+                    top: 2630px;
+                    width: 274px;
+                }
+                &--top{
+                    top: 6310px;
+                    width: 400px;
+                    &--bis{
+                        width: 400px;
+                        top: 4000px;
+                    }
                 }
             }
         }
        .section{
             padding: 100px;
+
+            &__yellow--bis{
+
+                height: 1167px;
+            }
        }
        .tips{
-            height: 127px;
-            width: 455px;
+            height: 100px;
+            width: 380px;
+            background-position: 234px 0;
+
+            &__position{
+                background-position: 275px 0;
+                &--bis{
+                    background-position: 430px 0;
+                    width: 500px;
+                }
+            }
        }
        .protection{
             width: 392px;
