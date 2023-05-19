@@ -200,8 +200,8 @@ img{
     background-image: url(../assets/images/picto/gummies.svg);
     background-repeat: no-repeat;
     background-position: 7px;
-    width: 75px;
-    height: 215px;
+    width: 126px;
+    height: 192px;
     left: -20px;
 
     &__position{
@@ -463,16 +463,18 @@ img{
 
         &__droite{
             &--bis{
-                top: 1350px;
+                top: 1421px;
 
                 &--position{
-                    top: 1427px;
+                    top: 1545px;
 
                     &--top{
                         top: 1638px;
                     }
                 }
-               
+                &--top{
+                    top: 1777px;
+                }
             }
 
             &--tasse{
@@ -487,7 +489,7 @@ img{
                 top: 4399px;
 
                 &--position{
-                    top: 2500px;
+                    top: 2745px;
                 }
             }
             &--plants{
@@ -498,7 +500,9 @@ img{
                 top: 3678px;
 
                 &--bis{
-                    top: 2294px;
+                    top: 2403px;
+                    width: 195px;
+                    left: 0px;
                 }
             }
             &--music{
@@ -510,7 +514,7 @@ img{
             left: 657px;
 
             &--bis{
-                top: 2100px;
+                top: 2204px;
 
                 &--position{
                     top: 1738px;
@@ -535,14 +539,14 @@ img{
                 top: 4399px;
 
                 &--position{
-                    top: 3100px;
+                    top: 2735px;
                 }
             }
             &--position{
                 top: 540px;
             }
             &--plants{
-                top: 1024px;
+                top: 1168px;
                 width: 158px;
                 left: 742px;
             }
@@ -550,7 +554,9 @@ img{
                 top: 3678px;
 
                 &--bis{
-                    top: 2294px;
+                    top: 2403px;
+                    width: 195px;
+                    left: 730px;
                 }
             }
             &--music{
@@ -728,8 +734,10 @@ img{
                 &--position{
                     top: 2648px;
                     width: 369px;
-                    &__top{
-                        top: 2093px;
+
+                    &--top{
+                        top: 2264px;
+                        left: 1150px;
                     }
                 }
                 &--top{
@@ -787,7 +795,9 @@ img{
                     width: 369px;
                 }
                 &--top{
-                    top: 2053px;
+                    top: 2252px;
+                    left: 3px;
+                    width: 397px;
                 }
             }
 
