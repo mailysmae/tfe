@@ -40,6 +40,7 @@
   flex-direction: row;
   justify-content: space-around;
   gap: 11px;
+  
 }
 .menu__list a:hover{
   color: var(--color-btn);
@@ -60,6 +61,7 @@
   list-style: none;
 
 }
+
 .sousrubrique{
   display: flex; 
   flex-direction: column;
@@ -68,6 +70,7 @@
   left: 280px;
   top: 30px;
   background-color: var(--color-bg);
+
   border-radius: 10%;
   padding: 30px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -82,6 +85,7 @@
 }
 .reseau__el {
  padding: 10px;
+ 
 
 }
 .reseau__el a{
@@ -98,6 +102,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  
 
 }
 .reseau__el--insta a:hover{
@@ -206,7 +211,7 @@ body[burger-menu] .menu__button{
     flex-direction: row;
   }
   .menu{
-    
+      
     &__list{
       width: 900px;
 

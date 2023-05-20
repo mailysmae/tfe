@@ -164,8 +164,13 @@ img{
 .fantaisie{
     background-image: url(../assets/images/deco/deco.svg);
     background-size: contain;
-    background-position: -225px 199px;
+    background-position: 255px 167px;
     background-repeat: no-repeat;
+
+    &__bis{
+        background-position: -231px -189px;
+    }
+
 }
 .rectangle{
     position: absolute;
@@ -257,7 +262,7 @@ img{
     &__position{
         width: 114px;
         height: 156px;
-        background-position: 14px 80px;
+        background-position: 10px 95px;
     }
 
     &__infusion{
@@ -474,6 +479,7 @@ img{
     align-items: center;
 
     background-color: var(--color-rec);
+    color: var(--color-text);
     padding: 50px;
     z-index: 1;
     position: relative;
@@ -518,6 +524,7 @@ img{
     &__hover{
         border: 2px solid var(--color-btn);
     }
+    
 
 }
 
@@ -828,7 +835,11 @@ img{
         }
     }
     .fantaisie{
-        background-position: -360px 19px;
+        background-position: -409px -100px;
+        
+        &__bis{
+            background-position: 483px -390px;
+        }
     }
     .logo{
 
@@ -1162,7 +1173,9 @@ img{
         &__layout{
             background-position: 1001px -168px;
             background-size: 1000px 1200px;
-
+            &--bis{
+                background-position: -398px -588px;
+            }
         }
     }
     .logo{
