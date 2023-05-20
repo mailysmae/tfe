@@ -134,6 +134,9 @@
     .tgrid-start14{
         grid-column: 2 / span 3 ; 
         grid-row: 6;
+        &--bis{
+            margin-left: 50px;
+        }
     }
     .tgrid-start15{
         grid-column: 3 / 4; 

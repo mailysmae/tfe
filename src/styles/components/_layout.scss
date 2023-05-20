@@ -23,7 +23,7 @@ img{
         top: 532px;
 
         &--bis{
-            top: 2059px;
+            top: 2037px;
 
             &--position{
                 top: 2066px;
@@ -63,23 +63,42 @@ img{
             }
         }
         &--top{
-            top: 5595px;
+            top: 5425px;
+            rotate: 30deg;
 
+            &--position{
+                top: 4559px;
+            }
             &--bis{
-                top: 3597px;
+                top: 5538px;
             }
         }
         &--music{
             top: 671px;
         }
+        &--world{
+            top: 3506px;
+            rotate: 40deg;
+
+            &--position{
+               top: 3928px;
+            }
+            &--top{
+                top: 4856px;
+            }
+            &--hauteur{
+                top: 4675px;
+            }
+           
+        }
       
     }
     &__gauche{
-        left: 326px;
+        left: 295px;
         top: 915px;
 
         &--bis{
-            top: 3088px;
+            top: 3029px;
 
             &--position{
                 top: 2483px;
@@ -112,18 +131,31 @@ img{
             top: 2637px;
 
             &--bis{
-                top: 2942px;
+                top: 2785px;
             }
         }
         &--top{
-            top: 5885px;
+            top: 5819px;
 
             &--bis{
-                top: 3840px;
+                top: 3763px;
             }
         }
         &--music{
             top: 1223px;
+        }
+        &--protection{
+            top: 4039px;
+
+            &--position{
+                top: 4787px;
+            }
+            &--top{
+                top: 5140px;
+            }
+            &--bis{
+                top: 4254px;
+            }
         }
         
     }
@@ -143,7 +175,10 @@ img{
         bottom: -549px;
 
         &--bis{
-            bottom: -781px;
+            bottom: -743px;
+        }
+        &--position{
+            bottom: -785px;
         }
     }
     &__position{
@@ -156,7 +191,13 @@ img{
     &__bis{
         top: 1721px;
         &--top{
-            top: 1467px;
+            top: 1685px;
+        }
+        &--position{
+            top: 1563px;
+        }
+        &--hauteur{
+            top: 1599px;
         }
     }
 }
@@ -200,7 +241,7 @@ img{
     height: 303px;
     border-radius: 179px/157px;
     border: 2px solid var(--color-border);
-    margin: 100px;
+    margin: 60px;
 }
 
 .tips{
@@ -211,12 +252,12 @@ img{
     background-position: 7px;
     width: 126px;
     height: 192px;
-    left: -20px;
+    left: 18px;
 
     &__position{
-        width: 98px;
-        height: 247px;
-        
+        width: 114px;
+        height: 156px;
+        background-position: 14px 80px;
     }
 
     &__infusion{
@@ -248,6 +289,7 @@ img{
     }
     &__vagina{
         background-image: url(../assets/images/picto/vagin.svg);
+        background-position: 14px 96px;
     }
     &__oeil{
         background-image: url(../assets/images/picto/oeil.svg);
@@ -257,6 +299,7 @@ img{
     }
     &__pousse{
         background-image: url(../assets/images/picto/poussepousse.svg);
+        background-position: 12px 100px;
     }
     &__noeasy{
         background-image: url(../assets/images/picto/main.svg);
@@ -266,15 +309,18 @@ img{
     }
     &__chimique{
         background-image: url(../assets/images/picto/atome.svg);
+
     }
     &__noworld{
         background-image: url(../assets/images/picto/noworld.svg);
     }
     &__parfum{
         background-image: url(../assets/images/picto/parfum.svg);
+        
     }
     &__sport{
         background-image: url(../assets/images/picto/sport.svg);
+        background-position: 14px 96px;
     }
     &__world{
         background-image: url(../assets/images/picto/world.svg);
@@ -293,6 +339,7 @@ img{
     }
     &__jacuzzi{
         background-image: url(../assets/images/picto/jacuzzi.svg);
+        background-position: 14px 96px;
     }
 }
 .picto{
@@ -323,6 +370,7 @@ img{
     height: 281px;
     padding: 20px;
     margin: inherit;
+    left: -18px;
 
     &__tampon{
         background-image: url(../assets/images/protections/tampon.svg);
@@ -495,7 +543,7 @@ img{
 
     }
     .rectangle{
-        left: 438px;
+        left: 474px;
         width: 352px;
         top: 62px;
 
@@ -516,11 +564,32 @@ img{
             &--bis{
                 top: 140px;
             }
+            &--position{
+                left: 14px;
+                top: 242px;
+                width: 421px;
+            }
         }
         &__bis{
             left: 40px;
             width: 392px;
             top: 253px;
+
+            &--position{
+                left: 84px;
+                width: 483px;
+                top: 342px;
+            }
+            &--top{
+                left: 129px;
+                width: 392px;
+                top: 445px;
+            }
+            &--hauteur{
+                left: 40px;
+                width: 530px;
+                top: 211px;
+            }
         }
     }
     .deco{
@@ -531,7 +600,7 @@ img{
         &__droite{
             &--bis{
                 top: 1421px;
-
+                width: 209px;
                 &--position{
                     top: 1545px;
 
@@ -548,7 +617,9 @@ img{
                 top: 2234px;
 
                 &--position{
-                    top: 3587px;
+                    top: 3722px;
+                    left: -22px;
+                    width: 184px;
                 }
             }
 
@@ -560,20 +631,54 @@ img{
                 }
             }
             &--plants{
-                top: 1640px;
+                top: 1037px;
                 width: 158px;
+
+                &--bis{
+                    top: 1037px;
+                }
+                &--position{
+                    top: 1374px;
+                }
             }
             &--top{
                 top: 3678px;
 
                 &--bis{
-                    top: 2403px;
+                    top: 3710px;
                     width: 195px;
                     left: 0px;
+                    rotate: 0deg;
+                }
+                &--position{
+                    top: 3474px;
+                    width: 195px;
+                    left: 0px;
+                    rotate: 0deg;
                 }
             }
             &--music{
                 top: 812px;
+            }
+            &--position{
+                top: 584px;
+                width: 217px;
+            }
+            &--world{
+                width: 191px;
+                left: -33px;
+                top: 2400px;
+                rotate: 10deg;
+
+                &--position{
+                    top: 2751px
+                }
+                &--top{
+                    top: 3624px;
+                }
+                &--hauteur{
+                    top: 3488px;
+                }
             }
         }
 
@@ -596,9 +701,11 @@ img{
             }
             &--the{
                 top: 2234px;
+                
 
                 &--position{
-                    top: 3587px;
+                    top: 3729px;
+                    width: 207px;
                 }
                 
             }
@@ -610,15 +717,21 @@ img{
                 }
             }
             &--position{
-                top: 540px;
+                top: 584px;
             }
             &--plants{
-                top: 1168px;
+                top: 1822px;
                 width: 158px;
                 left: 742px;
+
+                &--bis{
+                    top: 1974px;
+                }
             }
             &--top{
-                top: 3678px;
+                top: 3700px;
+                width: 229px;
+                left: 701px;
 
                 &--bis{
                     top: 2403px;
@@ -628,6 +741,17 @@ img{
             }
             &--music{
                 top: 812px;
+            }
+            &--protection{
+                left: 708px;
+                width: 210px;
+                top: 2766px;
+                &--position{
+                    top: 3497px;
+                }
+                &--top{
+                    top: 3632px;
+                }
             }
         }
     }
@@ -754,6 +878,11 @@ img{
 
         &__size{
             max-width: 331px;
+
+            &--bis{
+                max-width: 320px;
+                top: -50px;
+            }
         }
 
         &__bulle{
@@ -772,7 +901,7 @@ img{
             top: 150px;
 
             &--bis{
-                top: 322px;
+                top: 178px;
             }
         }
         &__top{
@@ -782,11 +911,29 @@ img{
             &--bis{
                 top: 180px;
             }
+            &--position{
+                left: 112px;
+                top: 219px;
+            }
+           
         }
         &__bis{
             left: 116px;
             width: 528px;
             top: 205px;
+
+            &--top{
+                top: 304px;
+            }
+            &--position{
+                top: 253px;
+                left: 90px;
+            }
+            &--hauteur{
+                top: 200px;
+                width: 590px;
+                left: 50px;
+            }
         }
        
     }
@@ -821,9 +968,9 @@ img{
                 top: 3133px;
 
                 &--position{
-                    width: 259px;
+                    width: 287px;
                     top: 5474px;
-                    left: 1250px;
+                    left: 1230px;
                 }
             }
             &--patch{
@@ -843,6 +990,10 @@ img{
                 top: 1071px;
                 width: 240px;
                 left: 1280px;
+
+                &--bis{
+                    top: 1500px;
+                }
             }
             &--top{
                 top: 4930px;
@@ -850,18 +1001,37 @@ img{
                 left: 1200px;
 
                 &--bis{
-                    top: 3057px;
+                    top: 3042px;
                 }
             }
             &--music{
                 top: 1026px;
             }
+            &--protection{
+                width: 300px;
+                top: 3256px;
+                left: 1200px;
+
+                &--position{
+                    top: 4360px;
+                }
+                &--bis{
+                    top: 3300px;
+                    &--top{
+                        top: 3450px;
+                    }
+                }
+                &--top{
+                    top: 4350px;
+                }
+            }
+
         }
         &__droite{
          
             &--bis{
                 top: 1947px;
-                width: 300px;
+                width: 290px;
 
                 &--position{
                     top: 2180px;
@@ -907,12 +1077,33 @@ img{
             width: 300px;
 
                 &--bis{
-                    top: 3005px;
+                    top: 4905px;
                     width: 300px;
+                }
+                &--position{
+                    top: 4350px;
                 }
             }
             &--music{
                 top: 661px;
+            }
+            &--world{
+                width: 289px;
+                top: 3042px;
+
+                &--position{
+                    top: 3256px;
+
+                    &--bis{
+                        top: 3416px;
+                    }
+                }
+                &--top{
+                    top: 4330px;
+                }
+                &--hauteur{
+                    top: 4300px;
+                }
             }
         }
 
@@ -921,16 +1112,15 @@ img{
     .tips{
         left: -20px;
         height: 89px;
-        background-position: 207px;
+        background-position: 210px 0;
         width: 296px;
         font-size: 24px;
 
         &__position{
             left: -40px;
             height: 110px;
-            background-position: 240px 0;
-            width: 280px;
-
+            background-position: 10px 20px;
+            width: 335px;
             
         }
     }
@@ -963,6 +1153,17 @@ img{
     
     .fantaisie{
         background-position: -448px;
+
+        &__bis{
+            background-position: 990px -434px;
+            background-size: 900px;
+            width: 14100px;
+        }
+        &__layout{
+            background-position: 1001px -168px;
+            background-size: 1000px 1200px;
+
+        }
     }
     .logo{
         max-width: 555px;
