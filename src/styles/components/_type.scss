@@ -62,9 +62,9 @@ p{
     }
 }
 .lien{
-    color: var(--color-text);
+    color: var(--color-link);
 }
-.link:hover{
+.lien:hover{
     color: var(--color-btn);
  }
 @media (min-width: 600px){
@@ -156,7 +156,7 @@ p{
     }
     
     p{
-        width: 549px;
+        width: 604px;
         font-size: 24px;
     }
     .largeur{
