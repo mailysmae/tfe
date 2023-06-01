@@ -18,8 +18,46 @@ img{
     position: absolute;
     max-width: 30%;
     left: 0;
+    top: -6rem;
 
     &__droite{
+        top: 16rem;
+        left: 20rem;
+
+        &--bis{
+            top: 60rem;
+            
+            &--bottom{
+                top: 76rem;
+            }
+        }
+        &--position{
+            top: 19rem;
+
+            &--top{
+                top: 27rem;
+            }
+        }
+        &--hauteur{
+            top: 12rem;
+        }
+    }
+    &__gauche{
+        top: -3rem;
+
+        &--position{
+            top: -12rem;
+        }
+        &--top{
+            top: -6rem;
+        }
+    }
+    /* 
+    position: absolute;
+    max-width: 30%;
+    left: 0;
+
+   &__droite{
         top: 532px;
 
         &--bis{
@@ -165,7 +203,7 @@ img{
             }
         }
         
-    }
+    }*/
     
 }
 .fantaisie{
@@ -189,9 +227,9 @@ img{
 }
 .rectangle{
     position: absolute;
-    bottom: 215px;
+    bottom: 1rem;
 
-    &__top{
+    /*&__top{
         bottom: -549px;
 
         &--bis{
@@ -222,7 +260,7 @@ img{
         &--hauteur{
             top: 1599px;
         }
-    }
+    }*/
 }
 .illu{
     z-index: 2;
@@ -238,8 +276,12 @@ img{
     }
 
     &__size{
-        margin: 79px;
+        margin: 55px;
         left: 14px;
+
+        &--position{
+            margin: 81px;
+        }
     }
 
 
@@ -465,6 +507,8 @@ img{
     align-items: center;
     padding: 30px;
     gap: 10px;
+    position: relative;
+    overflow-x: clip;
     
     &__deco{
         background-image: url(../assets/images/deco/deco.svg);
@@ -568,7 +612,16 @@ img{
 
     }
     .rectangle{
-        left: 474px;
+        width: 45%;
+        bottom: 2rem;
+        right: 2rem;
+
+        &__size{
+            width: 103%;
+            bottom: 1rem;
+            right: 0rem;
+        }
+        /*left: 474px;
         width: 352px;
         top: 62px;
 
@@ -619,9 +672,35 @@ img{
                 width: 537px;
                 top: 142px;
             }
-        }
+        }*/
     }
     .deco{
+        top: 0rem;
+        max-width: 50%;
+        width: 30%;
+        left: -5rem;
+
+        &__droite{
+            left: 44rem;
+
+            &--bis{
+                top: 39rem;
+            }
+            &--hauteur{
+                top: -8rem;
+            }
+            &--position{
+                top: 10rem;
+            }
+        }
+        &__gauche{
+            top: -8rem;
+
+            &--position{
+                top: -5rem;
+            }
+        }
+        /*
         width: 280px;
         left: -60px;
         top: 440px;
@@ -789,7 +868,7 @@ img{
                     top: 3139px;
                 }
             }
-        }
+        }*/
     }
     .video{
         padding: 46px;
@@ -943,7 +1022,10 @@ img{
     
     }
     .rectangle{
-        left: 830px;
+        width: 35%;
+        bottom: 5rem;
+        right: 8rem;
+        /*left: 830px;
         width: 500px;
         top: 90px;
 
@@ -990,10 +1072,24 @@ img{
                 width: 590px;
                 left: 50px;
             }
-        }
+        }*/
        
     }
     .deco{
+        top: -7rem;
+        left: -10rem;
+
+        &__droite{
+            left: 70rem;
+
+            &--bis{
+                top: 35rem;
+            }
+        }
+        &__gauche{
+            top: -13rem;
+        }
+        /*
         max-width: inherit;
         width: 450px;
         top: 600px;
@@ -1161,7 +1257,7 @@ img{
                     top: 4300px;
                 }
             }
-        }
+        }*/
 
 
     }
@@ -1311,7 +1407,7 @@ img{
             max-width: 2650px;
         }
         .rectangle{
-            left: 1328px;
+            /*left: 1328px;
             top: 178px;
 
             &__position{
@@ -1355,9 +1451,9 @@ img{
                     top: 360px;
                     left: 220px;
                 }
-            }
+            }*/
         }
-        .deco{
+        .deco{/*
             width: 550px;
             top: 648px;
             &__gauche{
@@ -1505,7 +1601,7 @@ img{
                         top: 5425px;
                     }
                 }
-            }
+            }*/
         }
        .section{
             padding: 100px;

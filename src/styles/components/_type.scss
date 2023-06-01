@@ -35,12 +35,17 @@ body {
 }
 .text{
     position: absolute;
-    top: 45px;
+    top: 82px;
     left: 38px;
     width: 287px;
 
     &__position{
         top: 98px;
+    }
+    &__size{
+        top: 41px;
+        left: 38px;
+        width: 273px;
     }
 }
 a{
