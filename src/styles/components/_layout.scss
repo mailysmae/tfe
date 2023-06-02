@@ -17,29 +17,29 @@ img{
 .deco{
     position: absolute;
     max-width: 30%;
-    left: 0;
+    left: -1rem;
     top: -6rem;
 
     &__droite{
-        top: 16rem;
-        left: 20rem;
+        top: 21rem;
+        left: 18rem;
 
         &--bis{
-            top: 60rem;
+            top: 62rem;
             
             &--bottom{
-                top: 76rem;
+                top: 69rem;
             }
         }
         &--position{
-            top: 19rem;
+            top: 24rem;
 
             &--top{
-                top: 27rem;
+                top: 31rem;
             }
         }
         &--hauteur{
-            top: 12rem;
+            top: 15rem;
         }
     }
     &__gauche{
@@ -320,9 +320,10 @@ img{
     left: 18px;
 
     &__position{
-        width: 114px;
-        height: 156px;
-        background-position: 10px 95px;
+        width: 119px;
+        height: 205px;
+        background-position: 1px 106px;
+        left: 0;
     }
 
     &__infusion{
@@ -354,7 +355,7 @@ img{
     }
     &__vagina{
         background-image: url(../assets/images/picto/vagin.svg);
-        background-position: 14px 96px;
+        background-position: 7px 111px;
     }
     &__oeil{
         background-image: url(../assets/images/picto/oeil.svg);
@@ -364,7 +365,7 @@ img{
     }
     &__pousse{
         background-image: url(../assets/images/picto/poussepousse.svg);
-        background-position: 12px 100px;
+        background-position: 12px 112px;
     }
     &__noeasy{
         background-image: url(../assets/images/picto/main.svg);
@@ -385,7 +386,7 @@ img{
     }
     &__sport{
         background-image: url(../assets/images/picto/sport.svg);
-        background-position: 14px 96px;
+        background-position: 14px 111px;
     }
     &__world{
         background-image: url(../assets/images/picto/world.svg);
