@@ -15,10 +15,14 @@
         grid-row: 2;
         &--position{
             align-self: end;
-            margin-top: 106px;
+            margin-top: 64px;
+
             &--bis{
                 align-self: start;
             }
+        }
+        &--top{
+            align-self: start;
         }
     }
     .tgrid-start3{
@@ -43,6 +47,9 @@
         &--top{
             margin-top: 269px;
         }
+        &--hauteur{
+            top: -124px;
+        }
     }
     .tgrid-start5{
         grid-column: 3 / 4 ; 
@@ -51,6 +58,10 @@
    .tgrid-start6{
         grid-column: 2 / 3 ; 
         grid-row: 4;
+
+        &--hauteur{
+            top: -87px;
+        }
     }
     .tgrid-start7{
         grid-column: 3 / 4 ; 
@@ -140,15 +151,15 @@
     }
     .tgrid-start15{
         grid-column: 3 / 4; 
-        grid-row: 1 / span 4;
+        grid-row: 1 / span 5;
     }
     .tgrid-start16{
         grid-column: 4 / 5 ; 
-        grid-row: 1;
+        grid-row: 2;
     }
     .tgrid-start17{
         grid-column: 4 / 5 ;
-        grid-row: 2 ;
+        grid-row: 3;
     }
     
 

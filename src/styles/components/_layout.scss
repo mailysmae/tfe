@@ -40,6 +40,8 @@ img{
         }
         &--hauteur{
             top: 15rem;
+
+        
         }
     }
     &__gauche{
@@ -52,159 +54,6 @@ img{
             top: -6rem;
         }
     }
-    /* 
-    position: absolute;
-    max-width: 30%;
-    left: 0;
-
-   &__droite{
-        top: 532px;
-
-        &--bis{
-            top: 2037px;
-
-            &--position{
-                top: 2066px;
-                &--top{
-                    top: 2394px;
-                }
-    
-            }
-            &--top{
-                top: 2150px;
-            }
-            
-        }
-
-        &--tasse{
-            top: 3518px;
-        
-            &--position{
-                top: 5077px;
-            }
-        }
-        &--eclaire{
-            top: 6507px;
-
-            &--position{
-                top: 3865px;
-            }
-        }
-        &--plants{
-            top: 1358px;
-
-            &--bis{
-                top: 1577px;
-            }
-            &--position{
-                top: 1958px;
-            }
-        }
-        &--top{
-            top: 5425px;
-            rotate: 30deg;
-
-            &--position{
-                top: 4559px;
-            }
-            &--bis{
-                top: 5538px;
-            }
-        }
-        &--music{
-            top: 671px;
-        }
-        &--world{
-            top: 3506px;
-            rotate: 40deg;
-
-            &--position{
-               top: 3928px;
-               &--bis{
-                top: 4150px;
-               }
-            }
-            &--top{
-                top: 4856px;
-            }
-            &--hauteur{
-                top: 4675px;
-            }
-           
-        }
-      
-    }
-    &__gauche{
-        left: 295px;
-        top: 915px;
-
-        &--bis{
-            top: 3029px;
-
-            &--position{
-                top: 2483px;
-            }
-            &--top{
-                top: 2545px;
-            }
-            
-        }
-
-        &--the{
-            top: 3697px;
-
-            &--position{
-                top: 5402px;
-            }
-        }
-        &--patch{
-            top: 6914px;
-
-            &--position{
-                top: 4267px;
-            }
-        }
-        &--position{
-            top: 1161px;
-            left: 293px;
-        }
-        &--plants{
-            top: 2637px;
-
-            &--bis{
-                top: 2785px;
-            }
-        }
-        &--top{
-            top: 5819px;
-
-            &--bis{
-                top: 3763px;
-            }
-        }
-        &--music{
-            top: 1223px;
-        }
-        &--protection{
-            top: 4039px;
-
-            &--position{
-                top: 4787px;
-            }
-            &--top{
-                top: 5140px;
-            }
-            &--bis{
-                top: 4254px;
-
-                &--top{
-                    top: 4412px;
-                }
-            }
-        }
-        
-    }*/
-    
 }
 .fantaisie{
     background-image: url(../assets/images/deco/deco.svg);
@@ -228,39 +77,6 @@ img{
 .rectangle{
     position: absolute;
     bottom: 1rem;
-
-    /*&__top{
-        bottom: -549px;
-
-        &--bis{
-            bottom: -743px;
-        }
-        &--position{
-            bottom: -785px;
-        }
-    }
-    &__position{
-        bottom: 255px;
-
-        &--bis{
-            bottom: 188px;
-        }
-        &--top{
-            bottom: 101px;
-        }
-    }
-    &__bis{
-        top: 1721px;
-        &--top{
-            top: 1836px;
-        }
-        &--position{
-            top: 1563px;
-        }
-        &--hauteur{
-            top: 1599px;
-        }
-    }*/
 }
 .illu{
     z-index: 2;
@@ -281,6 +97,10 @@ img{
 
         &--position{
             margin: 81px;
+        }
+        &--bis{
+            top: 2rem;
+    left: 0;
         }
     }
 
@@ -622,76 +442,42 @@ img{
             bottom: 1rem;
             right: 0rem;
         }
-        /*left: 474px;
-        width: 352px;
-        top: 62px;
-
-        &__position{
-            top: 118px;
-
-            &--bis{
-                top: 212px;
-                left: 438px;
-                width: 432px;
-            }
-            &--top{
-                top: 238px;
-                width: 411px;
-            }
-        }
-        &__top{
-            left: 43px;
-            width: 504px;
-            top: 291px;
-
-            &--bis{
-                top: 140px;
-            }
-            &--position{
-                left: 14px;
-                top: 242px;
-                width: 421px;
-            }
-        }
-        &__bis{
-            left: 40px;
-            width: 392px;
-            top: 253px;
-
-            &--position{
-                left: 46px;
-                width: 483px;
-                top: 179px;
-            }
-            &--top{
-                left: 129px;
-                width: 392px;
-                top: 445px;
-            }
-            &--hauteur{
-                left: 4px;
-                width: 537px;
-                top: 142px;
-            }
-        }*/
+        
     }
     .deco{
-        top: 0rem;
-        max-width: 50%;
-        width: 30%;
-        left: -5rem;
+        top: -2rem;
+        max-width: 34%;
+        width: 40%;
+        left: -6rem;
+    
 
         &__droite{
-            left: 44rem;
+            left: 43rem;
 
             &--bis{
                 top: 39rem;
+
+                &--bottom{
+                    top: 32rem;
+                    max-width: 23%;
+                }
             }
             &--hauteur{
                 top: -8rem;
             }
             &--position{
-                top: 10rem;
+                top: 0;
+
+                &--top{
+                    top: -4rem;
+                }
+            }
+            &--bas{
+                top: 9rem;
+            }
+            &--width{
+                max-width: 46%;
+                top: -2rem;
             }
         }
         &__gauche{
@@ -700,176 +486,24 @@ img{
             &--position{
                 top: -5rem;
             }
-        }
-        /*
-        width: 280px;
-        left: -60px;
-        top: 440px;
-
-        &__droite{
-            &--bis{
-                top: 1421px;
-                width: 209px;
-                &--position{
-                    top: 1545px;
-
-                    &--top{
-                        top: 1638px;
-                    }
-                }
-                &--top{
-                    top: 1777px;
-                }
-            }
-
-            &--tasse{
-                top: 2234px;
-
-                &--position{
-                    top: 3722px;
-                    left: -22px;
-                    width: 184px;
-                }
-            }
-
-            &--eclaire{
-                top: 4399px;
-
-                &--position{
-                    top: 2745px;
-                }
-            }
-            &--plants{
-                top: 1037px;
-                width: 158px;
-
-                &--bis{
-                    top: 1037px;
-                }
-                &--position{
-                    top: 1374px;
-                }
-            }
             &--top{
-                top: 3678px;
-
-                &--bis{
-                    top: 3710px;
-                    width: 195px;
-                    left: 0px;
-                    rotate: 0deg;
-                }
-                &--position{
-                    top: 3474px;
-                    width: 195px;
-                    left: 0px;
-                    rotate: 0deg;
-                }
+                top: -2rem;
             }
-            &--music{
-                top: 812px;
+            &--width{
+                max-width: 46%;
+                top: -2rem;
             }
-            &--position{
-                top: 584px;
-                width: 217px;
-            }
-            &--world{
-                width: 191px;
-                left: -33px;
-                top: 2400px;
-                rotate: 10deg;
-
-                &--position{
-                    top: 2751px;
-
-                    &--bis{
-                        top: 3128px;
-                    }
-                }
-                &--top{
-                    top: 3624px;
-                }
-                &--hauteur{
-                    top: 3488px;
-                }
-            }
-        }
-
-        &__gauche {
-            left: 657px;
-
             &--bis{
-                top: 2204px;
+                top: -9rem;
+                max-width: 23%;
+            }
 
-                &--position{
-                    top: 1738px;
-
-                    &__top{
-                        top: 1632px;
-                    }
-                }
-                &--top{
-                    top: 1872px;
-                }
-            }
-            &--the{
-                top: 2234px;
-                
-
-                &--position{
-                    top: 3729px;
-                    width: 207px;
-                }
-                
-            }
-            &--patch{
-                top: 4399px;
-
-                &--position{
-                    top: 2735px;
-                }
-            }
-            &--position{
-                top: 584px;
-            }
-            &--plants{
-                top: 1822px;
-                width: 158px;
-                left: 742px;
-
-                &--bis{
-                    top: 1974px;
-                }
-            }
-            &--top{
-                top: 3700px;
-                width: 229px;
-                left: 701px;
-
-                &--bis{
-                    top: 2403px;
-                    width: 195px;
-                    left: 730px;
-                }
-            }
-            &--music{
-                top: 812px;
-            }
-            &--protection{
-                left: 708px;
-                width: 210px;
-                top: 2766px;
-                &--position{
-                    top: 3497px;
-                }
-                &--top{
-                    top: 3632px;
-                }
-                &--bis--top{
-                    top: 3139px;
-                }
-            }
-        }*/
+        }
+        &__device{
+            top: -3rem;
+            max-width: 25%;
+            
+        }
     }
     .video{
         padding: 46px;
@@ -885,10 +519,10 @@ img{
         &__position{
             position: absolute;
             left: 646px;
-            top: 3668px;
+            top: 432px;
 
             &--bis{
-                top: 3779px;
+                top: 564px;
             }
         }
         &__book{
@@ -910,8 +544,8 @@ img{
         }
        }
        &__size--bis{
-        width: 299px;
-        top: -174px;
+        width: 247px;
+        /*top: -174px;*/
        }
 
     }
@@ -971,6 +605,7 @@ img{
     .protection{
         display: inline-flex;
         width: 192px;
+        left: 18px;
     }
     .header{
         padding: 20px;
@@ -997,6 +632,11 @@ img{
         &__bis{
             width: 78px;
         }
+    }
+    .images__size{
+        width: 150%;
+        max-width: max-content;
+        margin-left: -71px;
     }
 }
 @media (min-width: 1024px){
@@ -1025,56 +665,7 @@ img{
     .rectangle{
         width: 35%;
         bottom: 5rem;
-        right: 8rem;
-        /*left: 830px;
-        width: 500px;
-        top: 90px;
-
-        &__position{
-            left: 825px;
-            top: 150px;
-
-            &--bis{
-                top: 178px;
-            }
-            &--top{
-                left: 825px;
-                top: 329px;
-                width: 572px;
-            }
-        }
-        &__top{
-            left: 90px;
-            top: 275px;
-
-            &--bis{
-                top: 180px;
-            }
-            &--position{
-                left: 112px;
-                top: 219px;
-            }
-           
-        }
-        &__bis{
-            left: 116px;
-            width: 528px;
-            top: 205px;
-
-            &--top{
-                top: 304px;
-            }
-            &--position{
-                top: 253px;
-                left: 90px;
-            }
-            &--hauteur{
-                top: 200px;
-                width: 590px;
-                left: 50px;
-            }
-        }*/
-       
+        right: 8rem; 
     }
     .deco{
         top: -7rem;
@@ -1090,177 +681,6 @@ img{
         &__gauche{
             top: -13rem;
         }
-        /*
-        max-width: inherit;
-        width: 450px;
-        top: 600px;
-        left: -40px;
-
-        &__gauche{
-         left: 1100px; 
-
-            &--bis{
-                top: 2750px;
-                width: 300px;
-                left: 1200px; 
-
-                &--position{
-                    top: 2648px;
-                    width: 369px;
-
-                    &--top{
-                        top: 2146px;
-                        left: 1150px;
-                    }
-                }
-                &--top{
-                    top: 2632px;
-                }
-            }
-            &--the{
-                top: 3133px;
-
-                &--position{
-                    width: 287px;
-                    top: 5474px;
-                    left: 1230px;
-                }
-            }
-            &--patch{
-                top: 5905px;
-
-                &--position{
-                    top: 4243px;
-                }
-            }
-            &--position{
-                width: 435px;
-                top: 773px;
-                left: 1122px;
-                rotate: -10deg;
-            }
-            &--plants{
-                top: 1071px;
-                width: 240px;
-                left: 1280px;
-
-                &--bis{
-                    top: 1500px;
-                }
-            }
-            &--top{
-                top: 4844px;
-                width: 300px;
-                left: 1200px;
-
-                &--bis{
-                    top: 3042px;
-                }
-            }
-            &--music{
-                top: 766px;
-            }
-            &--protection{
-                width: 300px;
-                top: 3256px;
-                left: 1200px;
-
-                &--position{
-                    top: 4360px;
-                }
-                &--bis{
-                    top: 3300px;
-                    &--top{
-                        top: 3450px;
-                    }
-                }
-                &--top{
-                    top: 4350px;
-                }
-            }
-
-        }
-        &__droite{
-         
-            &--bis{
-                top: 1947px;
-                width: 290px;
-
-                &--position{
-                    top: 2180px;
-                    width: 369px;
-                }
-                &--top{
-                    top: 2146px;
-                    left: 3px;
-                    width: 397px;
-                }
-            }
-
-            &--tasse{
-                top: 3133px;
-
-                &--position{
-                    width: 259px;
-                    top: 5474px;
-                    left: 20px;
-                }
-            }
-
-            &--eclaire{
-                top: 5905px;
-
-                &--position{
-                    top:  4243px;;
-                }
-            }
-
-           &--position{
-            width: 344px;
-            top: 779px;
-            rotate: 10deg;
-           }
-           
-           &--plants{
-            top: 1971px;
-            width: 240px;
-           }
-           &--top{
-            top: 4930px;
-            width: 300px;
-
-                &--bis{
-                    top: 4844px;
-                    width: 300px;
-                }
-                &--position{
-                    top: 4350px;
-                }
-            }
-            &--music{
-                top: 755px;
-            }
-            &--world{
-                width: 289px;
-                top: 3042px;
-
-                &--position{
-                    top: 3256px;
-
-                    &--bis{
-                        top: 3416px;
-                    }
-                }
-                &--top{
-                    top: 4330px;
-                }
-                &--hauteur{
-                    top: 4300px;
-                }
-            }
-        }*/
-
-
     }
     .tips{
         left: -20px;
@@ -1407,203 +827,12 @@ img{
         .contenair{
             max-width: 2650px;
         }
-        .rectangle{
-            /*left: 1328px;
-            top: 178px;
-
-            &__position{
-                top: 214px;
-                left: 1308px;
-                &--bis{
-                    left: 1278px;
-                    top: 248px;
-                    width: 573px;
-                }
-                &--top{
-                    top: 337px;
-                    left: 1408px;
-                }
-            }
-            &__top{
-                left: 233px;
-                top: 400px;
-
-                &--bis{
-                    top: 320px;
-                }
-                &--position{
-                    top: 320px;
-                    width: 600px;
-                    left: 190px;
-                }
-            }
-            &__bis{
-                top: 330px;
-                left: 258px;
-
-                &--top{
-                    top: 420px;
-                }
-                &--hauteur{
-                    top: 339px;
-                    left: 203px;
-                }
-                &--position{
-                    top: 360px;
-                    left: 220px;
-                }
-            }*/
+        /*.rectangle{
+            
         }
-        .deco{/*
-            width: 550px;
-            top: 648px;
-            &__gauche{
-                left: 1741px;
-                top: 761px;
+        .deco{
 
-                &--bis{
-                    top: 3580px;
-                    &--position{
-                        top: 2790px;
-
-                        &--top{
-                            top: 2469px;
-                        }
-                    }
-                   &--top{
-                    top: 2950px;
-                   }
-                }
-                &--the{
-                    top: 4072px;
-
-                    &--position{
-                        width: 421px;
-                        top: 6112px;
-                        left: 1820px;
-                    }
-                }
-                &--patch{
-                    top: 7250px;
-
-                    &--position{
-                        top: 5005px;
-                    }
-                }
-                &--music{
-                    top: 825px;
-                }
-                &--plants{
-                    top: 1475px;
-                    width: 274px;
-                    left: 1900px;
-
-                    &--bis{
-                        top: 1891px;
-                    }
-                }
-                &--top{
-                    top: 6490px;
-                    width: 420px;
-                    &--bis{
-                        width: 400px;
-                        top: 4171px;
-                        left: 1820px;
-                    }
-                }
-                &--protection{
-                    left: 1841px;
-                    top: 4413px;
-                    width: 384px;
-
-                    &--position{
-                        top: 5530px;
-                    }
-                    &--top{
-                        top: 5483px;
-                    }
-                    &--bis{
-                        &--top{
-                            top: 4590px;
-                        }
-                    }
-                }
-            }
-
-            &__droite{
-                top: 761px;
-
-                &--bis{
-                    top: 2263px;
-
-                    &--position{
-                        top: 2399px;
-
-                        &--top{
-                            top: 2380px;
-                        }
-                    }
-                    &--top{
-                        top: 2517px;
-                    }
-                    
-                }
-                &--tasse{
-                    top: 4072px;
-
-                    &--position{
-                        width: 421px;
-                        top: 6112px;
-                    }
-                }
-                &--eclaire{
-                    top: 7250px;
-
-                    &--position{
-                        top: 5005px;
-                    }
-                }
-                &--position{
-                    width: 444px;
-                }
-                &--music{
-                    top: 825px;
-                }
-                &--plants{
-                    top: 2630px;
-                    width: 274px;
-                }
-                &--top{
-                    top: 6310px;
-                    width: 400px;
-                    &--bis{
-                        width: 400px;
-                        top: 6470px;
-                    }
-                    &--position{
-                        top: 5503px;
-                    }
-                }
-                &--world{
-                    top: 4158px;
-                    width: 402px;
-
-                    &--position{
-                        top: 4383px;
-
-                        &--bis{
-                            top: 4512px;
-                        }
-                    }
-                    &--top{
-                        top: 5456px;
-                    }
-                    &--hauteur{
-                        top: 5425px;
-                    }
-                }
-            }*/
-        }
+        }*/
        .section{
             padding: 100px;
 
