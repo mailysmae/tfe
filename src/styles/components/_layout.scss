@@ -60,6 +60,7 @@ img{
     background-size: contain;
     background-position: 255px 167px;
     background-repeat: no-repeat;
+    z-index: -1;
 
     &__bis{
         background-position: -231px -189px;
@@ -330,6 +331,7 @@ img{
     gap: 10px;
     position: relative;
     overflow-x: clip;
+
     
     &__deco{
         background-image: url(../assets/images/deco/deco.svg);
@@ -438,9 +440,16 @@ img{
         right: 2rem;
 
         &__size{
-            width: 103%;
-            bottom: 1rem;
-            right: 0rem;
+            bottom: 23rem;
+            right: 31rem;
+
+            &--bis{
+                bottom: 32rem;
+            }
+
+            &--top{
+                bottom: 15rem;
+            }
         }
         
     }
@@ -485,6 +494,10 @@ img{
 
             &--position{
                 top: -5rem;
+
+                &--largeur{
+                    max-width: 30%;
+                }
             }
             &--top{
                 top: -2rem;
@@ -543,9 +556,13 @@ img{
             left: -25px;
         }
        }
-       &__size--bis{
-        width: 247px;
-        /*top: -174px;*/
+       &__size{
+        width: 211px;
+        left: 0rem;
+       
+        &--hauteur{
+            top: -57px;
+        }
        }
 
     }
@@ -573,13 +590,20 @@ img{
         width: 134px;
 
         &__position{
-            width: 94px;
-            height: 204px;
+            width: 122px;
+            height: 215px;
 
             &--bis{
-                width: 130px;
+                width: 168px;
+                height: 181px;
             }
+        
+
         }
+        &__jacuzzi{
+            background-position: 2px 107px;
+        }
+
     }
     .fantaisie{
         background-position: -315px 0px;
@@ -588,7 +612,7 @@ img{
             background-position: 575px -231px;
         }
         &__layout{
-            background-position: 703px 143px;
+            background-position: 726px 119px;
 
             &--bis{
                 background-position: -72px -103px;
@@ -630,7 +654,7 @@ img{
         width: 300px;
 
         &__bis{
-            width: 78px;
+            width: 60px;
         }
     }
     .images__size{
@@ -666,6 +690,19 @@ img{
         width: 35%;
         bottom: 5rem;
         right: 8rem; 
+
+        &__size{
+            bottom: 20rem;
+            right: 58rem;
+
+            &--top{
+                bottom: 13rem;
+            }
+            &--bis{
+                bottom: 25rem;
+            }
+
+        }
     }
     .deco{
         top: -7rem;
@@ -676,10 +713,26 @@ img{
 
             &--bis{
                 top: 35rem;
+
+                &--bottom{
+                    left: 80rem;
+                    top: 43rem;
+                }
+            }
+
+            &--bas{
+                top: 10rem;
+            }
+
+            &--hauteur{
+                left: 75rem;
             }
         }
         &__gauche{
             top: -13rem;
+        }
+        &__device{
+            top: -8rem;
         }
     }
     .tips{
@@ -691,9 +744,9 @@ img{
 
         &__position{
             left: -40px;
-            height: 110px;
-            background-position: 10px 20px;
-            width: 335px;
+            height: 130px;
+            background-position: 10px 25px;
+            width: 365px;
             
         }
     }
@@ -749,6 +802,7 @@ img{
         &__menu{
             width: 10%;
             top: 54px;
+            left: 60px;
         }
     }
     .bouton{
@@ -802,11 +856,11 @@ img{
     }
     .figure{
         &__position{
-            top: 5051px;
-            left: 1180px;
+            left: 1184px;
+            top: 507px;
 
             &--bis{
-                top: 5351px;
+                top: 757px;
             }
         }
       

@@ -117,7 +117,9 @@ p{
     .largeur{
         width: 456px;
     }
-   
+   p{
+    width: 373px;
+   }
 
 }
 @media (min-width: 1024px){
@@ -148,7 +150,7 @@ p{
                 top: 3px;
             }
             &--top{
-                top: -153px
+                top: -134px;
             }
         }
         
@@ -174,12 +176,18 @@ p{
     }
     
    .text{
-        top: 58px;
-        left: 75px;
-        width: 434px;
+        top: 116px;
+        left: 60px;
+        width: 457px;
 
         &__position{
             top: 147px;
+        }
+
+        &__size{
+            top: 85px;
+            width: 481px;
+
         }
    }
    .phrase{
