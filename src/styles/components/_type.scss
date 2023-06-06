@@ -56,9 +56,7 @@ a{
 p{
     width: 308px;
 }
-.textsize{
-    width: 278px;
-}
+
 .categorie{
     font-size: 10px;
     width: 20px;
@@ -75,6 +73,11 @@ p{
 .lien:hover{
     color: var(--color-btn);
  }
+.linkprotect{
+    background-image: url(../assets/images/protections/serviette.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 @media (min-width: 600px){
     .intro{
         position: relative;

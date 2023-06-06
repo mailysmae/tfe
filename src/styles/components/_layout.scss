@@ -19,6 +19,7 @@ img{
     max-width: 30%;
     left: -1rem;
     top: -6rem;
+    z-index: 1;
 
     &__droite{
         top: 21rem;
@@ -60,7 +61,7 @@ img{
     background-size: contain;
     background-position: 255px 167px;
     background-repeat: no-repeat;
-    z-index: -1;
+    z-index: 0;
 
     &__bis{
         background-position: -231px -189px;
@@ -245,13 +246,8 @@ img{
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-
     border: 1px solid var(--color-border);
     border-radius: 8px;
-
-    background-image: url(../assets/images/protections/serviette.svg);
-    background-repeat: no-repeat;
-    background-position: center;
 
     width: 209px;
     height: 281px;
@@ -259,27 +255,7 @@ img{
     margin: inherit;
     left: -18px;
 
-    &__tampon{
-        background-image: url(../assets/images/protections/tampon.svg);
-    }
-    &__cup{
-        background-image: url(../assets/images/protections/cup.svg);
-    }
-    &__eponge{
-        background-image: url(../assets/images/protections/eponge.svg);
-    }
-    &__culotte{
-        background-image: url(../assets/images/protections/culotte.svg);
-    } 
-    &__slip{
-        background-image: url(../assets/images/protections/slip.svg);
-    } 
-    &__reu{
-        background-image: url(../assets/images/protections/reu.svg);
-    } 
-    &__maillot{
-        background-image: url(../assets/images/protections/maillot.svg);
-    } 
+    background-position: center;
 }
 .logo{
     position: relative;
@@ -814,11 +790,11 @@ img{
             width: 123px;
             
             &--bis{
-                width: 196px;
+                width: 187px;
             }
         }
         &__mauve{
-            width: 185px;
+            width: 176px;
             margin-left: 0;
 
             &--bis{
