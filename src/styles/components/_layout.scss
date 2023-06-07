@@ -274,7 +274,7 @@ img{
     max-width: 70%;
     padding: 50px;
     border-radius: 55px;
-    z-index: 1;
+    z-index: 2;
     border: none;
 }
 
@@ -388,6 +388,16 @@ img{
     
 
 }
+.imgprotect{
+    position: relative;
+    width: 40%;
+    left: 6rem;
+
+    &__width{
+        width: 25%;
+        left: 7rem;
+    }
+}
 
 @media (min-width: 600px){
     .contenair{
@@ -416,11 +426,12 @@ img{
         right: 2rem;
 
         &__size{
-            bottom: 23rem;
-            right: 31rem;
+            bottom: 21rem;
+            right: 27rem;
+            width: 50%;
 
             &--bis{
-                bottom: 32rem;
+                bottom: 47rem;
             }
 
             &--top{
@@ -527,18 +538,35 @@ img{
        &__bulle{
         width: 114px;
 
-        &--bis{
-            top: 284px;
-            left: -25px;
-        }
+            &--bis{
+                top: 284px;
+                left: -25px;
+            }
        }
        &__size{
-        width: 211px;
-        left: 0rem;
+        margin: 36px;
+        width: 324px;
+        /*width: 211px;
+        left: 0rem;*/
        
-        &--hauteur{
-            top: -57px;
-        }
+            &--hauteur{
+                top: -205px;
+                margin: 48px;
+                max-width: 294px;
+
+                &--width{
+                    top: -197px;
+                    margin: 81px;
+                    max-width: 218px;
+                }
+            }
+            &--bis{
+                left: 20px;
+                top: 34px;
+            }
+       }
+       &__speak{
+         width: 253px;
        }
 
     }
@@ -566,15 +594,14 @@ img{
         width: 134px;
 
         &__position{
-            width: 122px;
+            width: 148px;
             height: 215px;
 
             &--bis{
-                width: 168px;
+                width: 159px;
                 height: 181px;
             }
-        
-
+    
         }
         &__jacuzzi{
             background-position: 2px 107px;
@@ -638,6 +665,13 @@ img{
         max-width: max-content;
         margin-left: -71px;
     }
+    .imgprotect{
+        left: 7rem;
+
+        &__width{
+            left: 9rem;
+        }
+    }
 }
 @media (min-width: 1024px){
     .contenair{
@@ -647,18 +681,31 @@ img{
         max-width: 488px;
         width: 531px;
 
-        &__size{
-            max-width: 331px;
+       &__size{
+            margin: 54px;
 
-            &--bis{
-                max-width: 320px;
-                top: -50px;
+            &--hauteur{
+                top: -11rem;
+
+                &--width{
+                    width: 356px;
+                    margin: 120px;
+                    top: -11rem;
+                }
             }
+            &--bis{
+                left: 30px;
+                top: 30px;
+            }
+            
         }
 
         &__bulle{
             top: 460px;
             width: 210px;
+        }
+        &__speak{
+            width: 338px;
         }
     
     }
@@ -668,24 +715,25 @@ img{
         right: 8rem; 
 
         &__size{
-            bottom: 20rem;
-            right: 58rem;
+            bottom: 17rem;
+            right: 48rem;
+            width: 45%;
 
             &--top{
-                bottom: 13rem;
+                bottom: 8rem;
             }
             &--bis{
-                bottom: 25rem;
+                bottom: 38rem;
             }
 
         }
     }
     .deco{
         top: -7rem;
-        left: -10rem;
+        left: -7rem;
 
         &__droite{
-            left: 70rem;
+            left: 68rem;
 
             &--bis{
                 top: 35rem;
@@ -713,16 +761,16 @@ img{
     }
     .tips{
         left: -20px;
-        height: 89px;
-        background-position: 210px 0;
-        width: 296px;
+        height: 110px;
+        background-position: 220px 0;
+        width: 300px;
         font-size: 24px;
 
         &__position{
             left: -40px;
-            height: 130px;
+            height: 163px;
             background-position: 10px 25px;
-            width: 365px;
+            width: 275px;
             
         }
     }
@@ -791,6 +839,8 @@ img{
             
             &--bis{
                 width: 187px;
+                bottom: 50px;
+                left: -10px;
             }
         }
         &__mauve{
@@ -850,6 +900,15 @@ img{
         width: 1166px;
         height: 127px;
         gap: 197px;
+    }
+    .imgprotect{
+        left: 14rem;
+        width: 28%;
+
+        &__width{
+            width: 18%;
+            left: 15rem;
+        }
     }
 
 }

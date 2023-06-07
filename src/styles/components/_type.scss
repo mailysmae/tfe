@@ -5,7 +5,15 @@ body {
     color: var(--color-text);
     background-color: var(--color-bg);
   }
-  
+a{
+     color: var(--color-text);
+    list-style: none;
+    text-decoration: none;
+}
+p{
+    width: 308px;
+}
+
 .title {
     color: var(--color-text);
     font-family: 'DM Serif Display', serif;
@@ -48,15 +56,11 @@ body {
         width: 273px;
     }
 }
-a{
-    color: var(--color-text);
-    list-style: none;
-    text-decoration: none;
+.textsize{
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
-p{
-    width: 308px;
-}
-
 .categorie{
     font-size: 10px;
     width: 20px;
@@ -130,7 +134,7 @@ p{
         width: 800px;
     }
     .texte{
-        width: 798px;
+        width: 756px;
     }
     .title{
         font-size: 48px;
