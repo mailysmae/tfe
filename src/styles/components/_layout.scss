@@ -8,8 +8,10 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-
    
+    &__book{
+        align-items: center;
+    }
 }
 .size{
     max-width: 100%;
@@ -29,7 +31,8 @@ img{
             top: 62rem;
             
             &--bottom{
-                top: 69rem;
+                top: 70rem;
+                left: -2rem;
             }
         }
         &--position{
@@ -40,9 +43,10 @@ img{
             }
         }
         &--hauteur{
-            top: 15rem;
-
-        
+            top: 13rem;
+        }
+        &--bas{
+            top: 27rem;
         }
     }
     &__gauche{
@@ -53,6 +57,10 @@ img{
         }
         &--top{
             top: -6rem;
+            left: -4rem;
+        }
+        &--bis{
+            left: 18rem;
         }
     }
 }
@@ -90,6 +98,7 @@ img{
 
         &--bis{
             top: 295px;
+            
         }
     }
 
@@ -101,8 +110,9 @@ img{
             margin: 81px;
         }
         &--bis{
-            top: 2rem;
-    left: 0;
+            top: 1rem;
+            left: 0;
+            margin: 12px;
         }
     }
 
@@ -236,8 +246,8 @@ img{
     justify-content: space-between;
     align-items: center;
 
-    width: 398px;
-    height: 101px;
+    width: 368px;
+    height: 114px;
    
 }
 .protection{
@@ -376,7 +386,6 @@ img{
     }
     &__mauve{
         background-color: var(--color-btn);
-        top: 16px;
     }
 
     &__blanc{
@@ -389,13 +398,15 @@ img{
 
 }
 .imgprotect{
-    position: relative;
-    width: 40%;
-    left: 6rem;
+    position: absolute;
+    width: 50%;
+    left: 4rem;
+    top: 5rem;
 
     &__width{
         width: 25%;
-        left: 7rem;
+        left: 6rem;
+        top: 6rem;
     }
 }
 
@@ -404,12 +415,13 @@ img{
         max-width: 900px;
     }
     .section{
-    
+        padding: 50px;
+
         &__yellow{
             
 
             &--bis{
-                height: 756px;
+                height: 606px;
             }
         }
         &__deco{
@@ -422,20 +434,21 @@ img{
     }
     .rectangle{
         width: 45%;
-        bottom: 2rem;
+        bottom: 3rem;
         right: 2rem;
 
         &__size{
-            bottom: 21rem;
-            right: 27rem;
+            bottom: 22rem;
+            right: 25rem;
             width: 50%;
 
             &--bis{
-                bottom: 47rem;
+                bottom: 48rem;
             }
 
             &--top{
-                bottom: 15rem;
+                bottom: 19rem;
+                right: 26rem;
             }
         }
         
@@ -443,66 +456,75 @@ img{
     .deco{
         top: -2rem;
         max-width: 34%;
-        width: 40%;
-        left: -6rem;
+        width: 32%;
+        left: -8rem;
     
 
         &__droite{
-            left: 43rem;
+            left: 44rem;
 
             &--bis{
-                top: 39rem;
+                top: 33rem;
 
                 &--bottom{
-                    top: 32rem;
+                    top: -6rem;
                     max-width: 23%;
                 }
             }
             &--hauteur{
-                top: -8rem;
+                top: -7rem;
             }
             &--position{
-                top: 0;
+                top: -2rem;
 
                 &--top{
                     top: -4rem;
+                    left: 46rem;
                 }
             }
             &--bas{
                 top: 9rem;
             }
             &--width{
-                max-width: 46%;
-                top: -2rem;
+                max-width: 50%;
+                top: 1rem;
             }
+
+
         }
         &__gauche{
-            top: -8rem;
+            top: -7rem;
 
             &--position{
                 top: -5rem;
 
                 &--largeur{
                     max-width: 30%;
+                    width: 239px;
+                    left: -6rem;
                 }
             }
             &--top{
                 top: -2rem;
             }
             &--width{
-                max-width: 46%;
-                top: -2rem;
+                max-width: 50%;
+                top: 1rem;
             }
             &--bis{
-                top: -9rem;
+                top: 33rem;
                 max-width: 23%;
             }
 
         }
         &__device{
-            top: -3rem;
-            max-width: 25%;
+            top: -4rem;
+            max-width: 28%;
             
+        }
+        &__protect{
+            max-width: 50%;
+            width: 329px;
         }
     }
     .video{
@@ -518,11 +540,11 @@ img{
 
         &__position{
             position: absolute;
-            left: 646px;
-            top: 432px;
+            left: 670px;
+            top: 379px;
 
             &--bis{
-                top: 564px;
+                top: 512px;
             }
         }
         &__book{
@@ -546,8 +568,6 @@ img{
        &__size{
         margin: 36px;
         width: 324px;
-        /*width: 211px;
-        left: 0rem;*/
        
             &--hauteur{
                 top: -205px;
@@ -591,11 +611,15 @@ img{
         
     }
     .tips{
-        width: 134px;
+        background-position: 8px 37px;
+        width: 161px;
+        height: 124px;
+        left: -25px;
 
         &__position{
             width: 148px;
             height: 215px;
+            background-position: 4px 97px;
 
             &--bis{
                 width: 159px;
@@ -666,10 +690,15 @@ img{
         margin-left: -71px;
     }
     .imgprotect{
+        position: relative;
         left: 7rem;
+        width: 38%;
+        top: 0;
 
         &__width{
+            width: 22%;
             left: 9rem;
+            top: 0rem;
         }
     }
 }
@@ -679,23 +708,33 @@ img{
     }
     .illu{
         max-width: 488px;
-        width: 531px;
+        width: 529px;
 
        &__size{
             margin: 54px;
+            width: 450px;
+            margin: 90px;
 
             &--hauteur{
-                top: -11rem;
+                top: -5rem;
+                width: 400px;
+                margin: 120px;
 
                 &--width{
-                    width: 356px;
-                    margin: 120px;
-                    top: -11rem;
+                    width: 303px;
+                    margin: 168px;
+                    top: -4rem;
                 }
             }
             &--bis{
-                left: 30px;
-                top: 30px;
+                left: -20px;
+                top: 88px;
+            }
+            &--position{
+                width: 400px;
+                left: 2rem;
+                top: 2rem;
+                margin: 110px;
             }
             
         }
@@ -715,21 +754,22 @@ img{
         right: 8rem; 
 
         &__size{
-            bottom: 17rem;
-            right: 48rem;
-            width: 45%;
+            bottom: 18rem;
+            right: 47rem;
+            width: 43%;
 
             &--top{
                 bottom: 8rem;
             }
             &--bis{
-                bottom: 38rem;
+                bottom: 32rem;
+                right: 46rem;
+                
             }
-
         }
     }
     .deco{
-        top: -7rem;
+        top: -6rem;
         left: -7rem;
 
         &__droite{
@@ -739,8 +779,9 @@ img{
                 top: 35rem;
 
                 &--bottom{
-                    left: 80rem;
-                    top: 43rem;
+                    max-width: 18%;
+                    left: -4rem;
+                    top: 56rem;
                 }
             }
 
@@ -750,13 +791,52 @@ img{
 
             &--hauteur{
                 left: 75rem;
+                top: -14rem;
+            }
+            &--width{
+                top: -3rem;
+                width: 552px;
             }
         }
         &__gauche{
             top: -13rem;
+
+            &--top{
+                top: -5rem;
+            }
+            &--position--largeur{
+                width: 390px;
+                top: -6rem;
+                left: -2rem;
+            }
+            &--width{
+                top: -4rem;
+                width: 552px;
+            }
+            &--bis{
+                max-width: 18%;
+                left: 80rem;
+
+            }
         }
         &__device{
-            top: -8rem;
+            top: -4rem;
+            width: 310px;
+
+            &--bis{
+                left: -1rem;
+            }
+        }
+        &__protect{
+            width: 506px;
+        }
+        &__size{
+            width: 300px;
+            top: -6rem;
+
+            &--bis{
+                left: -1rem;
+            }
         }
     }
     .tips{
@@ -910,18 +990,142 @@ img{
             left: 15rem;
         }
     }
+    .size__bis{
+        width: 76px;
+    }
 
 }
 @media (min-width:1750px) {
         .contenair{
             max-width: 2650px;
         }
-        /*.rectangle{
-            
+        .rectangle{
+            width: 35%;
+            bottom: 5rem;
+            right: 15rem;
+
+            &__size{
+                bottom: 15rem;
+                right: 60rem;
+                width: 45%;
+
+                &--bis{
+                    bottom: 28rem;
+                }
+
+                &--top{
+                    bottom: 6rem;
+                }
+            }
         }
         .deco{
+            top: -8rem;
 
-        }*/
+            &__droite {
+                left: 88rem;
+
+                &--bis{
+                    top: 60rem;
+
+                    
+                    &--bottom{
+                    left: -3rem;
+                    top: 68rem;
+
+                    }
+                }
+                &--position{
+                    top: -8rem;
+                }
+
+                &--hauteur{
+                    top: -15rem;
+                    left: 90rem;
+                }
+                &--bas{
+                    top: 12rem;
+                }
+                &--width{
+                    top: -3rem;
+                    width: 612px;
+                  
+                }
+             }
+
+             &__gauche{
+                top: -15rem;
+              
+
+                &--position--largeur{
+                    width: 487px;
+                    top: -8rem;
+                }
+                &--width{
+                    top: -3rem;
+                    width: 612px;
+                    left: 0rem;
+                }
+                &--bis{
+                    left: 102rem;
+                }
+             }
+
+             &__device{
+                top: -3rem;
+                width: 390px;
+
+                &--bis{
+                    left: 0;
+                }
+
+             }
+             &__protect{
+                width: 600px;
+             }
+             &__size{
+                width: 500px;
+             }
+        }
+
+        .illu{
+            max-width: 609px;
+            width: 700px;
+
+            &__speak{
+                width: 450px;
+            }
+            &__size{
+                margin: 30px;
+
+                &--hauteur{
+                    top: -4rem;
+                    width: 520px;
+                    margin: 100px;
+                    left: -2rem;
+                  
+                    &--width{
+                       width: 420px;
+                        margin: 130px;
+                        top: -3rem;
+                    }
+                }
+                &--bis{
+                    top: 9rem;
+                    left: 0rem;
+                }
+                &--position{
+                    width: 570px;
+                    margin: 100px;
+                    left: -1rem;
+                    top: -1rem;
+                }
+
+            }
+            &__bulle{
+                width: 300px;
+                left: -10rem;
+            }
+        }
        .section{
             padding: 100px;
 
@@ -929,17 +1133,23 @@ img{
 
                 height: 1167px;
             }
+            &__height--bis{
+                margin-top: 550px;
+            }
        }
        .tips{
-            height: 100px;
-            width: 380px;
+            height: 150px;
+            width: 360px;
             background-position: 234px 0;
 
             &__position{
+                width: 290px; 
+                height: 130px;
                 background-position: 13px 20px;
+
                 &--bis{
-                    background-position: 14px 20px;
-                    width: 500px;
+                    width: 330px; 
+                    height: 150px;
                 }
             }
        }
@@ -963,11 +1173,11 @@ img{
             }
        }
        .figure__position{
-            top: 6257px;
-            left: 1790px;
+            top: 507px;
+            left: 1500px;
 
             &--bis{
-                top: 6498px;
+                top: 750px;
             }
        }
        .fantaisie{
@@ -985,5 +1195,13 @@ img{
     }
     .video{
         max-width: 500px;
+    }
+    .size{
+        max-width: 190px;
+        width: 170px;
+
+        &__bis{
+            width: 120px;
+        }
     }
   }

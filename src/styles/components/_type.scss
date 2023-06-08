@@ -10,9 +10,6 @@ a{
     list-style: none;
     text-decoration: none;
 }
-p{
-    width: 308px;
-}
 
 .title {
     color: var(--color-text);
@@ -38,14 +35,18 @@ p{
     
 }
 .texte{
-    width: 351px;
+    width: 346px;
+
+    &__width{
+        width: 331px;
+    }
 
 }
 .text{
     position: absolute;
     top: 82px;
-    left: 38px;
-    width: 287px;
+    left: 32px;
+    width: 299px;
 
     &__position{
         top: 98px;
@@ -117,9 +118,11 @@ p{
     }
   
     .texte{
-        width: 544px;
-        
-    
+        width: 520px;
+
+        &__width{
+            width: 604px;
+        }
     }
     .largeur{
         width: 456px;

@@ -112,6 +112,10 @@
         grid-column: 2 / 3; 
         grid-row: 2 / span 3;
 
+        &--bis{
+            grid-row: 1 / span 3;
+        }
+
     }
     .tgrid-start11{
         grid-column: 3 / 4; 
@@ -270,6 +274,10 @@
     .dgrid-start11{
         grid-column: 2 / 3 ; 
         grid-row: 2 / span 3;
+
+        &--bis{
+            grid-row: 1 / span 3;
+        }
     }
     .dgrid-start12{
         grid-column: 2 / 3 ; 
@@ -309,7 +317,7 @@
     .container{
         display: grid;
         grid-template-columns: repeat(4, auto);
-        grid-gap: 150px;   
+        grid-gap: 100px;   
         max-width: 2650px; 
    
     } 
@@ -355,7 +363,11 @@
     }
     .dgrid-start11{
         grid-column: 2 / 3 ; 
-        grid-row: 1 / span 3;
+        grid-row: 2 / span 3;
+
+        &--bis{
+            grid-row: 1 / span 3;
+        }
     }
     .dgrid-start12{
         grid-column: 2 / 3 ; 
@@ -375,7 +387,7 @@
         margin-left: 262px;
         
         &--width{
-            width: 1560px;
+            width: 1260px;
         }
     }
    
