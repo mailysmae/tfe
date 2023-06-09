@@ -9,15 +9,19 @@ li{
   text-transform: uppercase;
   font-weight: bold;
   outline: none;
+
   color: var(--color-btn);
   border-radius: 10%;
   cursor: pointer;
   transform: rotate(0deg);
+
 }
 .open:focus{
   transform: rotate(180deg);
   transition: transform 0.5s ease;
+
 }
+
 .ui__menu{
   margin: 0;
   padding: 0;
@@ -42,7 +46,7 @@ li{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  gap: 11px;
+  gap: 21px;
   
 }
 .menu__list a:hover{
@@ -73,9 +77,10 @@ li{
   left: 280px;
   top: 30px;
   background-color: var(--color-bg);
+  gap: 10px;
 
-  border-radius: 10%;
-  padding: 30px;
+  border-radius: 5%;
+  padding: 33px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /*reseau*/
@@ -173,7 +178,6 @@ li{
     margin: auto;
     list-style: none;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     justify-content: space-around;
   }

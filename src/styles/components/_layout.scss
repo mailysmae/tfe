@@ -3,6 +3,9 @@ img{
     max-width: 100%; 
     border-radius: 8px;
 }
+.vecteur{
+    width: 17px;
+}
 .figure{
     display: flex;
     flex-direction: column;
@@ -19,8 +22,8 @@ img{
 .deco{
     position: absolute;
     max-width: 30%;
-    left: -1rem;
-    top: -6rem;
+    left: -3rem;
+    top: -7rem;
     z-index: 1;
 
     &__droite{
@@ -28,7 +31,7 @@ img{
         left: 18rem;
 
         &--bis{
-            top: 62rem;
+            top: 60rem;
             
             &--bottom{
                 top: 70rem;
@@ -39,28 +42,74 @@ img{
             top: 24rem;
 
             &--top{
-                top: 31rem;
+                top: 28rem;
             }
         }
         &--hauteur{
-            top: 13rem;
+            top: 12rem;
+            left: 19rem;
         }
         &--bas{
             top: 27rem;
+
+            &--bis{
+                top: 20rem;
+            }
+        }
+        &--width{
+            top: 29rem;
         }
     }
     &__gauche{
-        top: -3rem;
+        top: -4rem;
 
         &--position{
             top: -12rem;
         }
         &--top{
-            top: -6rem;
-            left: -4rem;
+            left: -3rem;
+            top: -7rem;
         }
         &--bis{
             left: 18rem;
+        }
+        &--width{
+            top: -7rem;
+            left: -1rem;
+
+            &--bis{
+                top: -11rem;
+                left: -2rem;
+            }
+        }
+    }
+    &__size{
+        top: -8rem;
+        left: -3rem;
+        &--bis{
+            top: 12rem;
+            left: 20rem;
+        }
+ 
+    }
+    &__protect{
+        top: 18rem;
+        left: 18rem;
+        max-width: 35%;
+        
+        &--bis{
+            top: -7rem;
+            left: -2rem;
+        
+        }
+    }
+    &__device{
+        left: -4rem;
+        top: -9rem;
+
+        &--bis{
+            left: 18rem;
+            top: 15rem;
         }
     }
 }
@@ -87,6 +136,10 @@ img{
 .rectangle{
     position: absolute;
     bottom: 1rem;
+
+    &__size--bis{
+        bottom: 2rem;
+    }
 }
 .illu{
     z-index: 2;
@@ -443,7 +496,7 @@ img{
             width: 50%;
 
             &--bis{
-                bottom: 48rem;
+                bottom: 42rem;
             }
 
             &--top{
@@ -478,18 +531,23 @@ img{
                 top: -2rem;
 
                 &--top{
-                    top: -4rem;
+                    top: 1rem;
                     left: 46rem;
                 }
+                
             }
             &--bas{
-                top: 9rem;
+                top: 11rem;
+                
+                &--bis{
+                    top: 2rem;
+                }
             }
             &--width{
                 max-width: 50%;
                 top: 1rem;
             }
-
+          
 
         }
         &__gauche{
@@ -502,6 +560,7 @@ img{
                     max-width: 30%;
                     width: 239px;
                     left: -6rem;
+                    top: 0;
                 }
             }
             &--top{
@@ -520,11 +579,25 @@ img{
         &__device{
             top: -4rem;
             max-width: 28%;
+
+            &--bis{
+                left: 43rem;
+            }
             
         }
         &__protect{
             max-width: 50%;
             width: 329px;
+            &--bis{
+                left: 43rem;
+            }
+        }
+        &__size{
+            top: -8rem;
+
+            &--bis{
+                left: 46rem;
+            }
         }
     }
     .video{
@@ -570,12 +643,12 @@ img{
         width: 324px;
        
             &--hauteur{
-                top: -205px;
+                top: -111px;
                 margin: 48px;
                 max-width: 294px;
 
                 &--width{
-                    top: -197px;
+                    top: -91px;
                     margin: 81px;
                     max-width: 218px;
                 }
@@ -583,6 +656,9 @@ img{
             &--bis{
                 left: 20px;
                 top: 34px;
+            }
+            &--position{
+                width: 307px;
             }
        }
        &__speak{
@@ -787,6 +863,11 @@ img{
 
             &--bas{
                 top: 10rem;
+
+                &--bis{
+                    width: 442px;
+                    top: -3rem;
+                }
             }
 
             &--hauteur{
@@ -794,8 +875,8 @@ img{
                 top: -14rem;
             }
             &--width{
-                top: -3rem;
-                width: 552px;
+                top: -4rem;
+                width: 578px;
             }
         }
         &__gauche{
@@ -812,6 +893,11 @@ img{
             &--width{
                 top: -4rem;
                 width: 552px;
+
+                &--bis{
+                    width: 442px;
+                    left: -1rem;
+                }
             }
             &--bis{
                 max-width: 18%;
@@ -820,22 +906,30 @@ img{
             }
         }
         &__device{
-            top: -4rem;
+            top: -5rem;
             width: 310px;
+            left: 0rem;
 
             &--bis{
-                left: -1rem;
+                left: 74rem;
+                width: 330px;
             }
         }
         &__protect{
             width: 506px;
         }
         &__size{
-            width: 300px;
-            top: -6rem;
+            width: 350px;
+            top: -8rem;
+            left: -3rem;
 
             &--bis{
-                left: -1rem;
+                left: 77rem;
+            }
+        }
+        &__protect{
+            &--bis{
+                left: 68rem;
             }
         }
     }
@@ -848,7 +942,7 @@ img{
 
         &__position{
             left: -40px;
-            height: 163px;
+            height: 168px;
             background-position: 10px 25px;
             width: 275px;
             
@@ -938,6 +1032,7 @@ img{
         height: 334px;
         width: 238px;
         margin: 25px;
+        left: 0px;
     }
     img{
         max-width: 70%;
@@ -987,11 +1082,11 @@ img{
 
         &__width{
             width: 18%;
-            left: 15rem;
+            left: 16rem;
         }
     }
     .size__bis{
-        width: 76px;
+        width: 94px;
     }
 
 }
@@ -1044,6 +1139,11 @@ img{
                 }
                 &--bas{
                     top: 12rem;
+
+                    &--bis{
+                        width: 512px;
+                        top: -9rem;
+                    }
                 }
                 &--width{
                     top: -3rem;
@@ -1064,6 +1164,11 @@ img{
                     top: -3rem;
                     width: 612px;
                     left: 0rem;
+
+                    &--bis{
+                        width: 512px;
+                        top: -9rem;
+                    }
                 }
                 &--bis{
                     left: 102rem;
@@ -1071,11 +1176,11 @@ img{
              }
 
              &__device{
-                top: -3rem;
                 width: 390px;
 
                 &--bis{
-                    left: 0;
+                    left: 95rem;
+                    width: 420px;
                 }
 
              }
@@ -1084,6 +1189,16 @@ img{
              }
              &__size{
                 width: 500px;
+                top: -12rem;
+
+                &--bis{
+                    left: 93rem;
+                }
+             }
+             &__protect{
+                &--bis{
+                    left: 90rem;
+                }
              }
         }
 
@@ -1154,7 +1269,7 @@ img{
             }
        }
        .protection{
-            width: 392px;
+            width: 300px;
             height: 424px;
        }
        .rond{
