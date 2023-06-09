@@ -1,9 +1,11 @@
 "use strict";
 let Button = document.querySelector(".menu__button");
 let deroulant = document.querySelector(".open");
+let button = document.querySelector(".open");
 
 Button.addEventListener("click", toggleNavigation);
 deroulant.addEventListener("click", toggle);
+button.addEventListener('click', () => { button.classList.toggle('active'); });
 
 
 function toggleNavigation(){

@@ -6,6 +6,7 @@ img{
 .vecteur{
     width: 17px;
 }
+
 .figure{
     display: flex;
     flex-direction: column;
@@ -777,6 +778,9 @@ img{
             top: 0rem;
         }
     }
+    .vecteur{
+        width: 20px;
+    }
 }
 @media (min-width: 1024px){
     .contenair{
@@ -1088,7 +1092,9 @@ img{
     .size__bis{
         width: 94px;
     }
-
+    .vecteur{
+        width: 24px;
+    }
 }
 @media (min-width:1750px) {
         .contenair{

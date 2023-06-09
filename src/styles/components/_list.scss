@@ -16,10 +16,10 @@ li{
   transform: rotate(0deg);
 
 }
-.open:focus{
-  transform: rotate(180deg);
-  transition: transform 0.5s ease;
 
+.active.open{
+ transform: rotate(180deg);
+ transition: transform 0.5s ease;
 }
 
 .ui__menu{
@@ -220,10 +220,10 @@ body[burger-menu] .menu__button{
   .menu{
       
     &__list{
-      width: 900px;
+      width: 890px;
 
       &--bis{
-        width: 730px;
+        width: 742px;
         left: 159px;
       }
     }
