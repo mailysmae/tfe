@@ -34,11 +34,9 @@ a{
     
 }
 .texte{
-    width: 346px;
+    width: 280px;
 
-    &__width{
-        width: 331px;
-    }
+    
 
 }
 .text{
@@ -136,7 +134,11 @@ a{
         width: 800px;
     }
     .texte{
-        width: 756px;
+        width: 797px;
+
+        &--width{
+            width: 792px;
+        }
     }
     .title{
         font-size: 48px;
@@ -175,13 +177,11 @@ a{
     }
     
     p{
-        width: 604px;
+        width: 590px;
         font-size: 24px;
     }
     .largeur{
-        width: 666px;
-
-        
+        width: 696px;
     }
     
    .text{
@@ -223,6 +223,9 @@ a{
         &__width{
             width: 1020px;
         }
+    }
+    p{
+        width: 630px;
     }
    
  }

@@ -38,7 +38,7 @@ img{
             }
         }
         &--position{
-            top: 21rem;
+            top: 26rem;
 
             &--top{
                 top: 31rem;
@@ -46,10 +46,10 @@ img{
             }
         }
         &--hauteur{
-            top: 14rem;
+            top: 15rem;
         }
         &--bas{
-            top: 27rem;
+            top: 31rem;
 
             &--bis{
                 top: 20rem;
@@ -67,7 +67,8 @@ img{
             top: -12rem;
         }
         &--top{
-            top: -5rem
+            top: -5rem;
+            left: -1rem;
         }
         &--width{
             
@@ -90,12 +91,12 @@ img{
  
     }
     &__protect{
-        top: 18rem;
+        top: 22rem;
         max-width: 35%;
         right: -2rem;
         
         &--bis{
-            top: -7rem;
+            top: -6rem;
             left: -2rem;
         
         }
@@ -805,16 +806,16 @@ img{
        &__size{
             margin: 54px;
             width: 450px;
-            margin: 90px;
+            margin: 70px;
 
             &--hauteur{
-                top: -5rem;
+                top: -4rem;
                 width: 400px;
-                margin: 120px;
+                margin: 105px;
 
                 &--width{
                     width: 303px;
-                    margin: 168px;
+                    margin: 130px;
                     top: -4rem;
                     left: 2rem;
                 }
@@ -848,15 +849,16 @@ img{
 
         &__size{
             bottom: 18rem;
-            right: 47rem;
+            right: 49rem;
             width: 43%;
 
             &--top{
                 bottom: 8rem;
+                right: 47rem;
             }
             &--bis{
                 bottom: 32rem;
-                right: 46rem;
+                right: 49rem;
                 
             }
         }
@@ -897,20 +899,20 @@ img{
                 right: -7rem;
 
                 &--top{
-                    top: -6rem;
+                    top: -8rem;
                 }
             }
         }
         &__gauche{
             top: -15rem;
-            left: -6rem;
+            left: -7rem;
 
             &--top{
                 top: -8rem;
             }
             &--position--largeur{
                 width: 390px;
-                top: -6rem;
+                top: -9rem;
                 right: -7rem;
             }
             &--width{
@@ -932,8 +934,7 @@ img{
         }
         &__device{
             top: -5rem;
-            width: 310px;
-           
+            width: 290px;
 
             &--bis{
                 right: 0;
@@ -948,7 +949,7 @@ img{
             right: -6rem;
 
             &--bis{
-                left: -6rem;
+                left: -7rem;
             }
         }
         &__size{
@@ -1089,10 +1090,10 @@ img{
     .figure{
         &__position{
             left: 1184px;
-            top: 507px;
+            top: 447px;
 
             &--bis{
-                top: 757px;
+                top: 716px;
             }
         }
       
@@ -1169,11 +1170,13 @@ img{
 
                     &--top{
                         right: -2rem;
+                        top: -12rem;
                     }
                 }
 
                 &--hauteur{
                     top: -15rem;
+                    right: -9rem;
                 
                 }
                 &--bas{
@@ -1193,12 +1196,12 @@ img{
 
              &__gauche{
                 top: -15rem;
-                left: 0;
+                left: -9rem;
               
 
                 &--position--largeur{
                     width: 487px;
-                    top: -8rem;
+                    top: -12rem;
                 }
                 &--width{
                     top: -3rem;
@@ -1327,11 +1330,11 @@ img{
             }
        }
        .figure__position{
-            top: 507px;
+            top: 437px;
             left: 1500px;
 
             &--bis{
-                top: 750px;
+                top: 720px;
             }
        }
        .fantaisie{
@@ -1451,7 +1454,7 @@ img{
             left: 1715px;
         }
         .protection{
-            width: 469px;
+            width: 390px;
         }
         .illu__size{
             
