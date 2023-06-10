@@ -795,7 +795,7 @@ img{
 }
 @media (min-width: 1024px){
     .contenair{
-        max-width: 1800px;
+        max-width: 1600px;
     }
     .illu{
         max-width: 488px;
@@ -893,6 +893,7 @@ img{
             }
             &--position{
                 top: -8rem;
+                right: -7rem;
 
                 &--top{
                     top: -6rem;
@@ -1123,7 +1124,8 @@ img{
 }
 @media (min-width:1750px) {
         .contenair{
-            max-width: 2650px;
+            max-width: 2100px;
+            overflow: hidden;
         }
         .rectangle{
             width: 35%;
@@ -1162,6 +1164,7 @@ img{
                 }
                 &--position{
                     top: -8rem;
+                    right: -5rem;
 
                     &--top{
                         right: -2rem;
@@ -1357,4 +1360,133 @@ img{
             width: 120px;
         }
     }
+  }
+  @media (min-width:2200px){
+        .contenair{
+            max-width: 3000px;
+        }
+        .rectangle{
+            width: 29%;
+            bottom: 5rem;
+            right: 20rem;
+
+            &__size{
+                bottom: 18rem;
+                right: 78rem;
+                width: 36%;
+
+                &--bis{
+                    bottom: 34rem;
+                    right: 75rem;
+                }
+                &--top{
+                    bottom: 10rem;
+                    right: 78rem;
+                }
+            }
+        }
+        .deco{
+            width: 28%;
+
+            &__gauche{
+                top: -18rem;
+
+                &--gum{
+                    top: -14rem;
+                }
+                &--position--largeur{
+                    width: 22%;
+                    top: -17rem;
+                }
+                &--width{
+                    top: -8rem;
+
+                    &--bis{
+                        width: 22%;
+                    }
+                }
+                &--top{
+                    top: -14rem;
+                }
+            }
+
+            &__droite{
+
+                &--position{
+                    top: -14rem;
+
+                    &--top{
+                        top: -18rem;
+                    }
+                }
+                &--width{
+                    top: -8rem;
+                }
+                &--bas--bis{
+                    width: 22%;
+                }
+                &--hauteur{
+                    top: -21rem;
+                }
+            }
+            &__device{
+                width: 448px;
+
+                &--left{
+                    top: -8rem;
+                    left: -5rem;
+                }
+            }
+            &__size{
+                width: 22%;
+            }
+        }
+        .section{
+            &__deco{
+                background-position: 1701px;
+            }
+        }
+        .figure__position{
+            left: 1715px;
+        }
+        .protection{
+            width: 469px;
+        }
+        .illu__size{
+            
+            &--bis{
+                top: 5rem;
+            }
+            &--hauteur{
+                top: -5rem;
+                left: 2rem;
+
+                &--width{
+                    top: -4rem;
+                    left: 3rem;
+                   
+                }
+            }
+            &--position{
+                margin: 80px;
+            }
+        }
+        .logo__menu{
+            left: 156px;
+        }
+        .tips{
+            height: 170px;
+            width: 339px;
+            background-size: 82px;
+
+            &__position{
+                background-position: 3px 19px;
+                background-size: 80px;
+            }
+        }
+        .fantaisie{
+            &__bis{
+                width: 2000px;
+            }
+        }
   }

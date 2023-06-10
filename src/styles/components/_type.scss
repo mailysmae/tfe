@@ -215,3 +215,14 @@ a{
    }
   
 }
+@media (min-width: 2200px) {
+
+    .texte{
+        width: 900px;
+
+        &__width{
+            width: 1120px;
+        }
+    }
+   
+ }

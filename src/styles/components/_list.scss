@@ -267,3 +267,19 @@ body[burger-menu] .menu__button{
     width: 1100px;
   }
 }
+@media (min-width: 2200px) {
+  .menu__button{
+    display: none;
+  }
+  .menu__list{
+    width: 1418px;
+    font-size: 24px;
+    left: 324px;
+
+      &--bis{
+        top: -40px;
+        max-width: 1294px;
+        left: 780px;
+      }
+  }
+}
