@@ -23,32 +23,30 @@ img{
 .deco{
     position: absolute;
     max-width: 30%;
-    left: -3rem;
     top: -7rem;
     z-index: 1;
 
     &__droite{
         top: 21rem;
-        left: 18rem;
+        right: 0rem;
 
         &--bis{
             top: 60rem;
             
             &--bottom{
-                top: 70rem;
-                left: -2rem;
+                top: 74rem;
             }
         }
         &--position{
-            top: 24rem;
+            top: 21rem;
 
             &--top{
-                top: 28rem;
+                top: 31rem;
+
             }
         }
         &--hauteur{
-            top: 12rem;
-            left: 19rem;
+            top: 14rem;
         }
         &--bas{
             top: 27rem;
@@ -58,45 +56,43 @@ img{
             }
         }
         &--width{
-            top: 29rem;
+            top: 31rem;
         }
     }
     &__gauche{
         top: -4rem;
+        left: 0;
 
         &--position{
             top: -12rem;
         }
         &--top{
-            left: -3rem;
-            top: -7rem;
-        }
-        &--bis{
-            left: 18rem;
+            top: -5rem
         }
         &--width{
-            top: -7rem;
-            left: -1rem;
+            
 
             &--bis{
-                top: -11rem;
-                left: -2rem;
+                top: -6rem;
             }
         }
     }
     &__size{
-        top: -8rem;
-        left: -3rem;
+        top: -6rem;
+        
         &--bis{
-            top: 12rem;
-            left: 20rem;
+            top: 14rem;
+            right: 0;
+        }
+        &--left{
+            left: 0;
         }
  
     }
     &__protect{
         top: 18rem;
-        left: 18rem;
         max-width: 35%;
+        right: -2rem;
         
         &--bis{
             top: -7rem;
@@ -105,12 +101,15 @@ img{
         }
     }
     &__device{
-        left: -4rem;
-        top: -9rem;
+        top: -5rem;
+
+        &--left{
+            left: -5rem;
+        }
 
         &--bis{
-            left: 18rem;
-            top: 15rem;
+            right: -3rem;
+            top: 14rem;
         }
     }
 }
@@ -511,11 +510,9 @@ img{
         top: -2rem;
         max-width: 34%;
         width: 32%;
-        left: -8rem;
-    
 
         &__droite{
-            left: 44rem;
+            right: -9rem;
 
             &--bis{
                 top: 33rem;
@@ -529,11 +526,10 @@ img{
                 top: -7rem;
             }
             &--position{
-                top: -2rem;
+                top: -1rem;
 
                 &--top{
-                    top: 1rem;
-                    left: 46rem;
+                    top: -4rem;
                 }
                 
             }
@@ -553,6 +549,7 @@ img{
         }
         &__gauche{
             top: -7rem;
+            left: -9rem;
 
             &--position{
                 top: -5rem;
@@ -560,8 +557,8 @@ img{
                 &--largeur{
                     max-width: 30%;
                     width: 239px;
-                    left: -6rem;
-                    top: 0;
+                    left: -5rem;
+                    top: -4rem;
                 }
             }
             &--top{
@@ -575,29 +572,43 @@ img{
                 top: 33rem;
                 max-width: 23%;
             }
+            &--gum{
+                top: -1rem;
+            }
 
         }
         &__device{
-            top: -4rem;
+            
             max-width: 28%;
+            top: -4rem;
+
+            &--left{
+                left: -8rem;
+            }
 
             &--bis{
-                left: 43rem;
+                right: -6rem;
             }
             
         }
         &__protect{
             max-width: 50%;
             width: 329px;
+            right: -6rem;
+
             &--bis{
-                left: 43rem;
+                left: -7rem;
             }
         }
         &__size{
             top: -8rem;
 
             &--bis{
-                left: 46rem;
+                right: -7rem;
+            }
+
+            &--left{
+                left: -7rem;
             }
         }
     }
@@ -804,6 +815,7 @@ img{
                     width: 303px;
                     margin: 168px;
                     top: -4rem;
+                    left: 2rem;
                 }
             }
             &--bis{
@@ -850,17 +862,15 @@ img{
     }
     .deco{
         top: -6rem;
-        left: -7rem;
 
         &__droite{
-            left: 68rem;
+            right: -5rem;
 
             &--bis{
                 top: 35rem;
 
                 &--bottom{
                     max-width: 18%;
-                    left: -4rem;
                     top: 56rem;
                 }
             }
@@ -875,67 +885,82 @@ img{
             }
 
             &--hauteur{
-                left: 75rem;
                 top: -14rem;
             }
             &--width{
-                top: -4rem;
-                width: 578px;
+                top: -2rem;
+                width: 517px;
+            }
+            &--position{
+                top: -8rem;
+
+                &--top{
+                    top: -6rem;
+                }
             }
         }
         &__gauche{
-            top: -13rem;
+            top: -15rem;
+            left: -6rem;
 
             &--top{
-                top: -5rem;
+                top: -8rem;
             }
             &--position--largeur{
                 width: 390px;
                 top: -6rem;
-                left: -2rem;
+                right: -7rem;
             }
             &--width{
-                top: -4rem;
-                width: 552px;
+                top: -2rem;
+                width: 517px;
 
                 &--bis{
                     width: 442px;
-                    left: -1rem;
                 }
             }
             &--bis{
                 max-width: 18%;
-                left: 80rem;
-
+                top: -17rem;
             }
+            &--gum{
+                top: -7rem;
+            }
+
         }
         &__device{
             top: -5rem;
             width: 310px;
-            left: 0rem;
+           
 
             &--bis{
-                left: 74rem;
+                right: 0;
                 width: 330px;
+            }
+            &--left{
+                left: 0rem;
             }
         }
         &__protect{
             width: 506px;
+            right: -6rem;
+
+            &--bis{
+                left: -6rem;
+            }
         }
         &__size{
             width: 350px;
             top: -8rem;
-            left: -3rem;
 
             &--bis{
-                left: 77rem;
+               right: -2rem;
+            }
+            &--left{
+                left: 0;
             }
         }
-        &__protect{
-            &--bis{
-                left: 68rem;
-            }
-        }
+     
     }
     .tips{
         left: -20px;
@@ -980,14 +1005,14 @@ img{
     }
     
     .fantaisie{
-        background-position: -448px;
+        background-position: -491px;
 
         &__bis{
             background-position: 990px -434px;
             background-size: 900px;
         }
         &__layout{
-            background-position: 1001px -168px;
+            background-position: 1180px -180px;
             background-size: 1000px 1200px;
             &--bis{
                 background-position: -398px -588px;
@@ -1123,25 +1148,29 @@ img{
             top: -8rem;
 
             &__droite {
-                left: 88rem;
+                right: 0;
 
                 &--bis{
                     top: 60rem;
 
                     
                     &--bottom{
-                    left: -3rem;
+                    
                     top: 68rem;
 
                     }
                 }
                 &--position{
                     top: -8rem;
+
+                    &--top{
+                        right: -2rem;
+                    }
                 }
 
                 &--hauteur{
                     top: -15rem;
-                    left: 90rem;
+                
                 }
                 &--bas{
                     top: 12rem;
@@ -1160,6 +1189,7 @@ img{
 
              &__gauche{
                 top: -15rem;
+                left: 0;
               
 
                 &--position--largeur{
@@ -1177,7 +1207,10 @@ img{
                     }
                 }
                 &--bis{
-                    left: 102rem;
+                    top: -20rem;
+                }
+                &--gum{
+                    top: -9rem;
                 }
              }
 
@@ -1185,27 +1218,23 @@ img{
                 width: 390px;
 
                 &--bis{
-                    left: 95rem;
                     width: 420px;
                 }
 
              }
              &__protect{
                 width: 600px;
+                right: -4rem;
+
+                &--bis{
+                    left: -2rem;
+                }
              }
              &__size{
                 width: 500px;
                 top: -12rem;
-
-                &--bis{
-                    left: 93rem;
-                }
              }
-             &__protect{
-                &--bis{
-                    left: 90rem;
-                }
-             }
+          
         }
 
         .illu{
@@ -1307,11 +1336,14 @@ img{
                 width: 1761px;
         }
         &__layout{
-            background-position: 1328px -79px;
+            background-position: 1428px -79px;
 
             &--bis{
                 background-position: -180px -612px;
             }
+        }
+        &__left{
+            background-position: -588px 179px;
         }
     }
     .video{

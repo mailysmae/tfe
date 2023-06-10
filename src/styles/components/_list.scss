@@ -220,11 +220,11 @@ body[burger-menu] .menu__button{
   .menu{
       
     &__list{
-      width: 890px;
+      width: 776px;
 
       &--bis{
-        width: 742px;
-        left: 159px;
+        max-width: 752px;
+        left: 158px;
       }
     }
 
@@ -247,11 +247,13 @@ body[burger-menu] .menu__button{
   }
   .menu__list {
     left: 686px;
-    width: 776px;
+    width: 796px;
     top: 0;
 
     &--bis{
       top: -20px;
+      width: 764px;
+      max-width: 1000px;
     }
   }
   
